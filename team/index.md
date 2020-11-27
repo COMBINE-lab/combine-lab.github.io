@@ -19,7 +19,7 @@ the work we're doing, please reach out!
 {% include team-list.html role="postdoc" group="current" %}
 {% include team-list.html role="phd" group="current" %}
 {% include team-list.html role="undergrad" group="current" %}
-{% include team-list.html role="programmer" group=current"" %}
+{% include team-list.html role="programmer" group="current" %}
 {% include team-list.html role="mascot" group="current" %}
 {% endcapture %}
 

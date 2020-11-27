@@ -33,5 +33,5 @@ University of Maryland
 College Park, MD 20740
 {:.center}
 
-[<i class="fas fa-external-link-alt"></i> on Google Maps](https://www.google.com/maps/place/That+St+%26+The+Other+St,+Porters+Lake,+NS+B3E+1H3,+Canada/@44.7389237,-63.3033296,20.78z/data=!4m5!3m4!1s0x4b5a31023bb02565:0xb9505694e83a53d7!8m2!3d44.7389353!4d-63.3030828)
+[<i class="fas fa-external-link-alt"></i> on Google Maps](https://www.google.com/maps/place/Brendan+Iribe+Center+for+Computer+Science+and+Engineering/@38.9890953,-76.9387086,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c7e9e636ed11:0x9aaf14503032f4a!8m2!3d38.9890953!4d-76.9365146)
 {:.center}

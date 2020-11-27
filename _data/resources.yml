@@ -22,7 +22,6 @@
 
 - title: pufferfish
   type: software
-  link: Pufferfish An efficient index for the colored, compacted, de Bruijn graph
   description: Pufferfish An efficient index for the colored, compacted, de Bruijn graph
   repo: combine-lab/pufferfish
   

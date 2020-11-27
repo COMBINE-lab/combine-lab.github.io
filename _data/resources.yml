@@ -32,3 +32,10 @@
   description: Pufferfish An efficient index for the colored, compacted, de Bruijn graph
   repo: combine-lab/pufferfish
   url: https://github.com/COMBINE-lab/pufferfish
+
+- title: terminus
+  type: software
+  image: images/terminus_logo.png
+  description: Terminus is a program for analyzing transcript-level abundance estimates from RNA-seq data, computed using salmon, and collapsing individual transcripts into groups whose total transcriptional output can be estimated more accurately and robustly.
+  repo: combine-lab/terminus
+  url: https://github.com/COMBINE-lab/terminus

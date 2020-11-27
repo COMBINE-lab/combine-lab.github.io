@@ -7,7 +7,7 @@ role: phd_g
 group: alum
 image: images/hirak.png
 github: hiraksarkar
-email: hsarkar@umd.edu
+email: hirak_sarkar@hms.harvard.edu
 twitter: hrksrkr
 ---
 

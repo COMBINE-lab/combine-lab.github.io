@@ -13,7 +13,7 @@ Can be used on any page, but assumes its content from `/_data/resources.yml`.
 Uses the _card_ component (large, medium, or small).
 
 {% capture html %}
-{% include resource-list.html type="featured" size="large" %}
+{% include resource-list.html type="software" size="large" %}
 {% endcapture %}
 
 {% include centerer.html html=html %}

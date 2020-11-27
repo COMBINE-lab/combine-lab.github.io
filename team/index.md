@@ -1,47 +1,41 @@
 ---
 title: Team
+redirect_from:
+  - /lab-members
+  - /alums
+  - /mascots
+  - /staff
+  - /trainees
 ---
 
 # <i class="fas fa-users"></i>Team
 
-## Team List
-
-A _team list_ component, to sort and group all of the members on your team automatically.
-Can be used on any page, but assumes its content from `/_members`.
-Uses the _portrait_ component.
-
-All team members, sorted alphabetically by file name:
+Our lab is a team focused on improving the reach, accuracy, and speed of computational analysis, specifically as
+it relates to genomics (and Biology more broadly).  We are a varied and friendly bunch.  If you're interested in 
+the work we're doing, please reach out!
 
 {% capture html %}
-{% include team-list.html %}
+{% include team-list.html role="pi" group="" %}
+{% include team-list.html role="postdoc" group="" %}
+{% include team-list.html role="phd" group="" %}
+{% include team-list.html role="undergrad" group="" %}
+{% include team-list.html role="programmer" group="" %}
+{% include team-list.html role="mascot" group="" %}
 {% endcapture %}
 
 {% include centerer.html html=html %}
 
-Team members filtered and sorted by role:
+<!-- section break -->
+
+## Alumni
+
+We are incredibly proud of all of the COMBINE-lab alumni who have passed through the lab, for whatever period of time they were with us. Below
+is a list of lab alumni (if you feel you're missing from the list and would like to be added, please e-mail us):
 
 {% capture html %}
-{% include team-list.html role="pi" %}
-{% include team-list.html role="phd" %}
-{% include team-list.html role="programmer" %}
-{% endcapture %}
-
-{% include centerer.html html=html %}
-
-Team members filtered and sorted by group:
-
-{% capture html %}
-{% include team-list.html group="current" %}
-{% include team-list.html group="" %}
-{% include team-list.html group="alum" %}
-{% endcapture %}
-
-{% include centerer.html html=html %}
-
-Team members in a specific order and in a mini size:
-
-{% capture html %}
-{% include team-list.html order="team-order" mini=true %}
+{% include team-list.html role="pi" group="alum" mini="true" %}
+{% include team-list.html role="phd" group="alum" mini="true" %}
+{% include team-list.html role="undergrad" group="alum" mini="true" %}
 {% endcapture %}
 
 {% include centerer.html html=html %}

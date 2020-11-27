@@ -1,0 +1,17 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+
+ul {
+  @include block-margins;
+  @include trim-margins;
+  padding-left: 20px;
+  list-style-type: square;
+
+  li {
+    margin: 10px 0;
+    @include trim-margins;
+  }
+}

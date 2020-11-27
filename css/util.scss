@@ -1,0 +1,20 @@
+---
+---
+
+@import "variables";
+
+.center {
+  text-align: center;
+}
+
+.truncate:not(:focus) {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+[data-hide="true"] {
+  display: none !important;
+}

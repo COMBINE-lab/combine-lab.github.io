@@ -1,0 +1,20 @@
+<p class="post_info">
+  {%- if include.post.author -%}
+  <span>
+    <i class="fas fa-feather-alt icon_with_text"></i>
+    {%- if include.post.member-page -%}
+    <a href="{{ include.post.member-page | prepend: "members/" | relative_url }}">
+    {%- endif -%}
+      {{- include.post.author -}}
+    {%- if include.post.member-page -%}
+    </a>
+    {%- endif -%}
+  </span>
+  {%- endif -%}
+
+  {%- if include.post.date -%}
+  <span>
+    <i class="far fa-calendar-alt icon_with_text"></i>{{ include.post.date | date: '%B %d, %Y' }}
+  </span>
+  {%- endif -%}
+</p>

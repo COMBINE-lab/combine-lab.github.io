@@ -1,0 +1,42 @@
+---
+---
+
+@import "variables";
+
+h1,
+h2,
+h3,
+h4 {
+  .anchor {
+    display: inline-block;
+    position: relative;
+    width: 0;
+    margin: 0;
+    left: 10px;
+    color: $theme;
+    opacity: 0;
+    text-decoration: none;
+    transition: opacity $fast, color $fast;
+  }
+
+  &:hover .anchor,
+  .anchor:focus {
+    opacity: 1;
+  }
+}
+
+[data-glow="true"] {
+  animation: highlight_glow 2s;
+}
+
+@keyframes highlight_glow {
+  0% {
+    background: none;
+  }
+  10% {
+    background: $light-theme;
+  }
+  100% {
+    background: none;
+  }
+}

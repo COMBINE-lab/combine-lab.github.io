@@ -1,0 +1,22 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+
+.table_wrapper {
+  margin: 40px 0;
+  @include trim-margins;
+  overflow-x: auto;
+
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+
+    th,
+    td {
+      padding: 10px 15px;
+      border: solid 1px $light-gray;
+    }
+  }
+}

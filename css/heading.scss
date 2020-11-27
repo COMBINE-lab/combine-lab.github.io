@@ -1,0 +1,46 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+
+h1,
+h2,
+h3,
+h4 {
+  box-sizing: border-box;
+  font-family: $sans;
+  font-weight: $medium;
+  line-height: 1.2;
+  margin: 40px 0 20px 0;
+  @include trim-margins;
+  padding: 10px 0;
+
+  & > i {
+    color: $light-gray;
+    margin-right: 1rem;
+  }
+}
+h1 {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+
+  & + p {
+    margin-top: 40px;
+  }
+}
+h2 {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+h3 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+h4 {
+  font-size: 1rem;
+  text-align: left;
+}

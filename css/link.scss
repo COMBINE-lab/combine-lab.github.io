@@ -1,0 +1,12 @@
+---
+---
+
+@import "variables";
+
+a {
+  color: $theme;
+  transition: color $fast;
+}
+a:hover {
+  color: $black;
+}

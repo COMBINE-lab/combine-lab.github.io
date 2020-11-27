@@ -1,0 +1,69 @@
+---
+# inherits from default layout and builds on top of it
+# this file's contents get inserted into default.html's content
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{% include figure.html image=page.image %}
+
+{% capture html %}
+{% include role.html type=page.role text=true %}
+{% endcapture %}
+
+{% include centerer.html html=html %}
+
+{% capture html %}
+{% if page.website %}
+{% include social-link.html type="website" link=page.website %}
+{% endif %}
+{% if page.email %}
+{% include social-link.html type="email" link=page.email %}
+{% endif %}
+{% if page.google %}
+{% include social-link.html type="google" link=page.google %}
+{% endif %}
+{% if page.github %}
+{% include social-link.html type="github" link=page.github %}
+{% endif %}
+{% if page.twitter %}
+{% include social-link.html type="twitter" link=page.twitter %}
+{% endif %}
+{% if page.instagram %}
+{% include social-link.html type="instagram" link=page.instagram %}
+{% endif %}
+{% if page.youtube %}
+{% include social-link.html type="youtube" link=page.youtube %}
+{% endif %}
+{% endcapture %}
+
+{% include centerer.html html=html %}
+
+{{ content }}
+
+{% assign names = "" | split: ',' %}
+
+{% if page.search.first %}
+{% assign names = names | concat: page.search %}
+{% elsif page.search %}
+{% assign names = names | push: page.search %}
+{% elsif page.title %}
+{% assign names = names | push: page.title %}
+{% endif %}
+
+{% capture search %}
+{% for name in names %}"{{ name }}" {% endfor %}
+{% endcapture %}
+
+{% assign search =  search | strip | prepend: "/research/?search=" %}
+
+{% capture text %}
+{{ page.title }}'s papers
+{% endcapture %}
+
+{% capture html %}
+{% include big-link.html icon="fas fa-book-open" link=search text=text %}
+{% endcapture %}
+
+{% include centerer.html html=html %}

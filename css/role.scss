@@ -1,0 +1,14 @@
+---
+---
+
+@import "variables";
+
+.role {
+  display: inline-block;
+  color: $gray;
+
+  .role_text {
+    margin-left: 10px;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,22 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+
+.tags {
+  @include flex-center;
+  flex-wrap: wrap;
+  max-width: 100%;
+
+  .tag {
+    max-width: 100%;
+    margin: 5px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: $light-theme;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

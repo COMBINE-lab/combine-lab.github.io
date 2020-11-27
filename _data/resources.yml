@@ -20,6 +20,13 @@
 # repo:
 # A GitHub repo to automatically fetch tags (aka "topics") from.
 
+- title: salmon
+  type: software
+  image: images/salmon_logo.png
+  description: salmon is a tool for efficient, accurate, and bias-aware transcript quantification from RNA-seq data
+  repo: combine-lab/salmon
+  url: https://github.com/COMBINE-lab/salmon
+
 - title: pufferfish
   type: software
   description: Pufferfish An efficient index for the colored, compacted, de Bruijn graph

@@ -11,7 +11,7 @@ twitter: faketwitterhandle # default Twitter handle, without the @
 
 # base directory where site is hosted
 # set to "" if hosting at a custom domain, eg yoursite.com
-baseurl: ""
+baseurl: https://combine-lab.github.io/
 
 # default front matter parameters for markdown files
 # defaults can be overridden on a particular page, eg:

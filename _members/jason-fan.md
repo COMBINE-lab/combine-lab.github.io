@@ -4,6 +4,7 @@ search:
   - J. Fan
   - Jason Fan
 role: phd
+group: current
 image: images/jasonfan.jpg
 email: jasonfan@umd.edu
 website: fanjason.xyz

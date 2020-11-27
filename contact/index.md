@@ -11,6 +11,9 @@ We are located on the 3rd floor of the [Brendan Iribe Center for Computer Scienc
 
 ## Email
 
+<style type="text/css">
+   span.codedirection { unicode-bidi:bidi-override; direction: rtl; }
+</style>
 <span class="codedirection">ude.dmu.sc@bor</span>
 {:.center}
 

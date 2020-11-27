@@ -5,7 +5,7 @@ search:
   - R Patro
 role: pi
 group: current
-image: images/labrador.jpg
+image: images/rob.png
 email: rob@cs.umd.edu
 twitter: @nomad421
 ---

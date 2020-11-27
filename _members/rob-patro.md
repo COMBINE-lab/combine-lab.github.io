@@ -6,7 +6,6 @@ search:
 role: pi
 group: current
 image: images/labrador.jpg
-#website: fakewebsite.com
-#email: felix@cited.com
+email: rob@cs.umd.edu
 twitter: @nomad421
 ---

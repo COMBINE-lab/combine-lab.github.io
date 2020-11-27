@@ -11,12 +11,12 @@ We are located on the 3rd floor of the [Brendan Iribe Center for Computer Scienc
 
 ## Email
 
-[scrooge@mcduck.com](mailto:scrooge@mcduck.com)
+<span class="codedirection">ude.dmu.sc@bor</span>
 {:.center}
 
 ## Phone
 
-[(555) 867-5309](tel:+1-555-867-5309)
+[(301) 405-7269](tel:+1-301-405-7269)
 {:.center}
 
 ## Address

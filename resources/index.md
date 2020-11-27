@@ -6,11 +6,10 @@ title: Resources
 
 <!-- section break -->
 
-## Resource List
+## Software
 
-A _resource list_ component, to sort and group all of your tools, datasets, etc.
-Can be used on any page, but assumes its content from `/_data/resources.yml`.
-Uses the _card_ component (large, medium, or small).
+The following software is primarily developed or maintained by the COMBINE-lab or 
+by members of the COMBINE-lab in conjunction with others.
 
 {% capture html %}
 {% include resource-list.html type="software" size="large" %}

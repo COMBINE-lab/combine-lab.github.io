@@ -8,7 +8,9 @@ redirect_from:
   - /trainees
 ---
 
-# <i class="fas fa-users"></i>Team
+# <i class="fas fa-users"></i>
+
+## Current Members
 
 Our lab is a team focused on improving the reach, accuracy, and speed of computational analysis, specifically as
 it relates to genomics (and Biology more broadly).  We are a varied and friendly bunch.  If you're interested in 

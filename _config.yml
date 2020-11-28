@@ -2,10 +2,10 @@
 
 # site-wide variables
 title: COMBINE-lab # title of site, used in tab name and elsewhere
-email: jane.smith@gmail.com # default email
+email: rob@cs.umd.edu # default email
 google: Rob Patro # default name to search on Google Scholar
 github: COMBINE-lab # default GitHub user/org, without the @
-twitter: faketwitterhandle # default Twitter handle, without the @
+twitter: nomad421 # default Twitter handle, without the @
 #instagram: fakeinstagramhandle # default Instagram handle, without the @
 #youtube: fakeyoutubechannel # default YouTube channel handle
 

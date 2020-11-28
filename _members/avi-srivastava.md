@@ -11,5 +11,5 @@ email: avi.srivastava@nyu.edu
 twitter: k3yavi
 ---
 
-Avi completed my Ph.D. with Rob Patro at Stony Brook University in 2019 where I researched on computational problems associated with RNA-seq read-alignment and quantification.
+Avi completed his Ph.D. with Rob Patro at Stony Brook University in 2019 where he researched computational problems associated with RNA-seq read-alignment and quantification.
 He is currently a Postdoctoral Research Associate in the Satija lab at the New York Genome center studying Computational Genomics. His research interests include Computational Biology and (bio)Statistics.

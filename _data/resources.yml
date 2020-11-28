@@ -33,9 +33,94 @@
   repo: combine-lab/pufferfish
   url: https://github.com/COMBINE-lab/pufferfish
 
+- title: mantis
+  type: software
+  description: A fast, compact, and exact large-scale sequence-search index.  Mantis is a data structure for indexing and querying hundreds, thousands or tens of thousands (or more) sequencing experiments for the likely presense of a query string.
+  repo: splatlab/mantis
+  url: https://github.com/splatlab/mantis
+
+- title: cuttlefish
+  type: software
+  description: Cuttlefish is a fast, parallel, and very lightweight memory tool to construct the compacted de Bruijn graph from whole genome reference(s).
+  repo: COMBINE-lab/cuttlefish
+  url: https://github.com/COMBINE-lab/cuttlefish
+  
 - title: terminus
   type: software
   image: images/terminus_logo.png
   description: Terminus is a program for analyzing transcript-level abundance estimates from RNA-seq data, computed using salmon, and collapsing individual transcripts into groups whose total transcriptional output can be estimated more accurately and robustly.
   repo: combine-lab/terminus
   url: https://github.com/COMBINE-lab/terminus
+  
+- title: deBGR
+  type: software
+  repo: splatlab/deBGR
+  description: deBGR a memory-efficient and near-exact representation of the weighted de Bruijn Graph. Our representation is based upon a recently-introduced counting filter data structure which, itself, provides an approximate representation of the weighted de Bruijn Graph.
+  url: https://github.com/splatlab/deBGR
+  
+- title: squeakr
+  type: software
+  description: Squeakr is a k-mer-counting and multiset-representation system using the recently-introduced counting quotient filter (CQF) Pandey et al. (2017), a feature-rich approximate membership query (AMQ) data structure.
+  repo: splatlab/squeakr
+  url: https://github.com/splatlab/squeakr
+
+- title: rainbowfish
+  type: software
+  description: Rainbow fish is succinct data structure to store and query colored DBG.
+  repo: COMBINE-lab/rainbowfish
+  url: https://github.com/COMBINE-lab/rainbowfish
+
+- title: grouper
+  type: software
+  description: Grouper is a tool for clustering and annotating contigs from de novo transcriptome assemblies.
+  repo: COMBINE-lab/Grouper
+  url: https://github.com/COMBINE-lab/Grouper
+
+- title: rapmap
+  type: software
+  description: RapMap is a tool for quasi-mapping and selective alignment of sequencing reads against a transcriptome. 
+  repo: COMBINE-lab/RapMap
+  url: https://github.com/COMBINE-lab/RapMap
+
+- title: sailfish
+  type: software
+  description: Rapid alignment-free quantification of isoform abundance.
+  repo: kingsfordgroup/sailfish
+  url: https://github.com/kingsfordgroup/sailfish
+
+- title: ghost
+  type: software
+  description: GHOST is a software package for global biological network alignment. It computes alignments based on a novel spectral signature for comparing the topological similarity of nodes across networks.
+  repo: rob-p/GHOST
+  url: https://github.com/rob-p/GHOST
+
+- title: armatus
+  type: software
+  description: Multiresolution domain calling software for chromosome conformation capture interaction matrices.
+  repo: kingsfordgroup/armatus
+  url: https://github.com/kingsfordgroup/armatus
+
+- title: matryoshka
+  type: software
+  description: Hierarchical domain calling software for chromosome conformation capture datasets. Basad on the multiresolution domain calling tool, Armatus. (http://www.cs.cmu.edu/~ckingsf/software/armatus/).
+  repo: COMBINE-lab/matryoshka
+  url: https://github.com/COMBINE-lab/matryoshka
+
+
+- title: growcode
+  type: legacy
+  description: A non-parametric framework for learning how networks grow.
+  repo: geetduggal/growcode
+  url: https://github.com/geetduggal/growcode
+
+- title: Parana
+  type: legacy
+  description: Parana is a tool to perform ancestral reconstruction of biological networks.
+  repo: kingsfordgroup/parana2
+  url: https://github.com/kingsfordgroup/parana2
+
+- title: rapclust
+  type: legacy
+  description: RapClust is a tool for clustering contigs from de novo transcriptome assemblies (it is the predecessor of Grouper).
+  repo: COMBINE-lab/RapClust
+  url: https://github.com/COMBINE-lab/RapClust

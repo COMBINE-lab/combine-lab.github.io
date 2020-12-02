@@ -11,6 +11,6 @@ twitter: scarecrow00007
 github: jamshed-k
 ---
 
-I am a PhD student and graduate research assistant at the Department of Computer Science (CS) at The University of Maryland, College Park (UMD). I'm working in Professor Rob Patro's research group here. I've completed my undergraduate studies (B.Sc. in CSE) from the Department of Computer Science and Engineering (CSE) at Bangladesh University of Engineering and Technology (BUET) at March 2016.
+I'm a PhD student working with Dr. Rob Patro at the Dept. of CS in UMD. My research interests are principally focused in algorithmic genomics — especially in designing efficient data structures and algorithms for high-throughput genomic data and complete genome references. My current research pertains to efficient representation methods for reference- and read-based de Bruijn graphs.
 
-My research interests are mainly focused on Theory and Algorithms, Bioinformatics, and Artificial Intelligence. Specifically, I'm interested to work in solving various algorithmic problems with multitudes of algorithmic paradigms, designing novel algorithms and heuristics, and using probabilistic graphical models and learning models as frameworks for complex domains.
+Broadly, my interests lie in Theory and Algorithms, along with Artificial Intelligence. Visit my website for further information!

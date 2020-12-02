@@ -5,7 +5,7 @@ search:
   - J Khan
 role: phd
 group: current
-image: https://lh5.googleusercontent.com/rYPAPPlWu0uvIWlJtQ8rf0Ftl2mcs7Q8trfJ8Bc7uysvfJrkw1DIjBeD_ra2hK1pSd3IepCHQMfkbYefQZkN1VDZsya4jDHqGiHql-9D6xlXOwVifJxV=w1280
+image: images/jamshed.jpg
 email: jamshed@umd.edu
 twitter: scarecrow00007
 github: jamshed-k

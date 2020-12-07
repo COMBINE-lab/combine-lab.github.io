@@ -6,6 +6,7 @@ search:
 role: phd
 group: current
 image: images/jamshed.jpg
+website: https://sites.google.com/view/jamshed/
 email: jamshed@umd.edu
 twitter: scarecrow00007
 github: jamshed-k

@@ -4,7 +4,7 @@ search:
   - M. Zakeri
   - M Zakeri
 role: phd
-group: current
+group: alum
 website: http://mohsenzakeri.com/
 image: images/mohsen.jpg
 email: mzakeri@cs.umd.edu

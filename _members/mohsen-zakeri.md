@@ -3,7 +3,7 @@ title: Mohsen Zakeri
 search:
   - M. Zakeri
   - M Zakeri
-role: phd
+role: phd_g
 group: alum
 website: http://mohsenzakeri.com/
 image: images/mohsen.jpg

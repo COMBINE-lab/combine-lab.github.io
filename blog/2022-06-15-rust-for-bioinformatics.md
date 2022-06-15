@@ -48,4 +48,17 @@ to advocate for Rust (yet).
 ### So what other languages occupy this space
 
 To argue for what makes Rust compelling, I first have to lay out what I think are the other common (and, perhaps, not-so-common) languages
-used for these types of problems.
+used for these types of problems.  
+
+#### C and C++
+
+Perhaps the most common languages are C and C++.  I mention these together, as is common, but it is 
+critical to understand that they are *very* different languages.  The C language is relatively small and in many senses minimalistic. It
+provides a small set of tools for modeling problems and for interacting with the system. It has a standard library, but a comparatively 
+small one by modern standards, and things like collections must be written or provided as third-party libraries. I won't say too much 
+else about C here specifically, except that almost all of the issues I raise about safety with respect to C++, and often times they are
+even worse.  Since the C type system isn't as rich as the one in C++, C often makes specific procedures generic by simply casting around 
+data into a payload (e.g. a `void*`) rather than generating type-safe code for specific invocations at compile-time (e.g. C++'s templates 
+and monomorphization).
+
+As opposed to C, the C++ language is a giant monster.  First, you must ask, to which C++ is one referring? C++98, C++03, C++11, C++14, C++17, C++20?

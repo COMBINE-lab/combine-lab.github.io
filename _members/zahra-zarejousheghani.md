@@ -1,11 +1,11 @@
 ---
-title: Zahra Zarejousheghani
+title: Zahra Zare Jousheghani
 search:
-  - Z. Zarejousheghani
+  - Z. Zare Jousheghani
   - Zahra
 role: phd
 group: current
-image: 
+image: images/zahra.jpg
 email: zzare@terpmail.umd.edu
 github: zzare-umd
 ---

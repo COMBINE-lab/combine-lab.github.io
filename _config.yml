@@ -37,7 +37,8 @@ defaults:
       type: "posts"
     values:
       layout: post
-
+  - scope:
+      path: "_data/cv"
 collections:
   members:
     output: true

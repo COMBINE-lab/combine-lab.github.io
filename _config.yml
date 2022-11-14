@@ -38,7 +38,7 @@ defaults:
     values:
       layout: post
   - scope:
-      path: "_data/cv"
+      path: "assets/cv"
 collections:
   members:
     output: true

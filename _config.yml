@@ -37,6 +37,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # markdown files in /_news
+  - scope:
+      type: "posts"
+    values:
+      layout: post
   - scope:
       path: "assets/cv"
 collections:

@@ -37,9 +37,9 @@ defaults:
       type: "posts"
     values:
       layout: post
-  # markdown files in /_news
+  # markdown files in /newsposts
   - scope:
-      path: "_newsposts"
+      path: "newsposts"
     values:
       layout: post
   - scope:

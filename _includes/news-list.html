@@ -1,4 +1,4 @@
-{% assign byyear = site.news | sort: "date" | reverse | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
+{% assign byyear = site.news | sort: "date" | reverse | group_by_exp: "news", "news.date | date: '%Y'" | sort: "name" | reverse %}
 
 {% for yeargroup in byyear %}
 
@@ -8,11 +8,11 @@
 
 {% for post in yeargroup.items %}
 
-[**{{ post.title }}**]({{ post.url | relative_url }})
+[**{{ post.title }}**]({{ news.url | relative_url }})
 
-{% include post-info.html post=post %}
+{% include post-info.html post=news %}
 
-{% include tags.html tags=post.tags %}
+{% include tags.html tags=news.tags %}
 
 {% if forloop.index <= 3 %}
 {{ post.content | strip_html | truncate: 500 }}

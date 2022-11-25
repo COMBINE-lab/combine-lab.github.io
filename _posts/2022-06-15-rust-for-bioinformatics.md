@@ -2,6 +2,7 @@
 title: Why use Rust for bioinformatics?
 author: Rob Patro
 member: rob-p
+category: blog
 tags:
   - rust
   - programming

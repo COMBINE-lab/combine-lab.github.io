@@ -1,4 +1,4 @@
-{% assign byyear = site.posts | sort: "date" | reverse | group_by_exp: "post", post.date | date: '%Y'" | sort: "name" | reverse %}
+{% assign byyear = site.posts | sort: "date" | reverse | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
 
 {% for yeargroup in byyear %}
 
@@ -10,7 +10,7 @@
 
 [**{{ post.title }}**]({{ post.url | relative_url }})
 
-{% include post-info.html post=pos %}
+{% include post-info.html post=post %}
 
 {% include tags.html tags=post.tags %}
 

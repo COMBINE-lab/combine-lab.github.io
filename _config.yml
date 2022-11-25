@@ -44,6 +44,8 @@ defaults:
       layout: post
   - scope:
       path: "assets/cv"
+    values:
+      layout: default
 collections:
   members:
     output: true

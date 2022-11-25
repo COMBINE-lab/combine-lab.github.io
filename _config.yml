@@ -39,7 +39,7 @@ defaults:
       layout: post
   # markdown files in /_news
   - scope:
-      type: "posts"
+      type: "newsposts"
     values:
       layout: post
   - scope:

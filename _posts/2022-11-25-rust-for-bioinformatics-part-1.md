@@ -87,7 +87,7 @@ While they are perhaps less-widely used for tools like the ones I've laied out a
 to provide the computational performance necessary to accomplish such tasks. Here, I'll group together the most popular ahead-of-time (AoT) 
 compiled and garbage collected (GC) languages.  This includes languages like Java (and other JVM languages like Scala and Kotlin), as well as 
 different languages that nonetheless adopt the GC approach to memory safety, like Go. There are also languages that mix in a GC with other memory management strategies and provide the user with "opt-in" garbage collection 
-(e.g. D and Nim).  However, since people using these languages tend to produce programs that eventually make us of GC somewhat,  I'm grouping them in here,
+(e.g. D and Nim).  However, since people using these languages tend to produce programs that eventually make use of GC somewhat,  I'm grouping them in here,
 though technically there are ways to avoid the GC there.
 
 These languages go a very different route that C/C++, and they do, to a large extent, provide important types of memory safety. However, they 

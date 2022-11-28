@@ -1,5 +1,5 @@
 ---
-title: Why use Rust for bioinformatics? Defining the problem space.
+title: Why use Rust for bioinformatics? Part 1: Defining the problem space.
 author: Rob Patro
 member: rob-p
 category: blog

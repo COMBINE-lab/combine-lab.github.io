@@ -1,5 +1,5 @@
 ---
-title: Why use Rust for bioinformatics? Part 2: You can depend on me.
+title: 'Why use Rust for bioinformatics? Part 2: You can depend on me.'
 author: Rob Patro
 member: rob-p
 category: blog

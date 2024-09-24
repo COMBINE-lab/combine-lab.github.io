@@ -1,11 +1,11 @@
 # https://jekyllrb.com/docs/configuration/
 
 # site-wide variables
-title: COMBINE-lab # title of site, used in tab name and elsewhere
-email: rob@cs.umd.edu # default email
-google: Rob Patro # default name to search on Google Scholar
-github: COMBINE-lab # default GitHub user/org, without the @
-twitter: nomad421 # default Twitter handle, without the @
+title: CUET ML Research Group # title of site, used in tab name and elsewhere
+email: cuetmlresearchgroup@gmail.com # default email
+# google: Rob Patro # default name to search on Google Scholar
+github: cuetmlresearchgroup # default GitHub user/org, without the @
+# twitter: nomad421 # default Twitter handle, without the @
 #instagram: fakeinstagramhandle # default Instagram handle, without the @
 #youtube: fakeyoutubechannel # default YouTube channel handle
 
@@ -20,44 +20,44 @@ baseurl: "/"
 # background: images/different-bg-for-this-page.jpg
 # ---
 defaults:
-  # all markdown files
-  - scope:
-      path: ""
-    values:
-      description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more. # description that will show under search engine results
-      background: images/test-tube.jpg # background image in header and footer
-      layout: default
-  # markdown files in /_members
-  - scope:
-      type: "members"
-    values:
-      layout: member
-  # markdown files in /_posts
-  - scope:
-      type: "posts"
-    values:
-      layout: post
-  # markdown files in /newsposts
-  - scope:
-      path: "newsposts"
-    values:
-      layout: post
-  - scope:
-      path: "assets/cv"
-    values:
-      layout: default
+    # all markdown files
+    - scope:
+          path: ""
+      values:
+          description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more. # description that will show under search engine results
+          background: images/test-tube.jpg # background image in header and footer
+          layout: default
+    # markdown files in /_members
+    - scope:
+          type: "members"
+      values:
+          layout: member
+    # markdown files in /_posts
+    - scope:
+          type: "posts"
+      values:
+          layout: post
+    # markdown files in /newsposts
+    - scope:
+          path: "newsposts"
+      values:
+          layout: post
+    - scope:
+          path: "assets/cv"
+      values:
+          layout: default
 collections:
-  members:
-    output: true
+    members:
+        output: true
 
 # sass settings
 sass:
-  sass_dir: css
+    sass_dir: css
 
 # syntax highlighting
 highlighter: rouge
 
 # build settings
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
+    - jekyll-feed
+    - jekyll-redirect-from

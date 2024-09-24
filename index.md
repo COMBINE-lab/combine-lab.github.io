@@ -5,16 +5,25 @@ title: Home
 # <i class="fas fa-flask"></i>Home
 
 
-The COMBINE lab was created in the fall of 2014, when [Rob Patro](https://combine-lab.github.io/members/rob-patro.html) joined the [Department of Computer Science at Stony Brook University](https://www.cs.stonybrook.edu/).  In 2019, the lab moved to the [Department of Computer Science at the University of Maryland](https://www.cs.umd.edu/).  Our research interests span many areas of computational / algorithmic genomics, but our core focus is on the development of algorithms, data structures, and statistical inference methods for analyzing high-throughput sequencing data.
+The CUET ML Research Group was created in the spring of 2022, when [Hasan Murad](https://www.cuet.ac.bd/members/648) joined the [Department of Computer Science & Engineering at Chittagong University of Engineering & Technology](https://www.cuet.ac.bd/dept/cse). Our research interests span many areas of Machine Learning including Natural Language Processing (NLP), Computer Vision (CV), Audio Processing and Multimodality.
 
 ### Research Interests
 
-The research interests of our lab broadly span many areas of computational biology and bioinformatics.  Some of our main areas of interest include:
+The research interests of our lab broadly span many areas of Machine Learning.  Some of our main areas of interest include:
 
-  * Algorithms for high-throughput transcriptomics (RNA-seq)
-    * assembly, quantification, *de novo* analysis, differential expression
-    * gene expression analysis of single-cell sequencing data (specifically, single-cell RNA-seq)
-  * Data structures for indexing genomes and raw genomic data
-    * data structures for building, indexing and querying one or more reference genomes
-    * data structures for indexing collections of tens of thousands of raw sequencing experiments
-  * Applications of approximate and data-driven representations and data structures in bioinformatics
+  * Natural Language Processing
+    * Large Language Models (LLM)
+    * Question Answering (QA)
+    * Machine Translation
+    * Sentiment Analysis
+    * Text Classification
+  * Computer Vision
+    * Image Caption Generation
+    * Image Classification
+  * Audio
+    * Text to Speech Synthesis
+    * Voice Cloning
+    * Automatic Speech Recognition
+  * Multimodality
+    * Text and Audio based Emotion Recognition
+    * Image and Text based Meme Sentiment Analysis

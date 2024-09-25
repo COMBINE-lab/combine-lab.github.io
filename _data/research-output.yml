@@ -1,23 +1,21 @@
-- title: Genetic demultiplexing of pooled single-cell RNA-sequencing samples in cancer
-    facilitates effective experimental design
+- title: A Transformer-based Hierarchical-BERT Model for Bangla Violence-Inciting Text Detection
   authors:
-  - Lukas M. Weber
-  - Ariel A. Hippen
-  - Peter F. Hickey
-  - Kristofer C. Berrett
-  - Jason Gertz
-  - Jennifer Anne Doherty
-  - Casey S. Greene
-  - Stephanie C. Hicks
-  publisher: Cold Spring Harbor Laboratory
-  date: '2020-11-07'
-  link: https://doi.org/ghjkzq
-  id: doi:10.1101/2020.11.06.371963
+  - Udoy Das
+  - Karnis Fatema
+  - Md Ayon Mia
+  - Mahshar Yahan
+  - Md Sajidul Mowla
+  - MD Fayez Ullah
+  - Arpita Sarker
+  - Hasan Murad
+  publisher: Association for Computational Linguistics
+  date: '2023-12-07'
+  link: https://aclanthology.org/2023.banglalp-1.19/
+  id: 10.18653/v1/2023.banglalp-1.19
   thumbnail: https://www.biorxiv.org/content/biorxiv/early/2020/11/07/2020.11.06.371963/F4.medium.gif
   tags:
-  - cancer
-  - single cell
-  - ovarian cancer
+  - Hierarchical-BERT
+  - Text detection
 - title: Opportunities and obstacles for deep learning in biology and medicine
   authors:
   - Travers Ching

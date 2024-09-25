@@ -9,7 +9,7 @@
   - Arpita Sarker
   - Hasan Murad
   publisher: Association for Computational Linguistics
-  date: '2023-12-07'
+  date: '2023-12-06'
   link: https://aclanthology.org/2023.banglalp-1.19/
   id: doi:10.18653/v1/2023.banglalp-1.19
   thumbnail: https://www.biorxiv.org/content/biorxiv/early/2020/11/07/2020.11.06.371963/F4.medium.gif
@@ -29,7 +29,7 @@
   - Arpita Sarker
   - Hasan Murad
   publisher: Association for Computational Linguistics
-  date: '2023-12-07'
+  date: '2023-12-01'
   link: https://aclanthology.org/2023.banglalp-1.39/
   id: doi:10.18653/v1/2023.banglalp-1.39
   image: https://royalsocietypublishing.org/cms/asset/1b0430b1-5a66-4523-83be-29b435eddf86/rsif20170387f01.jpg
@@ -50,7 +50,7 @@
   - Hasan Murad
   - Udoy Das
   publisher: Association for Computational Linguistics
-  date: '2024-08-24'
+  date: '2024-08-15'
   link: https://aclanthology.org/2024.arabicnlp-1.52/
   id: doi:10.18653/v1/2024.arabicnlp-1.52
   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
@@ -59,7 +59,7 @@
   - Sentiment Analysis
   repo: https://github.com/Aref111n/CUET_SSTM-AraiEval.
 
-- title: Estimating the Check-Worthiness of Tweets Using a Fine-tuned Transformer-based Approach
+- title: Fired_from_NLP at CheckThat! 2024Estimating the Check-Worthiness of Tweets Using a Fine-tuned Transformer-based Approach
   authors:
   - Md Sajid Alam Chowdhury
   - Anik Mahmud Shanto
@@ -67,7 +67,7 @@
   - Hasan Murad
   - Udoy Das
   publisher: Conference and Labs of the Evaluation Forum
-  date: '2024'
+  date: '2024-05-01'
   link: https://doi.org/gg7m48
   id: doi:10.1016/j.csbj.2020.05.017
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
@@ -87,7 +87,7 @@
   - Hasan Murad
   - Udoy Das
   publisher: Association for Computational Linguistics
-  date: '2024-8'
+  date: '2024-08-26'
   link: https://aclanthology.org/2024.arabicnlp-1.36/
   id: doi:10.18653/v1/2024.arabicnlp-1.36
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
@@ -97,7 +97,7 @@
     - Intent Dectection
   repo: https://github.com/Fired-from-NLP/ArabicNLP2024-subtask1
 
-- title: Towards Developing Semantic Textual Relatedness Predictor-A Transformer-based Approach
+- title: Fired_from_NLP at SemEval-2024 Task 1:Towards Developing Semantic Textual Relatedness Predictor-A Transformer-based Approach
   authors:
   - Anik Shanto
   - Md Sajid Alam Chowdhury
@@ -105,10 +105,25 @@
   - Udoy Das
   - Hasan Murad
   publisher: Association for Computational Linguistics
-  date: '2024/6'
+  date: '2024-06-10'
   link: https://aclanthology.org/2024.semeval-1.123/
   id: doi:10.18653/v1/2024.semeval-1.123
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
   tags:
     - Semantic Textual Relatedness
     - Similarity Prediction 
+
+- title: Golden_Duck at# SMM4H 2024:A Transformer-based Approach to Social Media Text Classification
+  authors:
+  - Md Ayon Mia
+  - Mahshar Yahan
+  - Hasan Murad
+  - Muhammad Khan
+  publisher: Association for Computational Linguistics
+  date: '2024-08-05'
+  link: https://aclanthology.org/2024.semeval-1.123/
+  id: doi:10.18653/v1/2024.semeval-1.123
+  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  tags:
+    - BERT
+    - Multiclass Classfication  

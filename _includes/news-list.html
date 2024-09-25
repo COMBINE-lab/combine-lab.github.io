@@ -18,6 +18,9 @@
 {{ post.content | strip_html | truncate: 500 }}
 {% else %}
 {{ post.content | strip_html | truncate: 200 }}
+{% if post.published %}
+{{ post.published }}
+{% endif %}
 {% endif %}
 
 {% if forloop.index < forloop.length %}

@@ -10,15 +10,14 @@ Our group is part of the [Department of Computer Science and Engineering](https:
 
 ## Email
 
-<style type="text/css">
-   span.codedirection { unicode-bidi:bidi-override; direction: rtl; }
-</style>
-<span class="codedirection">cuetmlresearchgroup@gmail.com</span>
+(cuetmlresearchgroup@gmail.com)[mailto:cuetmlresearchgroup@gmail.com]
 {:.center}
 
-## Phone
-
-[(880) 1826 538099](tel:+8801826-538099)
+## Contact Me
+<b>Hasan Murad</b>
+<i>Assistant Professor</i>
+Mail: [hasanmurad@cuet.ac.bd](mailto:hasanmurad@cuet.ac.bd)
+Phone: [(880) 1826 538099](tel:+8801826-538099)
 {:.center}
 
 <!-- ## Address

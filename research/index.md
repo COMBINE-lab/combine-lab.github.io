@@ -15,7 +15,7 @@ This is a collection of published research papers carried out under the supervis
 <!-- section break -->
 
 ## Research List
-This is a collection of published research papers carried out under the supervision of the advisors and faculty of the CUET Machine Learning Research group.
+This is a collection of published research papers carried out under the supervision of the advisors and teachers of the CUET Machine Learning Research group.
 
 {% include card-search.html subject="papers" %}
 <!-- This is a collection of published research papers carried out under the supervision of the advisors and teacher of the CUET Machine Learning Research group. -->

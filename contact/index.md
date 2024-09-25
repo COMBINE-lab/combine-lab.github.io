@@ -6,7 +6,7 @@ title: Contact
 
 Our group is part of the [Department of Computer Science and Engineering](https://www.cuet.ac.bd/dept/cse), at the [Chittagong University of Engineering & Technology](https://www.cuet.ac.bd).
 
-{% include figure.html image="images/iribe.jpg" width="100%" %}
+{% include figure.html image="images/iribe.jpeg" width="100%" %}
 
 ## Email
 

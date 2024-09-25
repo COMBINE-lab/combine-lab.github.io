@@ -6,23 +6,21 @@ title: Research
 
 <!-- section break -->
 
-## Card Search
+<!-- ## Card Search
 
-A _card search_ component, a search box to find all _card_ components on the page that contain certain words/names.
+This is a collection of published research papers carried out under the supervision of the advisors and faculty of the CUET Machine Learning Research group.
 
-You can type in "terms" (single words) or "phrases" (quoted multiple words), like `term1 term2 "full phrase 1" "full phrase 2"`.
-Cards that contain all of the terms and at least one of the phrases will be considered a match.
-Search words will be highlighted in the results (if they're longer than 2 characters).
-Searching is case insensitive.
-
-{% include card-search.html subject="papers" %}
+{% include card-search.html subject="papers" %} -->
 
 <!-- section break -->
 
 ## Research List
+This is a collection of published research papers carried out under the supervision of the advisors and faculty of the CUET Machine Learning Research group.
 
-A _research list_ component, to sort and group all of your research publications.
+{% include card-search.html subject="papers" %}
+<!-- This is a collection of published research papers carried out under the supervision of the advisors and teacher of the CUET Machine Learning Research group. -->
+<!-- A _research list_ component, to sort and group all of your research publications.
 Can be used on any page, but assumes its content from `/_data/research-output.yml`.
-Uses the _card_ component (small).
+Uses the _card_ component (small). -->
 
 {% include research-list.html %}

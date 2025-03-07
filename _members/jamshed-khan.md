@@ -3,8 +3,8 @@ title: Jamshed Khan
 search:
   - J. Khan
   - J Khan
-role: phd
-group: current
+role: phd_g
+group: alum
 image: images/jamshed.jpg
 website: https://sites.google.com/view/jamshed/
 email: jamshed@umd.edu

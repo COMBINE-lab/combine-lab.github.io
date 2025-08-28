@@ -1,5 +1,5 @@
 ---
-title: Zhezhen Want
+title: Zhezhen Wang
 search:
   - Z. Wang
   - Zhezhen

@@ -28,7 +28,7 @@ Are you interested in working in the COMBINE lab?  That's great! However, there 
 
 While individual exceptions do exist, we generally only directly work with students who are already students at the University of Maryland.  
 
-Furthermore, please note the research interests listed above. While they are not comprehensive, and we are happy to consider projects that align with our general goals, we are typically do not have the resources or interest to pursue otherwise interesting projects that are far afield of these interests. In particular, we are unlikely to accept students or support projects that focus on topics like deep learning in genomics or transcriptomics --- there are plenty of other groups that are working on those topics.
+Furthermore, please note the research interests listed above. While they are not comprehensive, and we are happy to consider projects that align with our general goals, we typically do not have the resources or desire to pursue otherwise interesting projects that are far afield of these interests. In particular, we are unlikely to accept students or support projects that focus on topics like deep learning in genomics or transcriptomics --- there are plenty of other groups that are working on those topics.
 
 Finally, we care deeply about algorithm engineering and the overall performance and reliability of the algorithms and data structures we design and implement.  Thus, it is expected that most members of the lab will either know, or be willing to learn a language relevant to such performance concerns.  Most of our new projects are developed using [Rust](https://www.rust-lang.org/), and new members of the lab are expected to learn Rust if they don't already know it.
 

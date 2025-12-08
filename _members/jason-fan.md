@@ -3,8 +3,8 @@ title: Jason Fan
 search:
   - J. Fan
   - Jason Fan
-role: phd
-group: current
+role: phd_g
+group: alum
 image: images/jasonfan.jpg
 email: jasonfan@umd.edu
 website: fanjason.xyz

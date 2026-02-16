@@ -1,5 +1,5 @@
-<h1 align="center">Lab Website Template</h1>
-<p align="center"><img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/icons/share-thumbnail.jpg?raw=true" alt="Lab Website Template"></p>
+<h1 align="center">COMBINE-lab website</h1>
+<p align="center"><img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/icons/share-thumbnail.jpg?raw=true" alt="COMBINE-lab website"></p>
 
 An easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
 Spend less time reinventing the wheel, and more time running your lab.
@@ -278,4 +278,4 @@ Look for file names relevant to your question, and you may find that you can ach
 
 If you still need help, or if you have a suggestion for how to make this template easier to use for novices, please [post a new issue on this repository](https://github.com/greenelab/lab-website-template/issues).
 
-<p align="center"><img height="200" src="https://user-images.githubusercontent.com/8326331/96628877-d1658e00-12e0-11eb-894c-7bb0d7f07632.png" alt="Lab Website Template"></p>
+<p align="center"><img height="200" src="https://user-images.githubusercontent.com/8326331/96628877-d1658e00-12e0-11eb-894c-7bb0d7f07632.png" alt="COMBINE-lab website"></p>

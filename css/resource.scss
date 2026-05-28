@@ -1,0 +1,153 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+
+.resource_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+  margin: 30px 0;
+  width: min(100%, 1100px);
+}
+
+.resource_grid_compact {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.resource_card {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 18px;
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 18px;
+  border: solid 1px $light-gray;
+  border-radius: 8px;
+  background: $white;
+  box-shadow: 0 3px 12px 0 #00000012;
+
+  &[data-hide="true"] {
+    display: none;
+  }
+
+  .resource_card_image {
+    display: block;
+    width: 92px;
+    height: 92px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: $off-white;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .resource_card_body {
+    min-width: 0;
+  }
+
+  .resource_card_header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 8px;
+
+    h3 {
+      margin: 0;
+      min-width: 0;
+      font-size: 1.1rem;
+      line-height: 1.25;
+
+      a {
+        overflow-wrap: anywhere;
+      }
+    }
+  }
+
+  p {
+    margin: 0 0 12px;
+    color: $dark-gray;
+    line-height: 1.5;
+  }
+
+  .resource_status {
+    flex-shrink: 0;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: $off-white;
+    color: $dark-gray;
+    font-family: $sans;
+    font-size: 0.72rem;
+    font-weight: $medium;
+    text-transform: uppercase;
+  }
+
+  .resource_meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin: 0 0 12px;
+
+    div {
+      min-width: 0;
+    }
+
+    dt {
+      color: $gray;
+      font-family: $sans;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+    }
+
+    dd {
+      margin: 0;
+      color: $black;
+      font-family: $sans;
+      font-size: 0.85rem;
+    }
+  }
+
+  .resource_topics {
+    justify-content: flex-start;
+    margin: 0 0 12px;
+
+    .tag {
+      margin: 3px 6px 3px 0;
+      font-family: $sans;
+      font-size: 0.78rem;
+    }
+  }
+
+  .resource_links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-family: $sans;
+    font-size: 0.9rem;
+    font-weight: $medium;
+  }
+
+  @media (max-width: $phone) {
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 14px;
+    padding: 14px;
+
+    .resource_card_image {
+      width: 72px;
+      height: 72px;
+    }
+
+    .resource_card_header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 6px;
+    }
+  }
+}

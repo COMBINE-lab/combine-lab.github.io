@@ -11,7 +11,7 @@ const createSearch = () => {
   // get important elements
   searchInput = document.querySelector(".card_search_input");
   searchCount = document.querySelector(".card_search_count");
-  cards = Array.from(document.querySelectorAll(".card"));
+  cards = Array.from(document.querySelectorAll(".card, .resource_card"));
   hide = Array.from(document.querySelectorAll(".card_search_hide"));
 
   // don't run script if necessary elements aren't present

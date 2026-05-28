@@ -1,0 +1,91 @@
+{% assign resource = include.resource %}
+{% assign meta = include.meta %}
+{% assign title = resource.title | default: meta.name %}
+{% assign description = resource.description | default: meta.description %}
+{% assign link = resource.link | default: resource.url | default: meta.html_url %}
+{% assign image = resource.image %}
+{% assign status = resource.status | default: "active" %}
+{% assign topics = resource.tags | default: meta.topics %}
+{% assign placeholder = "images/placeholder.svg" | relative_url %}
+
+<article
+  class="resource_card"
+  data-category="{{ resource.category | downcase | escape }}"
+  data-status="{{ status | downcase | escape }}"
+>
+  <a class="resource_card_image" href="{{ link }}">
+    {% if image %}
+    <img
+      src="{{ image | relative_url }}"
+      alt="{{ title | escape }} logo"
+      onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
+    >
+    {% else %}
+    <img src="{{ placeholder }}" alt="">
+    {% endif %}
+  </a>
+
+  <div class="resource_card_body">
+    <div class="resource_card_header">
+      <h3><a href="{{ link }}">{{ title }}</a></h3>
+      <span class="resource_status">{{ status }}</span>
+    </div>
+
+    {% if description %}
+    <p>{{ description }}</p>
+    {% endif %}
+
+    <dl class="resource_meta">
+      {% if resource.category %}
+      <div>
+        <dt>Category</dt>
+        <dd>{{ resource.category }}</dd>
+      </div>
+      {% endif %}
+      {% if meta.language %}
+      <div>
+        <dt>Language</dt>
+        <dd>{{ meta.language }}</dd>
+      </div>
+      {% endif %}
+      {% if meta.stargazers_count %}
+      <div>
+        <dt>Stars</dt>
+        <dd>{{ meta.stargazers_count }}</dd>
+      </div>
+      {% endif %}
+      {% if meta.latest_release %}
+      <div>
+        <dt>Release</dt>
+        <dd>{{ meta.latest_release }}</dd>
+      </div>
+      {% endif %}
+      {% if meta.pushed_at %}
+      <div>
+        <dt>Updated</dt>
+        <dd>{{ meta.pushed_at | date: "%b %-d, %Y" }}</dd>
+      </div>
+      {% endif %}
+    </dl>
+
+    {% if topics.size > 0 %}
+    <div class="tags resource_topics">
+      {% for topic in topics limit: 8 %}
+      <span class="tag">{{ topic }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="resource_links">
+      {% if link %}
+      <a href="{{ link }}">GitHub</a>
+      {% endif %}
+      {% if meta.homepage and meta.homepage != "" %}
+      <a href="{{ meta.homepage }}">Docs</a>
+      {% endif %}
+      {% if meta.latest_release_url %}
+      <a href="{{ meta.latest_release_url }}">Release</a>
+      {% endif %}
+    </div>
+  </div>
+</article>

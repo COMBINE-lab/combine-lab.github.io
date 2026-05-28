@@ -12,19 +12,21 @@ jobs:
   update_research:
     name: Update Manubot-generated citations in research data
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.7
+          python-version: "3.11"
       - name: Install Manubot
         run: pip install --upgrade manubot
       - name: Build updated research output file
         run: python _data/build-research.py
       - name: Commit new research output file
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: "_data/research-output.yml"
           commit_message: "Update Manubot-generated citations in research data"

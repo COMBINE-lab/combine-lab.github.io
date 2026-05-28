@@ -1,30 +1,44 @@
 ---
 title: Resources
+description: Software and research resources developed or maintained by COMBINE-lab.
 ---
 
-# <i class="fas fa-tools"></i>Resources
+# Resources
+
+Software and research infrastructure from COMBINE-lab and close collaborators.
+
+{% include card-search.html subject="resources" %}
+
+## Featured
+{:.card_search_hide}
+
+{% include resource-list.html featured=true %}
 
 <!-- section break -->
 
-## Software
+## Transcriptomics
+{:.card_search_hide}
 
-The following software is primarily developed or maintained by the COMBINE-lab or 
-by members of the COMBINE-lab in conjunction with others.
+{% include resource-list.html category="Transcriptomics" compact=true %}
 
-{% capture html %}
-{% include resource-list.html type="software" size="large" %}
-{% endcapture %}
+## Single-cell
+{:.card_search_hide}
 
-{% include centerer.html html=html %}
+{% include resource-list.html category="Single-cell" compact=true %}
 
-{% capture html %}
-{% include resource-list.html type="other" size="medium" %}
-{% endcapture %}
+## Sequence indexing
+{:.card_search_hide}
 
-{% include centerer.html html=html %}
+{% include resource-list.html category="Sequence indexing" compact=true %}
 
-{% capture html %}
-{% include resource-list.html type="legacy" size="small" %}
-{% endcapture %}
+## de Bruijn graph tools
+{:.card_search_hide}
 
-{% include centerer.html html=html %}
+{% include resource-list.html category="de Bruijn graph tools" compact=true %}
+
+## Other and legacy tools
+{:.card_search_hide}
+
+{% include resource-list.html category="3D genome organization" compact=true %}
+{% include resource-list.html category="Network biology" compact=true %}
+{% include resource-list.html category="Legacy" compact=true %}

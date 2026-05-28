@@ -1,26 +1,33 @@
-{% assign resources = site.data.resources %}
+{% assign resources = site.data.resources | where: "ready", true %}
+{% assign resources = resources | sort: "priority" %}
 
-{% if include.type != nil %}
-{% if include.type == "" %}
-{% assign type = nil %}
-{% else %}
-{% assign type = include.type %}
-{% endif %}
-{% assign resources = resources | where_exp: "resource", "resource.type == type" %}
+{% if include.featured != nil %}
+{% assign featured = include.featured %}
+{% assign resources = resources | where_exp: "resource", "resource.featured == featured" %}
 {% endif %}
 
-{% for resource in resources %}
-{% capture tags %}
-{% include tags.html repo=resource.repo %}
-{% endcapture %}
+{% if include.category %}
+{% assign category = include.category %}
+{% assign resources = resources | where_exp: "resource", "resource.category == category" %}
+{% endif %}
 
-{%-
-  include card.html
-  size=include.size
-  heading=resource.title
-  image=resource.image
-  link=resource.link
-  row1=resource.description
-  row2=tags
--%}
-{% endfor %}
+{% if include.status %}
+{% assign status = include.status %}
+{% assign resources = resources | where_exp: "resource", "resource.status == status" %}
+{% endif %}
+
+{% if resources.size > 0 %}
+<div class="resource_grid{% if include.compact %} resource_grid_compact{% endif %}">
+  {% for resource in resources %}
+    {% assign meta = nil %}
+    {% assign resource_repo = resource.repo | downcase %}
+    {% for github_resource in site.data.resources_github %}
+      {% assign github_repo = github_resource.repo | downcase %}
+      {% if github_repo == resource_repo %}
+        {% assign meta = github_resource %}
+      {% endif %}
+    {% endfor %}
+    {% include resource-card.html resource=resource meta=meta %}
+  {% endfor %}
+</div>
+{% endif %}

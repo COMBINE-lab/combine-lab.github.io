@@ -1,0 +1,41 @@
+name: Update resource metadata
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 8 * * 1"
+  push:
+    paths:
+      - "_data/resources.yml"
+      - "_data/build-resources.rb"
+  pull_request:
+    paths:
+      - "_data/resources.yml"
+      - "_data/build-resources.rb"
+
+permissions:
+  contents: write
+
+jobs:
+  update_resources:
+    name: Update GitHub-derived resource metadata
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Build resource metadata
+        run: ruby _data/build-resources.rb
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Commit updated resource metadata
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: "_data/resources_github.yml"
+          commit_message: "Update GitHub-derived resource metadata"

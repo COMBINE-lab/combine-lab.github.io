@@ -26,7 +26,7 @@ description: Research areas in COMBINE-lab, spanning computational genomics, tra
 
 <div class="research_area_grid">
   <article class="research_area">
-    <img src="{{ '/images/cell.jpg' | relative_url }}" alt="">
+    <img src="{{ '/images/research-transcriptomics.png' | relative_url }}" alt="">
     <div>
       <h3>Transcriptomics and RNA-seq</h3>
       <p>
@@ -65,7 +65,7 @@ description: Research areas in COMBINE-lab, spanning computational genomics, tra
   </article>
 
   <article class="research_area">
-    <img src="{{ '/images/polar-graph.jpg' | relative_url }}" alt="">
+    <img src="{{ '/images/research-succinct-data-structures.png' | relative_url }}" alt="">
     <div>
       <h3>Succinct data structures</h3>
       <p>

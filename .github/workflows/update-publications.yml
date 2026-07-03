@@ -1,0 +1,40 @@
+name: Update publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 8 * * 1"
+  push:
+    paths:
+      - "_data/build-publications.py"
+      - ".github/workflows/update-publications.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update_publications:
+    name: Refresh publication list from OpenAlex
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install --upgrade pyyaml
+
+      - name: Build publication list
+        run: python _data/build-publications.py
+        env:
+          OPENALEX_MAILTO: rob@cs.umd.edu
+
+      - name: Commit updated publications
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: "_data/publications.yml"
+          commit_message: "Update publications from OpenAlex"

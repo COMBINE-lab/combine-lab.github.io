@@ -3,8 +3,8 @@ title: Noor Pratap Singh
 search:
   - N. Singh
   - N Singh
-role: phd
-group: current
+role: phd_g
+group: alum
 image: images/noor.jpg
 email: npsingh@umd.edu
 twitter: PratapNoor

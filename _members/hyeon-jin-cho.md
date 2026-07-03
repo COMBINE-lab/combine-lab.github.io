@@ -3,8 +3,8 @@ title: Hyeon Jin Cho
 search:
   - H. Cho
   - H Cho
-role: phd
-group: current
+role: phd_g
+group: alum
 image: images/hyeonjin.jpg
 email: hcho1239@umd.edu
 github: hyeonjin-cho

@@ -16,7 +16,7 @@ description: Research areas in COMBINE-lab, spanning computational genomics, tra
 
 <div class="research_links">
   <a href="{{ '/resources/' | relative_url }}">Software and resources</a>
-  <a href="https://scholar.google.com/citations?user=H36hOqEAAAAJ&hl=en">Publications on Google Scholar</a>
+  <a href="{{ '/publications/' | relative_url }}">Publications</a>
   <a href="https://github.com/COMBINE-lab">COMBINE-lab on GitHub</a>
 </div>
 
@@ -107,6 +107,4 @@ description: Research areas in COMBINE-lab, spanning computational genomics, tra
 
 ## Publications
 
-We are still migrating publication metadata into a maintainable format for this website. For now, the most complete publication list is available on [Rob Patro's Google Scholar profile](https://scholar.google.com/citations?user=H36hOqEAAAAJ&hl=en).
-
-As the local publication data is cleaned up, this page can grow into a searchable publication archive linked to the software and datasets associated with each paper.
+The lab's full, searchable publication list lives on the [Publications page]({{ '/publications/' | relative_url }}), updated automatically each week from [OpenAlex](https://openalex.org/). You can also browse [Rob Patro's Google Scholar profile](https://scholar.google.com/citations?user=H36hOqEAAAAJ&hl=en).

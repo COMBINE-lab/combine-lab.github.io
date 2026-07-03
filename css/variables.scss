@@ -1,15 +1,20 @@
 // use these variables in other scss files to keep consistent look across site
 
-// shades of gray
-$black: #101010;
-$dark-gray: #404040;
-$gray: #a0a0a0;
-$light-gray: #d0d0d0;
-$off-white: #f8f8f8;
-$white: #ffffff;
+// The grayscale + accent palette is routed through CSS custom properties (see
+// theme.scss) so a single [data-theme] / prefers-color-scheme switch recolors
+// the whole site. The hex fallbacks here are the light-theme values, used only
+// if theme.scss fails to load.
 
-// colors
-// https://www.materialpalette.com/colors
+// shades of gray (semantic: surfaces, text, borders)
+$black: var(--text, #101010);
+$dark-gray: var(--text-muted, #404040);
+$gray: var(--text-faint, #a0a0a0);
+$light-gray: var(--border, #d0d0d0);
+$off-white: var(--surface-alt, #f8f8f8);
+$white: var(--surface, #ffffff);
+
+// fixed accent colors used for code syntax highlighting (always on a dark code
+// block) and misc accents. https://www.materialpalette.com/colors
 $red: #e91e63;
 $pink: #f48fb1;
 $purple: #9c27b0;
@@ -26,11 +31,11 @@ $light-orange: #ffe082;
 $slate: #607d8b;
 
 // main theme color for links, tags, and other accents
-$theme: $blue;
-$light-theme: $light-blue;
+$theme: var(--accent, #03a9f4);
+$light-theme: var(--accent-soft, #b3e5fc);
 
 // effects
-$shadow: 0 0 10px 0 #00000040;
+$shadow: var(--shadow, 0 0 10px 0 #00000040);
 
 // fonts
 $serif: "Lora", serif;

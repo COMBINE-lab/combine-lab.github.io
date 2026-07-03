@@ -1,0 +1,63 @@
+---
+---
+
+// Light and dark theme tokens. Consumed via the Sass variables in
+// variables.scss (e.g. $white -> var(--surface)). The dark values are applied
+// when the user's OS prefers dark (and they haven't forced light), or when a
+// [data-theme="dark"] attribute is set on <html> by the theme toggle.
+
+@mixin light-tokens {
+  color-scheme: light;
+
+  --surface: #ffffff; // page + card backgrounds
+  --surface-alt: #f4f5f7; // alternating sections, chips
+  --text: #101010; // primary text
+  --text-muted: #45484f; // secondary text
+  --text-faint: #8a8d94; // captions, counts, placeholders
+  --border: #d7d9de; // hairline borders
+  --accent: #0284c7; // links, accents (slightly deepened for AA contrast)
+  --accent-soft: #d3ecfa; // tag / highlight backgrounds
+
+  --chrome-bg: #3c3f45; // header + footer (dark in both themes)
+  --chrome-fg: #f5f6f8;
+
+  --shadow: 0 3px 12px 0 rgba(16, 18, 22, 0.12);
+}
+
+@mixin dark-tokens {
+  color-scheme: dark;
+
+  --surface: #16181d;
+  --surface-alt: #1f222a;
+  --text: #e7e8ec;
+  --text-muted: #b3b7c0;
+  --text-faint: #868b96;
+  --border: #313640;
+  --accent: #56b8f0;
+  --accent-soft: #123449;
+
+  --chrome-bg: #0f1115;
+  --chrome-fg: #e7e8ec;
+
+  --shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.55);
+}
+
+:root {
+  @include light-tokens;
+}
+
+// Follow the OS preference unless the user has explicitly chosen light.
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-tokens;
+  }
+}
+
+// Explicit user choice always wins.
+:root[data-theme="light"] {
+  @include light-tokens;
+}
+
+:root[data-theme="dark"] {
+  @include dark-tokens;
+}

@@ -3,10 +3,14 @@
     {%- include social-link.html type="contact" large=true -%}
     {%- include social-link.html type="github" large=true -%}
     {%- include social-link.html type="twitter" large=true -%}
+    {%- if site.instagram -%}
     {%- include social-link.html type="instagram" large=true -%}
+    {%- endif -%}
     {%- comment -%}
     {%- include social-link.html type="rss" large=true -%}
     {%- endcomment -%}
   </div>
-  <!-- &copy; <script>document.write(new Date().getFullYear())</script> {{ site.title }} -->
+  <p class="footer_copy">
+    &copy; <script>document.write(new Date().getFullYear())</script><noscript>2026</noscript> {{ site.title }}
+  </p>
 </footer>

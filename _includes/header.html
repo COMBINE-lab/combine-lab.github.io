@@ -31,6 +31,14 @@
       >Research</a
     >
     <a
+      href="{{ 'publications' | relative_url }}"
+      class="nav_link"
+      data-tooltip="Papers and preprints"
+      data-placement="bottom"
+      data-delay="400"
+      >Publications</a
+    >
+    <a
       href="{{ 'resources' | relative_url }}"
       class="nav_link"
       data-tooltip="Tools, datasets, and more"
@@ -62,5 +70,15 @@
       data-delay="400"
       >Contact</a
     >
+    <button
+      type="button"
+      class="theme_toggle"
+      aria-label="Toggle dark theme"
+      data-tooltip="Toggle light/dark theme"
+      data-placement="bottom"
+      data-delay="400"
+    >
+      <i class="fas fa-moon"></i>
+    </button>
   </nav>
 </header>

@@ -4,6 +4,13 @@
 @import "variables";
 @import "mixins";
 
+// Code blocks are a fixed dark theme (light text + bright syntax colors) in both
+// light and dark modes, so pin the grayscale palette to literal values here.
+$dark-gray: #2b2d33;
+$white: #f5f6f8;
+$off-white: #e6e7ea;
+$gray: #9aa0ab;
+
 pre,
 code,
 pre *,

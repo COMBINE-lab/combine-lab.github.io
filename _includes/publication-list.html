@@ -1,0 +1,52 @@
+{% assign pubs = site.data.publications %}
+
+<div class="pub_controls">
+  <div class="pub_search_box">
+    <input class="pub_search_input" type="search" placeholder="Search title, author, or venue…" aria-label="Search publications" />
+    <i class="fas fa-search"></i>
+  </div>
+
+  <div class="pub_filters">
+    <label>
+      <span>Sort</span>
+      <select class="pub_sort">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+      </select>
+    </label>
+  </div>
+</div>
+
+<p class="pub_count"><span class="pub_count_num">{{ pubs.size }}</span> publications</p>
+
+<ol class="pub_list">
+  {% for pub in pubs %}
+  {% assign authors_lower = pub.authors | join: " " | downcase %}
+  <li
+    class="pub_item"
+    data-year="{{ pub.year }}"
+    data-date="{{ pub.date }}"
+    data-search="{{ pub.title | append: ' ' | append: authors_lower | append: ' ' | append: pub.venue | downcase | escape }}"
+  >
+    <div class="pub_year_badge">{{ pub.year }}</div>
+    <div class="pub_body">
+      <h3 class="pub_title">
+        <a href="{{ pub.link }}">{{ pub.title }}</a>
+      </h3>
+      <p class="pub_authors">
+        {{ pub.authors | join: ", " }}
+      </p>
+      <p class="pub_meta">
+        {% if pub.venue %}<span class="pub_venue">{{ pub.venue }}</span>{% endif %}
+        <span class="pub_type_tag">paper</span>
+      </p>
+      <p class="pub_links">
+        <a href="{{ pub.link }}">{% if pub.doi %}DOI{% else %}Link{% endif %}</a>
+        {% if pub.is_oa and pub.oa_url %}<a href="{{ pub.oa_url }}">Open access PDF</a>{% endif %}
+      </p>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+
+<p class="pub_empty" hidden>No publications match your search.</p>

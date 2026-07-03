@@ -4,6 +4,18 @@
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- Apply saved theme before first paint to avoid a flash of the wrong theme -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("combine-theme");
+        if (t === "light" || t === "dark") {
+          document.documentElement.setAttribute("data-theme", t);
+        }
+      } catch (e) {}
+    })();
+  </script>
+
   {% include meta.html %}
   {% include icons.html %}
   {% include fonts.html %}

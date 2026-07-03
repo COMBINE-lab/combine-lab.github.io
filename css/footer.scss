@@ -4,6 +4,10 @@
 @import "variables";
 @import "mixins";
 
+// Footer is dark chrome in both themes (see header.scss).
+$dark-gray: var(--chrome-bg);
+$white: var(--chrome-fg);
+
 footer {
   box-sizing: border-box;
   position: relative;
@@ -31,6 +35,12 @@ footer {
     & .social_link:hover {
       opacity: 1;
     }
+  }
+
+  .footer_copy {
+    margin: 18px 0 0;
+    color: rgba(245, 246, 248, 0.6);
+    font-size: 0.82rem;
   }
 
   a {

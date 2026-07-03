@@ -5,7 +5,7 @@ search:
   - Zhezhen
 role: phd
 group: current
-image: images/zhezhen.png
+image: images/zhezhen.jpg
 email: zhezhen@umd.edu
 github: zhezhenwang
 ---

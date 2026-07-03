@@ -4,7 +4,7 @@ search:
   - S. Chan
   - S Chan
 role: undergrad
-group: current
+group: alum
 image: images/skylar_chan.jpg
 email: schan12@terpmail.umd.edu
 github: schance995

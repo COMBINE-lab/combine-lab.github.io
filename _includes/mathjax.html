@@ -1,0 +1,31 @@
+{%- comment -%}
+Loads MathJax 3 to render LaTeX math. Included by the post layout only when a
+post sets "math: true" in its front matter, so the library isn't downloaded on
+posts that don't use it.
+
+Authoring: write math with kramdown's double-dollar syntax, $$ ... $$. kramdown
+renders it inline when it sits inside a sentence and as a centered display block
+when it's on its own line, emitting \( \) / \[ \] respectively — which are
+MathJax's default delimiters. Using $$ (not single $) keeps kramdown from
+mangling backslash commands and subscripts. MathJax inherits the page text
+color, so it works in both light and dark themes.
+{%- endcomment -%}
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [["\\(", "\\)"]],
+      displayMath: [["\\[", "\\]"]],
+      processEscapes: true,
+      tags: "ams"
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"],
+      ignoreHtmlClass: "no-mathjax"
+    }
+  };
+</script>
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"
+></script>

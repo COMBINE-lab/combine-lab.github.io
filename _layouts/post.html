@@ -32,6 +32,10 @@ layout: default
 
 {% include post-nav.html post=page %}
 
+{% if page.math %}
+{% include mathjax.html %}
+{% endif %}
+
 {% comment %}
 Put comment service plugin code here. If a plugin requires a unique page
 identifier, just use "{{ page.url | absolute_url }}", with the quotes.

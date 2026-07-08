@@ -39,7 +39,7 @@ experiences were shared by many others, including biologists who had Fable refus
 
 ### The second flop (unforgivable)
 
-While I thought of other challenges I could pose to Fable, it disappeared, succumbing to the administration's export controls on June 12.  Thus, while I had come up with another piece of interesting work that I wanted it to take a crack it, 
+While I thought of other challenges I could pose to Fable, it disappeared, succumbing to the administration's export controls on June 12.  Thus, while I had come up with another piece of interesting work that I wanted it to take a crack at it, 
 the model was simply unavailable.  On July 1st, after coming to terms with the administration (and not providing many details on precisely what had traspired), Anthropic re-released Fable. With this re-release, they mentioned even stricter
 safeguards. Nonetheless, Fable was back, so, I decided to give it another go. 
 

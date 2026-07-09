@@ -1,0 +1,47 @@
+{%- comment -%}
+giscus comments, backed by this repo's GitHub Discussions. Included by the post
+layout only when a post sets "comments: true" in its front matter.
+
+Prerequisite: the giscus GitHub App must be installed on this repository
+(https://github.com/apps/giscus). Until then the widget shows a configuration
+message instead of a comment box.
+
+The script is injected dynamically so we can set the correct initial theme
+(matching the site's light/dark state) before the giscus iframe loads, avoiding
+a flash. theme.js keeps it in sync afterwards when the user toggles the theme.
+
+Comments are stored in this repo's "Comments" discussion category. To change
+categories, update data-category / data-category-id below.
+{%- endcomment -%}
+<section class="post_comments" aria-label="Comments">
+  <h2>Comments</h2>
+  <script>
+    (function () {
+      var root = document.documentElement;
+      function effectiveTheme() {
+        var attr = root.getAttribute("data-theme");
+        if (attr === "light" || attr === "dark") return attr;
+        return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light";
+      }
+      var s = document.createElement("script");
+      s.src = "https://giscus.app/client.js";
+      s.setAttribute("data-repo", "COMBINE-lab/combine-lab.github.io");
+      s.setAttribute("data-repo-id", "MDEwOlJlcG9zaXRvcnkzMTY1NTM4Njc=");
+      s.setAttribute("data-category", "Comments");
+      s.setAttribute("data-category-id", "DIC_kwDOEt46i84DA1FW");
+      s.setAttribute("data-mapping", "pathname");
+      s.setAttribute("data-strict", "1");
+      s.setAttribute("data-reactions-enabled", "1");
+      s.setAttribute("data-emit-metadata", "0");
+      s.setAttribute("data-input-position", "top");
+      s.setAttribute("data-theme", effectiveTheme());
+      s.setAttribute("data-lang", "en");
+      s.setAttribute("data-loading", "lazy");
+      s.crossOrigin = "anonymous";
+      s.async = true;
+      document.currentScript.parentNode.appendChild(s);
+    })();
+  </script>
+</section>

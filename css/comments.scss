@@ -1,0 +1,21 @@
+---
+---
+
+@import "variables";
+
+.post_comments {
+  max-width: $page;
+  margin: 40px auto 0;
+  padding-top: 20px;
+  border-top: solid 1px $light-gray;
+
+  h2 {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .giscus,
+  .giscus-frame {
+    width: 100%;
+  }
+}

@@ -12,7 +12,7 @@ This meant that Anthropic could not serve the model to anyone who is not a US ci
 to continue serving the model so Antrhopic pulled it.
 
 After a couple of weeks of negotiations, export controls were lifted and Anthropic restored access to the model(s) (only Fable is generally available, Mythos is still available only to specific, pre-approved partners).  All of this, of course, 
-cause much drama online, and resulted in a tremendous amount of speculation and many news stories.  Nonetheless, that is _not_ want I wanted to focus my thoughts on here. Rather, I wanted to explain why I think that, at least for research-level 
+cause much drama online, and resulted in a tremendous amount of speculation and many news stories.  Nonetheless, that is _not_ what I wanted to focus my thoughts on here. Rather, I wanted to explain why I think that, at least for research-level 
 tasks in Computer Science, Fable is not a useful model.
 
 ### The first flop (understandable; but not really)
@@ -40,7 +40,7 @@ experiences were shared by many others, including biologists who had Fable refus
 
 ### The second flop (unforgivable)
 
-While I thought of other challenges I could pose to Fable, it disappeared, succumbing to the administration's export controls on June 12.  Thus, while I had come up with another piece of interesting work that I wanted it to take a crack it, 
+While I thought of other challenges I could pose to Fable, it disappeared, succumbing to the administration's export controls on June 12.  Thus, while I had come up with another piece of interesting work that I wanted it to take a crack at it, 
 the model was simply unavailable.  On July 1st, after coming to terms with the administration (and not providing many details on precisely what had traspired), Anthropic re-released Fable. With this re-release, they mentioned even stricter
 safeguards. Nonetheless, Fable was back, so, I decided to give it another go. 
 

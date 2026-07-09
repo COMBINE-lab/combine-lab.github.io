@@ -32,6 +32,10 @@ layout: default
 
 {% include post-nav.html post=page %}
 
+{% if page.comments %}
+{% include comments.html %}
+{% endif %}
+
 {% if page.math %}
 {% include mathjax.html %}
 {% endif %}

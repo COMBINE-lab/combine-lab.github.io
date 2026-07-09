@@ -33,7 +33,25 @@
       localStorage.setItem(KEY, theme);
     } catch (e) {}
     syncButton();
+    syncGiscus();
   }
+
+  // Keep the giscus comments iframe (if present on the page) in sync with the
+  // site theme. No-op on pages without comments.
+  function syncGiscus() {
+    var frame = document.querySelector("iframe.giscus-frame");
+    if (!frame || !frame.contentWindow) return;
+    frame.contentWindow.postMessage(
+      { giscus: { setConfig: { theme: effective() } } },
+      "https://giscus.app"
+    );
+  }
+
+  // giscus posts a message once its iframe is ready; sync our theme to it then.
+  window.addEventListener("message", function (e) {
+    if (e.origin !== "https://giscus.app") return;
+    if (e.data && e.data.giscus) syncGiscus();
+  });
 
   // Toggle on click (event delegation so it works no matter when this runs).
   document.addEventListener("click", function (e) {

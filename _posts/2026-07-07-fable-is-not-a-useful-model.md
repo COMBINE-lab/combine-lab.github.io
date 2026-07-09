@@ -3,6 +3,7 @@ title: 'Fable is not a useful model'
 author: Rob Patro
 member: rob-p
 math: true
+comments: true
 category: blog
 ---
 

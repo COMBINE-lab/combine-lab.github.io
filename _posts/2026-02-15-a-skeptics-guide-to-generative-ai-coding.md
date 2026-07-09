@@ -2,6 +2,7 @@
 title: 'The skeptic’s guide to generative AI assisted coding'
 author: Rob Patro
 member: rob-p
+comments: true
 category: blog
 ---
 

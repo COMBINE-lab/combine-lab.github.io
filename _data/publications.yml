@@ -49,8 +49,8 @@
   venue: Bioinformatics
   year: 2026
   date: '2026-04-15'
-  type: preprint
-  is_preprint: true
+  type: article
+  is_preprint: false
   doi: https://doi.org/10.1093/bioinformatics/btag184
   link: https://doi.org/10.1093/bioinformatics/btag184
   is_oa: true
@@ -139,8 +139,8 @@
   venue: Genome Research
   year: 2025
   date: '2025-08-21'
-  type: article
-  is_preprint: false
+  type: preprint
+  is_preprint: true
   doi: https://doi.org/10.1101/gr.279981.124
   link: https://doi.org/10.1101/gr.279981.124
   is_oa: true
@@ -179,28 +179,6 @@
   link: https://doi.org/10.1093/bioinformatics/btaf234
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/41/Supplement_1/i237/63745515/btaf234.pdf
-- id: W4410808321
-  title: 'DeepSeal: Empowering clinical researchers to analyze clinicogenomic data
-    with an intuitive chat-based interface.'
-  authors:
-  - Gaurav Sharma
-  - Shawn Baker
-  - Guillaume Marçais
-  - Eric Schultz
-  - Roby Thomas
-  - Thom Gulish
-  - Rob Patro
-  - Carl Kingsford
-  num_authors: 8
-  venue: Journal of Clinical Oncology
-  year: 2025
-  date: '2025-05-28'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1200/jco.2025.43.16_suppl.1562
-  link: https://doi.org/10.1200/jco.2025.43.16_suppl.1562
-  is_oa: false
-  oa_url: null
 - id: W4410549838
   title: 'Kaminari: a resource-frugal index for approximate colored <i>k</i> -mer
     queries'
@@ -608,22 +586,6 @@
   link: https://doi.org/10.1186/s13015-024-00251-9
   is_oa: true
   oa_url: https://almob.biomedcentral.com/counter/pdf/10.1186/s13015-024-00251-9
-- id: W4396966041
-  title: Meta-colored Compacted de Bruijn Graphs
-  authors:
-  - Giulio Ermanno Pibiri
-  - Jason Fan
-  - Rob Patro
-  num_authors: 3
-  venue: Lecture notes in computer science
-  year: 2024
-  date: '2024-01-01'
-  type: book-chapter
-  is_preprint: false
-  doi: https://doi.org/10.1007/978-1-0716-3989-4_9
-  link: https://doi.org/10.1007/978-1-0716-3989-4_9
-  is_oa: true
-  oa_url: https://iris.unive.it/bitstream/10278/5060402/1/RECOMB2024.pdf
 - id: W4390188350
   title: Tree-based differential testing using inferential uncertainty for RNA-Seq
   authors:
@@ -794,27 +756,6 @@
   link: https://doi.org/10.5281/zenodo.7807370
   is_oa: true
   oa_url: https://zenodo.org/record/7807370
-- id: W4362541217
-  title: 'Abstract 1400: Novel expression biomarkers via prediction of response to
-    FOLFIRINOX (FFX) treatment for PDAC'
-  authors:
-  - Hossein Asghari
-  - Ehsan Haghshenas
-  - Roby Thomas
-  - Eric T. Schultz
-  - Rob Patro
-  - Stan Skrzypczak
-  - Carl Kingsford
-  num_authors: 7
-  venue: Cancer Research
-  year: 2023
-  date: '2023-04-04'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1158/1538-7445.am2023-1400
-  link: https://doi.org/10.1158/1538-7445.am2023-1400
-  is_oa: false
-  oa_url: null
 - id: W4362521490
   title: Best practices for single-cell analysis across modalities
   authors:
@@ -864,7 +805,7 @@
   venue: Nature Reviews Genetics
   year: 2023
   date: '2023-03-31'
-  type: review
+  type: article
   is_preprint: false
   doi: https://doi.org/10.1038/s41576-023-00586-w
   link: https://doi.org/10.1038/s41576-023-00586-w
@@ -903,23 +844,6 @@
   link: https://doi.org/10.1101/2023.01.04.522742
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/01/04/2023.01.04.522742.full.pdf
-- id: W4362499537
-  title: Spectrum Preserving Tilings Enable Sparse and Modular Reference Indexing
-  authors:
-  - Jason Fan
-  - Jamshed Khan
-  - Giulio Ermanno Pibiri
-  - Rob Patro
-  num_authors: 4
-  venue: Lecture notes in computer science
-  year: 2023
-  date: '2023-01-01'
-  type: book-chapter
-  is_preprint: false
-  doi: https://doi.org/10.1007/978-3-031-29119-7_2
-  link: https://doi.org/10.1007/978-3-031-29119-7_2
-  is_oa: true
-  oa_url: https://link.springer.com/content/pdf/10.1007/978-3-031-29119-7_2.pdf
 - id: W4308274721
   title: TreeTerminus - Creating transcript trees using inferential replicate counts
   authors:
@@ -993,30 +917,6 @@
   link: https://doi.org/10.1101/2022.08.12.503785
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2022/08/13/2022.08.12.503785.full.pdf
-- id: W4282940386
-  title: 'Abstract 3048: CSI-Microbes: Identifying cell-type specific intracellular
-    microbes from single-cell RNA-seq data'
-  authors:
-  - Welles Robinson
-  - Fiorella Schischlik
-  - E. Michael Gertz
-  - Joo Sang Lee
-  - Kaiyuan Zhu
-  - S. Cenk Şahinalp
-  - Rob Patro
-  - Mark D.M. Leiserson
-  - Alejandro A. Schäffer
-  - Eytan Ruppin
-  num_authors: 10
-  venue: Cancer Research
-  year: 2022
-  date: '2022-06-15'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1158/1538-7445.am2022-3048
-  link: https://doi.org/10.1158/1538-7445.am2022-3048
-  is_oa: false
-  oa_url: null
 - id: W4226049963
   title: 'Airpart: interpretable statistical models for analyzing allelic imbalance
     in single-cell datasets'
@@ -1116,6 +1016,27 @@
   link: https://doi.org/10.1186/s13059-022-02610-4
   is_oa: true
   oa_url: https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-022-02610-4
+- id: W4394235120
+  title: 'Additional file 4 of AGAMEMNON: an Accurate metaGenomics And MEtatranscriptoMics
+    quaNtificatiON analysis suite'
+  authors:
+  - Giorgos Skoufos
+  - Fatemeh Almodaresi
+  - Mohsen Zakeri
+  - Joseph N. Paulson
+  - Rob Patro
+  - Artemis G. Hatzigeorgiou
+  - Ioannis S. Vlachos
+  num_authors: 7
+  venue: Open MIND
+  year: 2022
+  date: '2022-01-01'
+  type: article
+  is_preprint: false
+  doi: https://doi.org/10.6084/m9.figshare.19101855
+  link: https://doi.org/10.6084/m9.figshare.19101855
+  is_oa: true
+  oa_url: null
 - id: W4200621355
   title: Scalable, ultra-fast, and low-memory construction of compacted de Bruijn
     graphs with Cuttlefish 2
@@ -1134,21 +1055,6 @@
   link: https://doi.org/10.1101/2021.12.14.472718
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2022/06/19/2021.12.14.472718.full.pdf
-- id: W3214340485
-  title: Salmon sci-RNA-seq3 tutorial
-  authors:
-  - Gaurav Sharma
-  - Rob Patro
-  num_authors: 2
-  venue: Zenodo (CERN European Organization for Nuclear Research)
-  year: 2021
-  date: '2021-11-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5281/zenodo.5659287
-  link: https://doi.org/10.5281/zenodo.5659287
-  is_oa: true
-  oa_url: https://zenodo.org/record/5659287
 - id: W3206685126
   title: '<i>Airpart</i> : Interpretable statistical models for analyzing allelic
     imbalance in single-cell datasets'
@@ -1361,7 +1267,7 @@
   venue: iScience
   year: 2020
   date: '2020-12-18'
-  type: review
+  type: article
   is_preprint: false
   doi: https://doi.org/10.1016/j.isci.2020.101956
   link: https://doi.org/10.1016/j.isci.2020.101956
@@ -1477,27 +1383,6 @@
   link: https://doi.org/10.1093/bioinformatics/btaa448
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/36/Supplement_1/i102/33488903/btaa448.pdf
-- id: W3031562504
-  title: Novel target discovery in pembrolizumab-resistant gastric cancer using a
-    comprehensive RNA-seq analysis pipeline.
-  authors:
-  - Jeeyun Lee
-  - Seung Tae Kim
-  - Kyoung‐Mee Kim
-  - Eric Schultz
-  - Stan Skrzypczak
-  - Rob Patro
-  - Carl Kingsford
-  num_authors: 7
-  venue: Journal of Clinical Oncology
-  year: 2020
-  date: '2020-05-20'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1200/jco.2020.38.15_suppl.e16541
-  link: https://doi.org/10.1200/jco.2020.38.15_suppl.e16541
-  is_oa: false
-  oa_url: null
 - id: W3163661043
   title: scRNA-seq analysis of colon and esophageal tumors uncovers abundant microbial
     reads in myeloid cells undergoing proinflammatory transcriptional alterations
@@ -1624,43 +1509,6 @@
   link: https://doi.org/10.1371/journal.pcbi.1007664
   is_oa: true
   oa_url: https://doi.org/10.1371/journal.pcbi.1007664
-- id: W3214103635
-  title: Accurate, efficient, and uncertainty-aware expression quantification of single-cell
-    RNA-seq data
-  authors:
-  - Hirak Sarkar
-  - Avi Srivastava
-  - Mohsen Zakeri
-  - Scott Van Buren
-  - Naim U. Rashid
-  - Michael I. Love
-  - Rob Patro
-  num_authors: 7
-  venue: Figshare
-  year: 2020
-  date: '2020-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.6084/m9.figshare.13198100.v1
-  link: https://doi.org/10.6084/m9.figshare.13198100.v1
-  is_oa: true
-  oa_url: https://figshare.com/articles/poster/Accurate_efficient_and_uncertainty-aware_expression_quantification_of_single-cell_RNA-seq_data/13198100
-- id: W3112839801
-  title: Interpretable deep learning algorithms for prokaryotic genome annotation
-  authors:
-  - Hirak Sarkar
-  - Rob Patro
-  - Mohammad Ruhul Amin
-  num_authors: 3
-  venue: Faculty of 1000 Research Ltd
-  year: 2020
-  date: '2020-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.7490/f1000research.1118384.1
-  link: https://doi.org/10.7490/f1000research.1118384.1
-  is_oa: true
-  oa_url: https://doi.org/10.7490/f1000research.1118384.1
 - id: W4416632515
   title: 'Referee report. For: GFF Utilities: GffRead and GffCompare [version 1; peer
     review: 3 approved]'
@@ -1676,25 +1524,6 @@
   link: https://doi.org/10.5256/f1000research.25718.r62867
   is_oa: true
   oa_url: https://doi.org/10.5256/f1000research.25718.r62867
-- id: W2982028198
-  title: Estimation of Indoor Air Pollution Levels in the Upper Himalaya
-  authors:
-  - Anita Chaturvedi
-  - Paurav Mehta
-  - E Abba
-  - Priya Ranjan
-  - A. K. Verma
-  - Rob Patro
-  num_authors: 6
-  venue: Environmental Epidemiology
-  year: 2019
-  date: '2019-10-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1097/01.ee9.0000605596.49566.dc
-  link: https://doi.org/10.1097/01.ee9.0000605596.49566.dc
-  is_oa: true
-  oa_url: https://doi.org/10.1097/01.ee9.0000605596.49566.dc
 - id: W2976412391
   title: 'Tximeta: reference sequence checksums for provenance identification in RNA-seq'
   authors:
@@ -1867,25 +1696,6 @@
   link: https://doi.org/10.26508/lsa.201800175
   is_oa: true
   oa_url: https://www.life-science-alliance.org/content/lsa/2/1/e201800175.full.pdf
-- id: W2951550973
-  title: An Efficient, Scalable and Exact Representation of High-Dimensional Color
-    Information Enabled via de Bruijn Graph Search
-  authors:
-  - Fatemeh Almodaresi
-  - Prashant Pandey
-  - Michael Ferdman
-  - Rob Johnson
-  - Rob Patro
-  num_authors: 5
-  venue: Lecture notes in computer science
-  year: 2019
-  date: '2019-01-01'
-  type: book-chapter
-  is_preprint: false
-  doi: https://doi.org/10.1007/978-3-030-17083-7_1
-  link: https://doi.org/10.1007/978-3-030-17083-7_1
-  is_oa: false
-  oa_url: null
 - id: W4244001588
   title: 'RNA sequencing data: hitchhiker''s guide to expression analysis'
   authors:
@@ -1979,8 +1789,8 @@
   venue: F1000Research
   year: 2018
   date: '2018-10-01'
-  type: preprint
-  is_preprint: true
+  type: article
+  is_preprint: false
   doi: https://doi.org/10.12688/f1000research.15398.3
   link: https://doi.org/10.12688/f1000research.15398.3
   is_oa: true
@@ -1996,8 +1806,8 @@
   venue: F1000Research
   year: 2018
   date: '2018-09-14'
-  type: preprint
-  is_preprint: true
+  type: article
+  is_preprint: false
   doi: https://doi.org/10.12688/f1000research.15398.2
   link: https://doi.org/10.12688/f1000research.15398.2
   is_oa: true
@@ -2021,23 +1831,6 @@
   link: https://doi.org/10.1038/s41398-018-0223-6
   is_oa: true
   oa_url: https://www.nature.com/articles/s41398-018-0223-6.pdf
-- id: W2888433179
-  title: Towards Selective-Alignment
-  authors:
-  - Hirak Sarkar
-  - Mohsen Zakeri
-  - Laraib Malik
-  - Rob Patro
-  num_authors: 4
-  venue: null
-  year: 2018
-  date: '2018-08-15'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1145/3233547.3233589
-  link: https://doi.org/10.1145/3233547.3233589
-  is_oa: true
-  oa_url: https://dl.acm.org/doi/pdf/10.1145/3233547.3233589
 - id: W2882997339
   title: A junction coverage compatibility score to quantify the reliability of transcript
     abundance estimates and annotation catalogs
@@ -2069,8 +1862,8 @@
   venue: Research Showcase @ Carnegie Mellon University (Carnegie Mellon University)
   year: 2018
   date: '2018-06-30'
-  type: preprint
-  is_preprint: true
+  type: article
+  is_preprint: false
   doi: https://doi.org/10.1184/r1/6702233
   link: https://doi.org/10.1184/r1/6702233
   is_oa: true
@@ -2101,8 +1894,8 @@
   venue: F1000Research
   year: 2018
   date: '2018-06-27'
-  type: preprint
-  is_preprint: true
+  type: article
+  is_preprint: false
   doi: https://doi.org/10.12688/f1000research.15398.1
   link: https://doi.org/10.12688/f1000research.15398.1
   is_oa: true
@@ -2194,26 +1987,6 @@
   link: https://doi.org/10.1093/bioinformatics/bty292
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/34/13/i169/25098250/bty292.pdf
-- id: W3208500216
-  title: 'Mantis: A Fast, Small, And Exact Large-Scale Sequence-Search Index - Experiment
-    List'
-  authors:
-  - Prashant Pandey
-  - Fatemeh Almodaresi
-  - Michael A. Bender
-  - Michael Ferdman
-  - Rob Johnson
-  - Rob Patro
-  num_authors: 6
-  venue: Figshare
-  year: 2018
-  date: '2018-02-28'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5281/zenodo.1186393
-  link: https://doi.org/10.5281/zenodo.1186393
-  is_oa: true
-  oa_url: null
 - id: W4416629351
   title: 'Referee report. For: False positives in trans-eQTL and co-expression analyses
     arising from RNA-sequencing alignment errors [version 1; referees: 2 approved]'
@@ -2395,21 +2168,6 @@
   link: https://doi.org/10.1101/191874
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2017/09/21/191874.full.pdf
-- id: W2950624188
-  title: Rich Chromatin Structure Prediction from Hi-C Data
-  authors:
-  - Laraib Malik
-  - Rob Patro
-  num_authors: 2
-  venue: null
-  year: 2017
-  date: '2017-08-20'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1145/3107411.3107448
-  link: https://doi.org/10.1145/3107411.3107448
-  is_oa: false
-  oa_url: null
 - id: W2949279665
   title: Quark enables semi-reference-based compression of RNA-seq data
   authors:
@@ -2441,23 +2199,6 @@
   link: https://doi.org/10.1101/138016
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2017/05/15/138016.full.pdf
-- id: W2612838847
-  title: A General-Purpose Counting Filter
-  authors:
-  - Prashant Pandey
-  - Michael A. Bender
-  - Rob Johnson
-  - Rob Patro
-  num_authors: 4
-  venue: null
-  year: 2017
-  date: '2017-05-09'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1145/3035918.3035963
-  link: https://doi.org/10.1145/3035918.3035963
-  is_oa: true
-  oa_url: http://dl.acm.org/ft_gateway.cfm?id=3035963&type=pdf
 - id: W2735897904
   title: 'deBGR: an efficient and near-exact representation of the weighted de Bruijn
     graph'
@@ -2544,23 +2285,6 @@
   link: https://doi.org/10.4230/lipics.wabi.2017.18
   is_oa: true
   oa_url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.WABI.2017.18
-- id: W2756186577
-  title: 'deBGR: An efficient and exact representation of the weighted de Bruijn graph'
-  authors:
-  - Prashant Pandey
-  - Michael A. Bender
-  - Rob Johnson
-  - Rob Patro
-  num_authors: 4
-  venue: Faculty of 1000 Research Ltd
-  year: 2017
-  date: '2017-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.7490/f1000research.1114777.1
-  link: https://doi.org/10.7490/f1000research.1114777.1
-  is_oa: true
-  oa_url: https://doi.org/10.7490/f1000research.1114777.1
 - id: W2558037044
   title: Graph regularized, semi-supervised learning improves annotation of <i>de
     novo</i> transcriptomes
@@ -2624,8 +2348,8 @@
   venue: Genome Research
   year: 2016
   date: '2016-06-01'
-  type: article
-  is_preprint: false
+  type: preprint
+  is_preprint: true
   doi: https://doi.org/10.1101/gr.196469.115
   link: https://doi.org/10.1101/gr.196469.115
   is_oa: true
@@ -2694,21 +2418,6 @@
   link: https://doi.org/10.1186/s12859-016-1008-7
   is_oa: true
   oa_url: https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-016-1008-7
-- id: W2278663426
-  title: 'piquant: piquant version 1.1.2'
-  authors:
-  - Owen Dando
-  - Rob Patro
-  num_authors: 2
-  venue: Zenodo (CERN European Organization for Nuclear Research)
-  year: 2016
-  date: '2016-01-19'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5281/zenodo.44993
-  link: https://doi.org/10.5281/zenodo.44993
-  is_oa: true
-  oa_url: https://zenodo.org/record/44993
 - id: W4416783868
   title: 'Referee report. For: Differential analyses for RNA-seq: transcript-level
     estimates improve gene-level inferences [version 1; referees: 2 approved]'
@@ -2898,21 +2607,6 @@
   link: https://doi.org/10.1111/nph.13545
   is_oa: true
   oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/nph.13545
-- id: W2917941862
-  title: 'piquant: piquant version 1.1.1'
-  authors:
-  - Owen Dando
-  - Rob Patro
-  num_authors: 2
-  venue: Zenodo (CERN European Organization for Nuclear Research)
-  year: 2015
-  date: '2015-06-08'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5281/zenodo.18376
-  link: https://doi.org/10.5281/zenodo.18376
-  is_oa: true
-  oa_url: https://zenodo.org/record/18376
 - id: W1775358371
   title: 'Not-quite alignments: Salmon, Kallisto and Efficient Quantification of RNA-Seq
     data'
@@ -2959,28 +2653,6 @@
   link: https://doi.org/10.1093/bioinformatics/btv071
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/31/12/1920/17100184/btv071.pdf
-- id: W2241607186
-  title: Optimizing Read Reversals for Sequence Compression
-  authors:
-  - Zhong Sichen
-  - Lu Zhao
-  - Yan Liang
-  - Mohammadzaman Zamani
-  - Rob Patro
-  - Rezaul Chowdhury
-  - Esther M. Arkin
-  - Joseph S. B. Mitchell
-  - Steven Skiena
-  num_authors: 9
-  venue: Lecture notes in computer science
-  year: 2015
-  date: '2015-01-01'
-  type: book-chapter
-  is_preprint: false
-  doi: https://doi.org/10.1007/978-3-662-48221-6_14
-  link: https://doi.org/10.1007/978-3-662-48221-6_14
-  is_oa: false
-  oa_url: null
 - id: W4416625343
   title: 'Referee report. For: The khmer software package: enabling efficient nucleotide
     sequence analysis [version 1; referees: 2 approved, 1 approved with reservations]'
@@ -2996,28 +2668,6 @@
   link: https://doi.org/10.5256/f1000research.7456.r10508
   is_oa: true
   oa_url: https://doi.org/10.5256/f1000research.7456.r10508
-- id: W2403028947
-  title: Optimizing Read Reversals for Sequence Compression - (Extended Abstract).
-  authors:
-  - Zhong Sichen
-  - Lu Zhao
-  - Yan Liang
-  - Mohammadzaman Zamani
-  - Robert Patro
-  - Rezaul Chowdhury
-  - Esther M. Arkin
-  - Joseph S. B. Mitchell
-  - Steven Skiena
-  num_authors: 9
-  venue: Workshop on Algorithms in Bioinformatics
-  year: 2015
-  date: '2015-01-01'
-  type: article
-  is_preprint: false
-  doi: null
-  link: https://openalex.org/W2403028947
-  is_oa: false
-  oa_url: null
 - id: W2172512721
   title: Compression of short-read sequences using path encoding
   authors:
@@ -3085,26 +2735,6 @@
   link: https://doi.org/10.1186/1748-7188-9-14
   is_oa: true
   oa_url: https://almob.biomedcentral.com/counter/pdf/10.1186/1748-7188-9-14
-- id: W2045259457
-  title: Topological properties of chromosome conformation graphs reflect spatial
-    proximities within chromatin
-  authors:
-  - Hao Wang
-  - Geet Duggal
-  - Rob Patro
-  - Michelle Girvan
-  - Sridhar Hannenhalli
-  - Carl Kingsford
-  num_authors: 6
-  venue: null
-  year: 2013
-  date: '2013-09-22'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1145/2506583.2506633
-  link: https://doi.org/10.1145/2506583.2506633
-  is_oa: true
-  oa_url: https://dl.acm.org/doi/pdf/10.1145/2506583.2506633
 - id: W2951769500
   title: Multiscale Identification of Topological Domains in Chromatin
   authors:
@@ -3157,23 +2787,6 @@
   link: https://doi.org/10.1186/1748-7188-8-8
   is_oa: true
   oa_url: https://almob.biomedcentral.com/counter/pdf/10.1186/1748-7188-8-8
-- id: W128439093
-  title: Multiscale Identification of Topological Domains in Chromatin
-  authors:
-  - Darya Filippova
-  - Rob Patro
-  - Geet Duggal
-  - Carl Kingsford
-  num_authors: 4
-  venue: Lecture notes in computer science
-  year: 2013
-  date: '2013-01-01'
-  type: book-chapter
-  is_preprint: false
-  doi: https://doi.org/10.1007/978-3-642-40453-5_23
-  link: https://doi.org/10.1007/978-3-642-40453-5_23
-  is_oa: false
-  oa_url: null
 - id: W2149037310
   title: Global network alignment using multiscale spectral signatures
   authors:
@@ -3208,25 +2821,6 @@
   link: https://doi.org/10.1186/1748-7188-7-25
   is_oa: true
   oa_url: https://almob.biomedcentral.com/counter/pdf/10.1186/1748-7188-7-25
-- id: W1986584632
-  title: The missing models
-  authors:
-  - Robert Patro
-  - Geet Duggal
-  - Emre Sefer
-  - Hao Wang
-  - Darya Filippova
-  - Carl Kingsford
-  num_authors: 6
-  venue: null
-  year: 2012
-  date: '2012-08-12'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1145/2339530.2339541
-  link: https://doi.org/10.1145/2339530.2339541
-  is_oa: false
-  oa_url: null
 - id: W2005759834
   title: Speeding Up Particle Trajectory Simulations Under Moving Force Fields using
     Graphic Processing Units
@@ -3246,26 +2840,6 @@
   link: https://doi.org/10.1115/1.4005718
   is_oa: false
   oa_url: null
-- id: W1838454475
-  title: Resolving Spatial Inconsistencies in Chromosome Conformation Data
-  authors:
-  - Geet Duggal
-  - Rob Patro
-  - Emre Sefer
-  - Hao Wang
-  - Darya Filippova
-  - Samir Khuller
-  - Carl Kingsford
-  num_authors: 7
-  venue: Lecture notes in computer science
-  year: 2012
-  date: '2012-01-01'
-  type: book-chapter
-  is_preprint: false
-  doi: https://doi.org/10.1007/978-3-642-33122-0_23
-  link: https://doi.org/10.1007/978-3-642-33122-0_23
-  is_oa: false
-  oa_url: null
 - id: W2182148792
   title: 'Title of dissertation: COMPUTATIONALLY COMPARING BIOLOGICAL NETWORKS AND
     RECONSTRUCTING THEIR EVOLUTION'
@@ -3280,26 +2854,6 @@
   is_preprint: false
   doi: null
   link: https://openalex.org/W2182148792
-  is_oa: false
-  oa_url: null
-- id: W2032110373
-  title: 'MDMap: A system for data-driven layout and exploration of molecular dynamics
-    simulations'
-  authors:
-  - Robert Patro
-  - Cheuk Yiu Ip
-  - Sujal Bista
-  - D. Thirumalai
-  - Samuel S. Cho
-  - Amitabh Varshney
-  num_authors: 6
-  venue: null
-  year: 2011
-  date: '2011-10-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1109/biovis.2011.6094055
-  link: https://doi.org/10.1109/biovis.2011.6094055
   is_oa: false
   oa_url: null
 - id: W2053263805
@@ -3318,25 +2872,6 @@
   is_preprint: false
   doi: https://doi.org/10.1016/j.gmod.2011.05.002
   link: https://doi.org/10.1016/j.gmod.2011.05.002
-  is_oa: false
-  oa_url: null
-- id: W2177569465
-  title: Parsimonious Reconstruction of Network Evolution
-  authors:
-  - Rob Patro
-  - Emre Sefer
-  - Justin Malin
-  - Guillaume Marçais
-  - Saket Navlakha
-  - Carl Kingsford
-  num_authors: 6
-  venue: Lecture notes in computer science
-  year: 2011
-  date: '2011-01-01'
-  type: book-chapter
-  is_preprint: false
-  doi: https://doi.org/10.1007/978-3-642-23038-7_21
-  link: https://doi.org/10.1007/978-3-642-23038-7_21
   is_oa: false
   oa_url: null
 - id: W2599515709
@@ -3370,7 +2905,7 @@
   venue: DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)
   year: 2011
   date: '2011-01-01'
-  type: article
+  type: book-chapter
   is_preprint: false
   doi: https://doi.org/10.4230/dfu.vol2.sciviz.2011.160
   link: https://doi.org/10.4230/dfu.vol2.sciviz.2011.160
@@ -3403,7 +2938,7 @@
   venue: Leibniz-Zentrum für Informatik (Schloss Dagstuhl)
   year: 2010
   date: '2010-01-01'
-  type: article
+  type: book-chapter
   is_preprint: false
   doi: https://doi.org/10.4230/dfu.sciviz.2010.321
   link: https://doi.org/10.4230/dfu.sciviz.2010.321

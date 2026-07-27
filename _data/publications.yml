@@ -844,6 +844,29 @@
   link: https://doi.org/10.1101/2023.01.04.522742
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/01/04/2023.01.04.522742.full.pdf
+- id: W6911135087
+  title: 'DifferentialRegulation: a Bayesian hierarchical approach to identify differentially
+    regulated genes'
+  authors:
+  - Simone Tiberi
+  - Joël Meili
+  - Peiying Cai
+  - Charlotte Soneson
+  - Dongze He
+  - Hirak Sarkar
+  - Alejandra Avalos‐Pacheco
+  - Rob Patro
+  - Mark D. Robinson
+  num_authors: 9
+  venue: Open MIND
+  year: 2023
+  date: '2023-01-01'
+  type: article
+  is_preprint: false
+  doi: null
+  link: https://openalex.org/W6911135087
+  is_oa: false
+  oa_url: null
 - id: W4308274721
   title: TreeTerminus - Creating transcript trees using inferential replicate counts
   authors:
@@ -1696,6 +1719,27 @@
   link: https://doi.org/10.26508/lsa.201800175
   is_oa: true
   oa_url: https://www.life-science-alliance.org/content/lsa/2/1/e201800175.full.pdf
+- id: W6892310611
+  title: 'RNA Sequencing Data: Hitchhiker''s Guide to Expression Analysis'
+  authors:
+  - Koen Van den Berge
+  - Katharina Hembach
+  - Charlotte Soneson
+  - Simone Tiberi
+  - Lieven Clement
+  - Michael I. Love
+  - Rob Patro
+  - Mark D. Robinson
+  num_authors: 8
+  venue: Open MIND
+  year: 2019
+  date: '2019-01-01'
+  type: article
+  is_preprint: false
+  doi: null
+  link: https://openalex.org/W6892310611
+  is_oa: false
+  oa_url: null
 - id: W4244001588
   title: 'RNA sequencing data: hitchhiker''s guide to expression analysis'
   authors:

@@ -26,6 +26,11 @@ Software and research infrastructure from COMBINE-lab and close collaborators.
 
 {% include resource-list.html category="Single-cell" compact=true %}
 
+## Read processing
+{:.card_search_hide}
+
+{% include resource-list.html category="Read processing" compact=true %}
+
 ## Sequence indexing
 {:.card_search_hide}
 

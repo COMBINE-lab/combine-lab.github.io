@@ -14,6 +14,15 @@
 # image: Optional local image.
 # description: Human-edited summary. Overrides GitHub description.
 
+- repo: COMBINE-lab/seqproc
+  title: seqproc
+  category: Read processing
+  ready: true
+  featured: true
+  status: active
+  priority: 1
+  description: A fast, memory-efficient sequence preprocessing tool with a concise grammar for describing read geometry, matching, and transformations.
+
 - repo: COMBINE-lab/piscem-infer
   category: Transcriptomics
   ready: true

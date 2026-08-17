@@ -1164,27 +1164,6 @@
   link: https://doi.org/10.1186/s13059-022-02610-4
   is_oa: true
   oa_url: https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-022-02610-4
-- id: W4394235120
-  title: 'Additional file 4 of AGAMEMNON: an Accurate metaGenomics And MEtatranscriptoMics
-    quaNtificatiON analysis suite'
-  authors:
-  - Giorgos Skoufos
-  - Fatemeh Almodaresi
-  - Mohsen Zakeri
-  - Joseph N. Paulson
-  - Rob Patro
-  - Artemis G. Hatzigeorgiou
-  - Ioannis S. Vlachos
-  num_authors: 7
-  venue: Open MIND
-  year: 2022
-  date: '2022-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.6084/m9.figshare.19101855
-  link: https://doi.org/10.6084/m9.figshare.19101855
-  is_oa: true
-  oa_url: null
 - id: W4200621355
   title: Scalable, ultra-fast, and low-memory construction of compacted de Bruijn
     graphs with Cuttlefish 2
@@ -1657,21 +1636,6 @@
   link: https://doi.org/10.1371/journal.pcbi.1007664
   is_oa: true
   oa_url: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007664&type=printable
-- id: W4416632515
-  title: 'Referee report. For: GFF Utilities: GffRead and GffCompare [version 1; peer
-    review: 3 approved]'
-  authors:
-  - Rob Patro
-  num_authors: 1
-  venue: Faculty of 1000 Research Ltd
-  year: 2020
-  date: '2020-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5256/f1000research.25718.r62867
-  link: https://doi.org/10.5256/f1000research.25718.r62867
-  is_oa: true
-  oa_url: https://doi.org/10.5256/f1000research.25718.r62867
 - id: W2976412391
   title: 'Tximeta: reference sequence checksums for provenance identification in RNA-seq'
   authors:
@@ -1770,7 +1734,7 @@
   doi: https://doi.org/10.1146/annurev-biodatasci-072018-021255
   link: https://doi.org/10.1146/annurev-biodatasci-072018-021255
   is_oa: true
-  oa_url: null
+  oa_url: https://www.zora.uzh.ch/id/eprint/181231/1/Ann_Rev_Biomed_Data_Science_-_RNA_sequencing_data__hitchhiker_s__guide_to_expression_analysis.pdf
 - id: W2937044610
   title: Sketching and Sublinear Data Structures in Genomics
   authors:
@@ -2036,7 +2000,7 @@
   doi: https://doi.org/10.1184/r1/6702233
   link: https://doi.org/10.1184/r1/6702233
   is_oa: true
-  oa_url: null
+  oa_url: https://figshare.com/articles/Salmon_Accurate_Versatile_and_Ultrafast_Quantification_from_RNA-seq_Data_using_Lightweight-Alignment/6702233
 - id: W2811431585
   title: Rich Chromatin Structure Prediction from Hi-C Data
   authors:
@@ -2156,21 +2120,6 @@
   link: https://doi.org/10.1093/bioinformatics/bty292
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/34/13/i169/25098250/bty292.pdf
-- id: W4416629351
-  title: 'Referee report. For: False positives in trans-eQTL and co-expression analyses
-    arising from RNA-sequencing alignment errors [version 1; referees: 2 approved]'
-  authors:
-  - Rob Patro
-  num_authors: 1
-  venue: Faculty of 1000 Research Ltd
-  year: 2018
-  date: '2018-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5256/f1000research.18744.r41237
-  link: https://doi.org/10.5256/f1000research.18744.r41237
-  is_oa: true
-  oa_url: https://doi.org/10.5256/f1000research.18744.r41237
 - id: W2767824349
   title: 'Mantis: A Fast, Small, and Exact Large-Scale Sequence-Search Index'
   authors:
@@ -2437,7 +2386,7 @@
   doi: https://doi.org/10.1038/nmeth.4197
   link: https://doi.org/10.1038/nmeth.4197
   is_oa: true
-  oa_url: http://nrs.harvard.edu/urn-3:HUL.InstRepos:34491813
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/5600148
 - id: W2950792513
   title: 'Rainbowfish: A Succinct Colored de Bruijn Graph Representation'
   authors:
@@ -2587,21 +2536,6 @@
   link: https://doi.org/10.1186/s12859-016-1008-7
   is_oa: true
   oa_url: https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-016-1008-7
-- id: W4416783868
-  title: 'Referee report. For: Differential analyses for RNA-seq: transcript-level
-    estimates improve gene-level inferences [version 1; referees: 2 approved]'
-  authors:
-  - Rob Patro
-  num_authors: 1
-  venue: Faculty of 1000 Research Ltd
-  year: 2016
-  date: '2016-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5256/f1000research.8143.r11745
-  link: https://doi.org/10.5256/f1000research.8143.r11745
-  is_oa: true
-  oa_url: https://doi.org/10.5256/f1000research.8143.r11745
 - id: W7136282804
   title: Additional file 5 of A computational method for designing diverse linear
     epitopes including citrullinated peptides with desired binding affinities to intravenous
@@ -2822,21 +2756,6 @@
   link: https://doi.org/10.1093/bioinformatics/btv071
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/31/12/1920/17100184/btv071.pdf
-- id: W4416625343
-  title: 'Referee report. For: The khmer software package: enabling efficient nucleotide
-    sequence analysis [version 1; referees: 2 approved, 1 approved with reservations]'
-  authors:
-  - Rob Patro
-  num_authors: 1
-  venue: Faculty of 1000 Research Ltd
-  year: 2015
-  date: '2015-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5256/f1000research.7456.r10508
-  link: https://doi.org/10.5256/f1000research.7456.r10508
-  is_oa: true
-  oa_url: https://doi.org/10.5256/f1000research.7456.r10508
 - id: W2172512721
   title: Compression of short-read sequences using path encoding
   authors:

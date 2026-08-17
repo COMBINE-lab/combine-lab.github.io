@@ -1,6 +1,6 @@
 {% comment %}
-Candidate 2: the strand paths and base-pair endpoints share the same phase
-points, so the nucleotides remain attached during the 3D Y-axis projection.
+Candidate 2: native SVG path animations keep the strand and base-pair
+endpoints synchronized across Chromium, Firefox, and Safari.
 {% endcomment %}
 
 <svg
@@ -54,16 +54,12 @@ points, so the nucleotides remain attached during the 3D Y-axis projection.
     }
 
     .combine_logo_strand_front {
-      animation:
-        combine_logo_front_shape 7.5s linear infinite,
-        combine_logo_front_light 7.5s linear infinite;
+      animation: combine_logo_front_light 7.5s linear infinite;
       filter: brightness(1.16) saturate(1.08);
     }
 
     .combine_logo_strand_back {
-      animation:
-        combine_logo_back_shape 7.5s linear infinite,
-        combine_logo_back_light 7.5s linear infinite;
+      animation: combine_logo_back_light 7.5s linear infinite;
       filter: brightness(0.76) saturate(0.9);
     }
 
@@ -72,7 +68,10 @@ points, so the nucleotides remain attached during the 3D Y-axis projection.
     }
 
     .combine_logo_rung {
-      animation: var(--combine-logo-rung-animation) 7.5s linear infinite;
+      fill: none;
+      stroke: url(#combine-rung-gradient);
+      stroke-linecap: round;
+      stroke-width: 3px;
       opacity: 0.92;
     }
 
@@ -202,8 +201,7 @@ points, so the nucleotides remain attached during the 3D Y-axis projection.
 
     @media (prefers-reduced-motion: reduce) {
       .combine_logo_strand_front,
-      .combine_logo_strand_back,
-      .combine_logo_rung {
+      .combine_logo_strand_back {
         animation: none;
       }
     }
@@ -229,7 +227,17 @@ points, so the nucleotides remain attached during the 3D Y-axis projection.
       stroke="url(#combine-helix-gradient)"
       stroke-linecap="round"
       stroke-width="6"
-    />
+    >
+      <animate
+        class="combine_logo_motion"
+        attributeName="d"
+        dur="7.5s"
+        repeatCount="indefinite"
+        calcMode="linear"
+        keyTimes="0;0.21;0.42;0.63;0.84;1"
+        values="M 28 13 C 27.86 13.83, 27.47 16, 27.16 18 C 26.85 20, 26.21 22.5, 26.12 25 C 26.03 27.5, 26.04 30.33, 26.6 33 C 27.16 35.67, 28.38 38.33, 29.48 41 C 30.58 43.67, 32.24 47, 33.2 49 C 34.16 51, 34.57 51.67, 35.26 53 C 35.95 54.33, 36.36 55, 37.31 57 C 38.26 59, 39.89 62.33, 40.96 65 C 42.03 67.67, 43.21 70.33, 43.73 73 C 44.25 75.67, 44.2 78.5, 44.06 81 C 43.92 83.5, 43.24 86.17, 42.9 88 C 42.56 89.83, 42.15 91.33, 42 92; M 35 13 C 35.26 13.83, 35.82 16, 36.58 18 C 37.35 20, 38.43 22.5, 39.59 25 C 40.76 27.5, 42.47 30.33, 43.57 33 C 44.68 35.67, 45.5 38.33, 46.22 41 C 46.94 43.67, 47.57 47, 47.87 49 C 48.17 51, 48.01 51.67, 48 53 C 47.99 54.33, 48.13 55, 47.79 57 C 47.46 59, 46.75 62.33, 45.99 65 C 45.23 67.67, 44.36 70.33, 43.23 73 C 42.11 75.67, 40.4 78.5, 39.24 81 C 38.08 83.5, 36.98 86.17, 36.27 88 C 35.56 89.83, 35.21 91.33, 35 92; M 42 13 C 42.14 13.83, 42.53 16, 42.84 18 C 43.15 20, 43.79 22.5, 43.88 25 C 43.97 27.5, 43.96 30.33, 43.4 33 C 42.84 35.67, 41.62 38.33, 40.52 41 C 39.42 43.67, 37.76 47, 36.8 49 C 35.84 51, 35.43 51.67, 34.74 53 C 34.06 54.33, 33.64 55, 32.69 57 C 31.74 59, 30.11 62.33, 29.04 65 C 27.97 67.67, 26.79 70.33, 26.27 73 C 25.75 75.67, 25.8 78.5, 25.94 81 C 26.08 83.5, 26.76 86.17, 27.1 88 C 27.44 89.83, 27.85 91.33, 28 92; M 35 13 C 34.74 13.83, 34.19 16, 33.42 18 C 32.66 20, 31.58 22.5, 30.41 25 C 29.25 27.5, 27.54 30.33, 26.43 33 C 25.33 35.67, 24.5 38.33, 23.78 41 C 23.06 43.67, 22.43 47, 22.13 49 C 21.83 51, 21.99 51.67, 22 53 C 22.01 54.33, 21.88 55, 22.21 57 C 22.55 59, 23.25 62.33, 24.01 65 C 24.77 67.67, 25.65 70.33, 26.77 73 C 27.9 75.67, 29.6 78.5, 30.76 81 C 31.92 83.5, 33.02 86.17, 33.73 88 C 34.44 89.83, 34.79 91.33, 35 92; M 28 13 C 27.86 13.83, 27.47 16, 27.16 18 C 26.85 20, 26.21 22.5, 26.12 25 C 26.03 27.5, 26.04 30.33, 26.6 33 C 27.16 35.67, 28.38 38.33, 29.48 41 C 30.58 43.67, 32.24 47, 33.2 49 C 34.16 51, 34.57 51.67, 35.26 53 C 35.95 54.33, 36.36 55, 37.31 57 C 38.26 59, 39.89 62.33, 40.96 65 C 42.03 67.67, 43.21 70.33, 43.73 73 C 44.25 75.67, 44.2 78.5, 44.06 81 C 43.92 83.5, 43.24 86.17, 42.9 88 C 42.56 89.83, 42.15 91.33, 42 92; M 28 13 C 27.86 13.83, 27.47 16, 27.16 18 C 26.85 20, 26.21 22.5, 26.12 25 C 26.03 27.5, 26.04 30.33, 26.6 33 C 27.16 35.67, 28.38 38.33, 29.48 41 C 30.58 43.67, 32.24 47, 33.2 49 C 34.16 51, 34.57 51.67, 35.26 53 C 35.95 54.33, 36.36 55, 37.31 57 C 38.26 59, 39.89 62.33, 40.96 65 C 42.03 67.67, 43.21 70.33, 43.73 73 C 44.25 75.67, 44.2 78.5, 44.06 81 C 43.92 83.5, 43.24 86.17, 42.9 88 C 42.56 89.83, 42.15 91.33, 42 92"
+      />
+    </path>
     <path
       class="combine_logo_strand combine_logo_strand_back"
       d="M 42 13 C 42.14 13.83, 42.53 16, 42.84 18 C 43.15 20, 43.79 22.5, 43.88 25 C 43.97 27.5, 43.96 30.33, 43.4 33 C 42.84 35.67, 41.62 38.33, 40.52 41 C 39.42 43.67, 37.76 47, 36.8 49 C 35.84 51, 35.43 51.67, 34.74 53 C 34.06 54.33, 33.64 55, 32.69 57 C 31.74 59, 30.11 62.33, 29.04 65 C 27.97 67.67, 26.79 70.33, 26.27 73 C 25.75 75.67, 25.8 78.5, 25.94 81 C 26.08 83.5, 26.76 86.17, 27.1 88 C 27.44 89.83, 27.85 91.33, 28 92"
@@ -237,7 +245,17 @@ points, so the nucleotides remain attached during the 3D Y-axis projection.
       stroke="url(#combine-helix-gradient)"
       stroke-linecap="round"
       stroke-width="6"
-    />
+    >
+      <animate
+        class="combine_logo_motion"
+        attributeName="d"
+        dur="7.5s"
+        repeatCount="indefinite"
+        calcMode="linear"
+        keyTimes="0;0.21;0.42;0.63;0.84;1"
+        values="M 42 13 C 42.14 13.83, 42.53 16, 42.84 18 C 43.15 20, 43.79 22.5, 43.88 25 C 43.97 27.5, 43.96 30.33, 43.4 33 C 42.84 35.67, 41.62 38.33, 40.52 41 C 39.42 43.67, 37.76 47, 36.8 49 C 35.84 51, 35.43 51.67, 34.74 53 C 34.06 54.33, 33.64 55, 32.69 57 C 31.74 59, 30.11 62.33, 29.04 65 C 27.97 67.67, 26.79 70.33, 26.27 73 C 25.75 75.67, 25.8 78.5, 25.94 81 C 26.08 83.5, 26.76 86.17, 27.1 88 C 27.44 89.83, 27.85 91.33, 28 92; M 35 13 C 34.74 13.83, 34.19 16, 33.42 18 C 32.66 20, 31.58 22.5, 30.41 25 C 29.25 27.5, 27.54 30.33, 26.43 33 C 25.33 35.67, 24.5 38.33, 23.78 41 C 23.06 43.67, 22.43 47, 22.13 49 C 21.83 51, 21.99 51.67, 22 53 C 22.01 54.33, 21.88 55, 22.21 57 C 22.55 59, 23.25 62.33, 24.01 65 C 24.77 67.67, 25.65 70.33, 26.77 73 C 27.9 75.67, 29.6 78.5, 30.76 81 C 31.92 83.5, 33.02 86.17, 33.73 88 C 34.44 89.83, 34.79 91.33, 35 92; M 28 13 C 27.86 13.83, 27.47 16, 27.16 18 C 26.85 20, 26.21 22.5, 26.12 25 C 26.03 27.5, 26.04 30.33, 26.6 33 C 27.16 35.67, 28.38 38.33, 29.48 41 C 30.58 43.67, 32.24 47, 33.2 49 C 34.16 51, 34.57 51.67, 35.26 53 C 35.95 54.33, 36.36 55, 37.31 57 C 38.26 59, 39.89 62.33, 40.96 65 C 42.03 67.67, 43.21 70.33, 43.73 73 C 44.25 75.67, 44.2 78.5, 44.06 81 C 43.92 83.5, 43.24 86.17, 42.9 88 C 42.56 89.83, 42.15 91.33, 42 92; M 35 13 C 35.26 13.83, 35.82 16, 36.58 18 C 37.35 20, 38.43 22.5, 39.59 25 C 40.76 27.5, 42.47 30.33, 43.57 33 C 44.68 35.67, 45.5 38.33, 46.22 41 C 46.94 43.67, 47.57 47, 47.87 49 C 48.17 51, 48.01 51.67, 48 53 C 47.99 54.33, 48.13 55, 47.79 57 C 47.46 59, 46.75 62.33, 45.99 65 C 45.23 67.67, 44.36 70.33, 43.23 73 C 42.11 75.67, 40.4 78.5, 39.24 81 C 38.08 83.5, 36.98 86.17, 36.27 88 C 35.56 89.83, 35.21 91.33, 35 92; M 42 13 C 42.14 13.83, 42.53 16, 42.84 18 C 43.15 20, 43.79 22.5, 43.88 25 C 43.97 27.5, 43.96 30.33, 43.4 33 C 42.84 35.67, 41.62 38.33, 40.52 41 C 39.42 43.67, 37.76 47, 36.8 49 C 35.84 51, 35.43 51.67, 34.74 53 C 34.06 54.33, 33.64 55, 32.69 57 C 31.74 59, 30.11 62.33, 29.04 65 C 27.97 67.67, 26.79 70.33, 26.27 73 C 25.75 75.67, 25.8 78.5, 25.94 81 C 26.08 83.5, 26.76 86.17, 27.1 88 C 27.44 89.83, 27.85 91.33, 28 92; M 42 13 C 42.14 13.83, 42.53 16, 42.84 18 C 43.15 20, 43.79 22.5, 43.88 25 C 43.97 27.5, 43.96 30.33, 43.4 33 C 42.84 35.67, 41.62 38.33, 40.52 41 C 39.42 43.67, 37.76 47, 36.8 49 C 35.84 51, 35.43 51.67, 34.74 53 C 34.06 54.33, 33.64 55, 32.69 57 C 31.74 59, 30.11 62.33, 29.04 65 C 27.97 67.67, 26.79 70.33, 26.27 73 C 25.75 75.67, 25.8 78.5, 25.94 81 C 26.08 83.5, 26.76 86.17, 27.1 88 C 27.44 89.83, 27.85 91.33, 28 92"
+      />
+    </path>
 
     <g
       class="combine_logo_rungs"
@@ -246,16 +264,57 @@ points, so the nucleotides remain attached during the 3D Y-axis projection.
       stroke-linecap="round"
       stroke-width="3"
     >
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_1_turn;" d="M 27.16 18 L 42.84 18" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_2_turn;" d="M 26.12 25 L 43.88 25" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_3_turn;" d="M 26.6 33 L 43.4 33" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_4_turn;" d="M 29.48 41 L 40.52 41" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_middle_1_turn;" d="M 33.2 49 L 36.8 49" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_middle_2_turn;" d="M 37.31 57 L 32.69 57" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_5_turn;" d="M 40.96 65 L 29.04 65" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_6_turn;" d="M 43.73 73 L 26.27 73" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_7_turn;" d="M 44.06 81 L 25.94 81" />
-      <path class="combine_logo_rung" style="--combine-logo-rung-animation: combine_logo_rung_8_turn;" d="M 42.9 88 L 27.1 88" />
+      <path class="combine_logo_rung" d="M 27.16 18 L 42.84 18">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 27.16 18 L 42.84 18; M 36.58 18 L 33.42 18; M 42.84 18 L 27.16 18; M 33.42 18 L 36.58 18; M 27.16 18 L 42.84 18; M 27.16 18 L 42.84 18" />
+      </path>
+      <path class="combine_logo_rung" d="M 26.12 25 L 43.88 25">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 26.12 25 L 43.88 25; M 39.59 25 L 30.41 25; M 43.88 25 L 26.12 25; M 30.41 25 L 39.59 25; M 26.12 25 L 43.88 25; M 26.12 25 L 43.88 25" />
+      </path>
+      <path class="combine_logo_rung" d="M 26.6 33 L 43.4 33">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 26.6 33 L 43.4 33; M 43.57 33 L 26.43 33; M 43.4 33 L 26.6 33; M 26.43 33 L 43.57 33; M 26.6 33 L 43.4 33; M 26.6 33 L 43.4 33" />
+      </path>
+      <path class="combine_logo_rung" d="M 29.48 41 L 40.52 41">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 29.48 41 L 40.52 41; M 46.22 41 L 23.78 41; M 40.52 41 L 29.48 41; M 23.78 41 L 46.22 41; M 29.48 41 L 40.52 41; M 29.48 41 L 40.52 41" />
+      </path>
+      <path class="combine_logo_rung" d="M 33.2 49 L 36.8 49">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 33.2 49 L 36.8 49; M 47.87 49 L 22.13 49; M 36.8 49 L 33.2 49; M 22.13 49 L 47.87 49; M 33.2 49 L 36.8 49; M 33.2 49 L 36.8 49" />
+      </path>
+      <path class="combine_logo_rung" d="M 37.31 57 L 32.69 57">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 37.31 57 L 32.69 57; M 47.79 57 L 22.21 57; M 32.69 57 L 37.31 57; M 22.21 57 L 47.79 57; M 37.31 57 L 32.69 57; M 37.31 57 L 32.69 57" />
+      </path>
+      <path class="combine_logo_rung" d="M 40.96 65 L 29.04 65">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 40.96 65 L 29.04 65; M 45.99 65 L 24.01 65; M 29.04 65 L 40.96 65; M 24.01 65 L 45.99 65; M 40.96 65 L 29.04 65; M 40.96 65 L 29.04 65" />
+      </path>
+      <path class="combine_logo_rung" d="M 43.73 73 L 26.27 73">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 43.73 73 L 26.27 73; M 43.23 73 L 26.77 73; M 26.27 73 L 43.73 73; M 26.77 73 L 43.23 73; M 43.73 73 L 26.27 73; M 43.73 73 L 26.27 73" />
+      </path>
+      <path class="combine_logo_rung" d="M 44.06 81 L 25.94 81">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 44.06 81 L 25.94 81; M 39.24 81 L 30.76 81; M 25.94 81 L 44.06 81; M 30.76 81 L 39.24 81; M 44.06 81 L 25.94 81; M 44.06 81 L 25.94 81" />
+      </path>
+      <path class="combine_logo_rung" d="M 42.9 88 L 27.1 88">
+        <animate class="combine_logo_motion" attributeName="d" dur="7.5s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.21;0.42;0.63;0.84;1" values="M 42.9 88 L 27.1 88; M 36.27 88 L 33.73 88; M 27.1 88 L 42.9 88; M 33.73 88 L 36.27 88; M 42.9 88 L 27.1 88; M 42.9 88 L 27.1 88" />
+      </path>
     </g>
   </g>
+
+  <script>
+    (() => {
+      const svg = document.currentScript?.closest("svg");
+      const reducedMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)");
+
+      if (!svg || !reducedMotion) return;
+
+      const updateMotion = () => {
+        if (reducedMotion.matches) {
+          svg.pauseAnimations();
+          svg.setCurrentTime(0);
+        } else {
+          svg.unpauseAnimations();
+        }
+      };
+
+      updateMotion();
+      reducedMotion.addEventListener?.("change", updateMotion);
+    })();
+  </script>
 </svg>

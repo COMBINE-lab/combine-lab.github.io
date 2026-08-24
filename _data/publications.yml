@@ -127,7 +127,7 @@
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2026/07/29/2026.07.28.741211.full.pdf
 - id: W7167608744
-  title: 'Optimizing sparse and skew hashing: faster <i>k</i> -mer dictionaries'
+  title: 'Optimizing sparse and skew hashing: faster k -mer dictionaries'
   authors:
   - Giulio Ermanno Pibiri
   - Rob Patro
@@ -181,8 +181,8 @@
   is_oa: true
   oa_url: https://doi.org/10.1093/bioinformatics/btag184
 - id: W7129495115
-  title: '<i>k</i> ache-hash: A dynamic, concurrent, and cache-efficient hash table
-    for streaming <i>k</i> -mer operations'
+  title: 'k ache-hash: A dynamic, concurrent, and cache-efficient hash table for streaming
+    k -mer operations'
   authors:
   - Jamshed Khan
   - Rob Patro
@@ -198,7 +198,7 @@
   is_oa: true
   oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12934806/
 - id: W7125593190
-  title: 'Optimizing sparse and skew hashing: faster <i>k</i> -mer dictionaries'
+  title: 'Optimizing sparse and skew hashing: faster k -mer dictionaries'
   authors:
   - Giulio Ermanno Pibiri
   - Rob Patro
@@ -213,7 +213,7 @@
   is_oa: true
   oa_url: https://doi.org/10.64898/2026.01.21.700884
 - id: W7155986522
-  title: 'Kaminari: a frugal colored index for approximate <i>k</i> -mer queries'
+  title: 'Kaminari: a frugal colored index for approximate k -mer queries'
   authors:
   - Victor Levallois
   - Yoshihiro Shibuya
@@ -271,8 +271,8 @@
   is_oa: true
   oa_url: http://genome.cshlp.org/content/early/2025/08/21/gr.279981.124.full.pdf
 - id: W4412454190
-  title: '<tt>Oarfish</tt>: enhanced probabilistic modeling leads to improved accuracy
-    in long read transcriptome quantification'
+  title: 'Oarfish: enhanced probabilistic modeling leads to improved accuracy in long
+    read transcriptome quantification'
   authors:
   - Zahra Zare Jousheghani
   - Noor Singh
@@ -305,8 +305,7 @@
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/41/Supplement_1/i237/63745515/btaf234.pdf
 - id: W4410549838
-  title: 'Kaminari: a resource-frugal index for approximate colored <i>k</i> -mer
-    queries'
+  title: 'Kaminari: a resource-frugal index for approximate colored k -mer queries'
   authors:
   - Victor Levallois
   - Yoshihiro Shibuya
@@ -392,7 +391,7 @@
   doi: https://doi.org/10.1101/2024.11.27.625771
   link: https://doi.org/10.1101/2024.11.27.625771
   is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/12/02/2024.11.27.625771.full.pdf
+  oa_url: https://doi.org/10.1101/2024.11.27.625771
 - id: W4403785152
   title: 'Collapsible tree: interactive web app to present collapsible hierarchies'
   authors:
@@ -411,7 +410,7 @@
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/40/11/btae645/60530390/btae645.pdf
 - id: W4403255927
   title: 'Where the Patterns Are: Repetition-Aware Compression for Colored de Bruijn
-    Graphs <sup>*</sup>'
+    Graphs *'
   authors:
   - Alessio Campanelli
   - Giulio Ermanno Pibiri
@@ -470,7 +469,7 @@
   doi: https://doi.org/10.1101/2024.07.30.605821
   link: https://doi.org/10.1101/2024.07.30.605821
   is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/07/31/2024.07.30.605821.full.pdf
+  oa_url: https://doi.org/10.1101/2024.07.30.605821
 - id: W4401040660
   title: 'Swimming downstream: statistical analysis of differential transcript usage
     following Salmon quantification'
@@ -510,7 +509,7 @@
   oa_url: https://doi.org/10.17615/qnq0-s446
 - id: W4400625322
   title: 'Where the patterns are: repetition-aware compression for colored de Bruijn
-    graphs <sup>⋆</sup>'
+    graphs ⋆'
   authors:
   - Alessio Campanelli
   - Giulio Ermanno Pibiri
@@ -559,8 +558,8 @@
   is_oa: true
   oa_url: https://doi.org/10.1126/sciadv.adj7402
 - id: W4399760251
-  title: '<i>DifferentialRegulation</i> : a Bayesian hierarchical approach to identify
-    differentially regulated genes'
+  title: 'DifferentialRegulation : a Bayesian hierarchical approach to identify differentially
+    regulated genes'
   authors:
   - Simone Tiberi
   - Joël Meili
@@ -580,7 +579,7 @@
   doi: https://doi.org/10.1093/biostatistics/kxae017
   link: https://doi.org/10.1093/biostatistics/kxae017
   is_oa: true
-  oa_url: https://academic.oup.com/biostatistics/advance-article-pdf/doi/10.1093/biostatistics/kxae017/58276937/kxae017.pdf
+  oa_url: https://doi.org/10.1093/biostatistics/kxae017
 - id: W4395954957
   title: Fast, parallel, and cache-friendly suffix array construction
   authors:
@@ -600,8 +599,8 @@
   is_oa: true
   oa_url: https://link.springer.com/content/pdf/10.1186/s13015-024-00263-5.pdf
 - id: W4400140845
-  title: '<tt>Forseti</tt> : a mechanistic and predictive model of the splicing status
-    of scRNA-seq reads'
+  title: 'Forseti : a mechanistic and predictive model of the splicing status of scRNA-seq
+    reads'
   authors:
   - Dongze He
   - Yuan Gao
@@ -617,7 +616,7 @@
   doi: https://doi.org/10.1093/bioinformatics/btae207
   link: https://doi.org/10.1093/bioinformatics/btae207
   is_oa: true
-  oa_url: https://academic.oup.com/bioinformatics/article-pdf/40/Supplement_1/i297/58585828/btae207.pdf
+  oa_url: https://doi.org/10.1093/bioinformatics/btae207
 - id: W4394768492
   title: Designing efficient randstrobes for sequence similarity analyses
   authors:
@@ -753,8 +752,8 @@
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/10/16/2023.10.11.561924.full.pdf
 - id: W4387420341
-  title: '<tt>simpleaf</tt> : a simple, flexible, and scalable framework for single-cell
-    data processing using alevin-fry'
+  title: 'simpleaf : a simple, flexible, and scalable framework for single-cell data
+    processing using alevin-fry'
   authors:
   - Dongze He
   - Rob Patro
@@ -769,8 +768,8 @@
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad614/51925368/btad614.pdf
 - id: W4385918343
-  title: '<i>DifferentialRegulation</i> : a Bayesian hierarchical approach to identify
-    differentially regulated genes'
+  title: 'DifferentialRegulation : a Bayesian hierarchical approach to identify differentially
+    regulated genes'
   authors:
   - Simone Tiberi
   - Joël Meili
@@ -847,8 +846,8 @@
   is_oa: true
   oa_url: http://www.cell.com/article/S2589004223010386/pdf
 - id: W4376135137
-  title: 'Fulgor: A fast and compact <i>k</i> -mer index for large-scale matching
-    and color queries'
+  title: 'Fulgor: A fast and compact k -mer index for large-scale matching and color
+    queries'
   authors:
   - Jason Fan
   - Noor Singh
@@ -969,29 +968,6 @@
   link: https://doi.org/10.1101/2023.01.04.522742
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/01/04/2023.01.04.522742.full.pdf
-- id: W6911135087
-  title: 'DifferentialRegulation: a Bayesian hierarchical approach to identify differentially
-    regulated genes'
-  authors:
-  - Simone Tiberi
-  - Joël Meili
-  - Peiying Cai
-  - Charlotte Soneson
-  - Dongze He
-  - Hirak Sarkar
-  - Alejandra Avalos‐Pacheco
-  - Rob Patro
-  - Mark D. Robinson
-  num_authors: 9
-  venue: Open MIND
-  year: 2023
-  date: '2023-01-01'
-  type: article
-  is_preprint: false
-  doi: null
-  link: https://openalex.org/W6911135087
-  is_oa: false
-  oa_url: null
 - id: W4308274721
   title: TreeTerminus - Creating transcript trees using inferential replicate counts
   authors:
@@ -1183,8 +1159,8 @@
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2022/06/19/2021.12.14.472718.full.pdf
 - id: W3206685126
-  title: '<i>Airpart</i> : Interpretable statistical models for analyzing allelic
-    imbalance in single-cell datasets'
+  title: 'Airpart : Interpretable statistical models for analyzing allelic imbalance
+    in single-cell datasets'
   authors:
   - Wancen Mu
   - Hirak Sarkar
@@ -1437,7 +1413,7 @@
   doi: https://doi.org/10.1186/s13059-020-02151-8
   link: https://doi.org/10.1186/s13059-020-02151-8
   is_oa: true
-  oa_url: https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-020-02151-8
+  oa_url: https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-020-02151-8
 - id: W3048489096
   title: 'Puffaligner: An Efficient and Accurate Aligner Based on the Pufferfish Index'
   authors:
@@ -1698,8 +1674,8 @@
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2019/10/31/657874.full.pdf
 - id: W2954555796
-  title: '<i>Minnow</i>: a principled framework for rapid simulation of dscRNA-seq
-    data at the read level'
+  title: 'Minnow: a principled framework for rapid simulation of dscRNA-seq data at
+    the read level'
   authors:
   - Hirak Sarkar
   - Avi Srivastava
@@ -1808,27 +1784,6 @@
   link: https://doi.org/10.26508/lsa.201800175
   is_oa: true
   oa_url: https://www.life-science-alliance.org/content/lsa/2/1/e201800175.full.pdf
-- id: W6892310611
-  title: 'RNA Sequencing Data: Hitchhiker''s Guide to Expression Analysis'
-  authors:
-  - Koen Van den Berge
-  - Katharina Hembach
-  - Charlotte Soneson
-  - Simone Tiberi
-  - Lieven Clement
-  - Michael I. Love
-  - Rob Patro
-  - Mark D. Robinson
-  num_authors: 8
-  venue: Open MIND
-  year: 2019
-  date: '2019-01-01'
-  type: article
-  is_preprint: false
-  doi: null
-  link: https://openalex.org/W6892310611
-  is_oa: false
-  oa_url: null
 - id: W4244001588
   title: 'RNA sequencing data: hitchhiker''s guide to expression analysis'
   authors:
@@ -1849,7 +1804,7 @@
   doi: https://doi.org/10.7287/peerj.preprints.27283v2
   link: https://doi.org/10.7287/peerj.preprints.27283v2
   is_oa: true
-  oa_url: https://peerj.com/preprints/27283.pdf
+  oa_url: https://doi.org/10.7287/peerj.preprints.27283v2
 - id: W2900339311
   title: An Efficient, Scalable and Exact Representation of High-Dimensional Color
     Information Enabled via de Bruijn Graph Search
@@ -2071,8 +2026,8 @@
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2018/10/24/335000.full.pdf
 - id: W2802684988
-  title: 'Grouper: graph-based clustering and annotation for improved <i>de novo</i>
-    transcriptome analysis'
+  title: 'Grouper: graph-based clustering and annotation for improved de novo transcriptome
+    analysis'
   authors:
   - Laraib Malik
   - Fatemeh Almodaresi
@@ -2254,7 +2209,7 @@
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2017/10/27/207092.full.pdf
 - id: W2949074212
-  title: 'Squeakr: an exact and approximate <i>k</i> -mer counting system'
+  title: 'Squeakr: an exact and approximate k -mer counting system'
   authors:
   - Prashant Pandey
   - Michael A. Bender
@@ -2299,8 +2254,8 @@
   is_preprint: false
   doi: https://doi.org/10.1093/bioinformatics/btx428
   link: https://doi.org/10.1093/bioinformatics/btx428
-  is_oa: true
-  oa_url: https://academic.oup.com/bioinformatics/article-pdf/33/21/3380/25166100/btx428.pdf
+  is_oa: false
+  oa_url: null
 - id: W2613660619
   title: 'Rainbowfish: A Succinct Colored de Bruijn Graph Representation'
   authors:
@@ -2353,7 +2308,7 @@
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/33/14/i142/25157301/btx262.pdf
 - id: W2608455804
-  title: 'Squeakr: An Exact and Approximate <i>k</i> -mer Counting System'
+  title: 'Squeakr: An Exact and Approximate k -mer Counting System'
   authors:
   - Prashant Pandey
   - Michael A. Bender
@@ -2404,8 +2359,8 @@
   is_oa: true
   oa_url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.WABI.2017.18
 - id: W2558037044
-  title: Graph regularized, semi-supervised learning improves annotation of <i>de
-    novo</i> transcriptomes
+  title: Graph regularized, semi-supervised learning improves annotation of de novo
+    transcriptomes
   authors:
   - Laraib Malik
   - Shravya Thatipally
@@ -2646,8 +2601,8 @@
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2015/07/29/023374.full.pdf
 - id: W2510530116
-  title: <i>Salmon</i> provides accurate, fast, and bias-aware transcript expression
-    estimates using dual-phase inference
+  title: Salmon provides accurate, fast, and bias-aware transcript expression estimates
+    using dual-phase inference
   authors:
   - Rob Patro
   - Geet Duggal
@@ -2683,9 +2638,8 @@
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2015/06/27/021626.full.pdf
 - id: W1922411861
-  title: At<scp>RTD</scp> – a comprehensive reference transcript dataset resource
-    for accurate quantification of transcript‐specific expression in <i>Arabidopsis
-    thaliana</i>
+  title: At RTD – a comprehensive reference transcript dataset resource for accurate
+    quantification of transcript‐specific expression in Arabidopsis thaliana
   authors:
   - Runxuan Zhang
   - Cristiane P. G. Calixto

@@ -4,7 +4,7 @@ title: Contact
 
 # <i class="fas fa-envelope"></i>Contact
 
-Our lab is part of the [Department of Computer Science](https://www.cs.umd.edu/), at the [University of Maryland](https://www.umd.edu).
+Our lab is part of the [Department of Computer Science](https://www.cs.umd.edu/), and [UMIACS](https://www.umiacs.umd.edu/), at the [University of Maryland](https://www.umd.edu).
 We are located on the 3rd floor of the [Brendan Iribe Center for Computer Science and Engineering](https://iribe.umd.edu/).
 
 {% include figure.html image="images/iribe.jpg" width="100%" %}

@@ -1612,6 +1612,27 @@
   link: https://doi.org/10.1371/journal.pcbi.1007664
   is_oa: true
   oa_url: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007664&type=printable
+- id: W3214103635
+  title: Accurate, efficient, and uncertainty-aware expression quantification of single-cell
+    RNA-seq data
+  authors:
+  - Hirak Sarkar
+  - Avi Srivastava
+  - Mohsen Zakeri
+  - Scott Van Buren
+  - Naim U. Rashid
+  - Michael I. Love
+  - Rob Patro
+  num_authors: 7
+  venue: Figshare
+  year: 2020
+  date: '2020-01-01'
+  type: article
+  is_preprint: false
+  doi: https://doi.org/10.6084/m9.figshare.13198100.v1
+  link: https://doi.org/10.6084/m9.figshare.13198100.v1
+  is_oa: true
+  oa_url: https://figshare.com/articles/poster/Accurate_efficient_and_uncertainty-aware_expression_quantification_of_single-cell_RNA-seq_data/13198100
 - id: W2976412391
   title: 'Tximeta: reference sequence checksums for provenance identification in RNA-seq'
   authors:
@@ -1955,7 +1976,7 @@
   doi: https://doi.org/10.1184/r1/6702233
   link: https://doi.org/10.1184/r1/6702233
   is_oa: true
-  oa_url: https://figshare.com/articles/Salmon_Accurate_Versatile_and_Ultrafast_Quantification_from_RNA-seq_Data_using_Lightweight-Alignment/6702233
+  oa_url: https://figshare.com/articles/journal_contribution/Salmon_Accurate_Versatile_and_Ultrafast_Quantification_from_RNA-seq_Data_using_Lightweight-Alignment/6702233
 - id: W2811431585
   title: Rich Chromatin Structure Prediction from Hi-C Data
   authors:
@@ -2944,15 +2965,15 @@
   - Dianne P. O’Leary
   - Andriy Anishkin
   num_authors: 5
-  venue: DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)
+  venue: null
   year: 2011
   date: '2011-01-01'
-  type: book-chapter
+  type: article
   is_preprint: false
   doi: https://doi.org/10.4230/dfu.vol2.sciviz.2011.160
   link: https://doi.org/10.4230/dfu.vol2.sciviz.2011.160
   is_oa: true
-  oa_url: https://doi.org/10.4230/dfu.vol2.sciviz.2011.160
+  oa_url: https://drops.dagstuhl.de/entities/document/10.4230/DFU.Vol2.SciViz.2011.160
 - id: W2057548561
   title: 'Social Snapshot: A System for Temporally Coupled Social Photography'
   authors:
@@ -2977,15 +2998,15 @@
   - Cheuk Yiu Ip
   - Amitabh Varshney
   num_authors: 3
-  venue: DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)
+  venue: null
   year: 2010
   date: '2010-01-01'
-  type: book-chapter
+  type: article
   is_preprint: false
   doi: https://doi.org/10.4230/dfu.sciviz.2010.321
   link: https://doi.org/10.4230/dfu.sciviz.2010.321
   is_oa: true
-  oa_url: https://doi.org/10.4230/dfu.sciviz.2010.321
+  oa_url: https://drops.dagstuhl.de/entities/document/10.4230/DFU.SciViz.2010.321
 - id: W2054697383
   title: Modeling and Visualization of Human Activities for Multicamera Networks
   authors:

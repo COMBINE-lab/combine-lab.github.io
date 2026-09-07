@@ -109,7 +109,7 @@
   is_oa: true
   oa_url: https://doi.org/10.64898/2026.07.29.741496
 - id: W7171641744
-  title: 'seqproc: An efficient, flexible, and concise tool for sequence geometry
+  title: 'SEQPROC: an efficient, flexible, and concise tool for sequence geometry
     description and transformation'
   authors:
   - Noah Cape
@@ -2965,7 +2965,7 @@
   - Dianne P. O’Leary
   - Andriy Anishkin
   num_authors: 5
-  venue: null
+  venue: DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)
   year: 2011
   date: '2011-01-01'
   type: article
@@ -2973,7 +2973,7 @@
   doi: https://doi.org/10.4230/dfu.vol2.sciviz.2011.160
   link: https://doi.org/10.4230/dfu.vol2.sciviz.2011.160
   is_oa: true
-  oa_url: https://drops.dagstuhl.de/entities/document/10.4230/DFU.Vol2.SciViz.2011.160
+  oa_url: https://drops.dagstuhl.de/storage/02dagstuhl-follow-ups/dfu-vol002/DFU.Vol2.SciViz.2011.160/DFU.Vol2.SciViz.2011.160.pdf
 - id: W2057548561
   title: 'Social Snapshot: A System for Temporally Coupled Social Photography'
   authors:
@@ -2998,7 +2998,7 @@
   - Cheuk Yiu Ip
   - Amitabh Varshney
   num_authors: 3
-  venue: null
+  venue: DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)
   year: 2010
   date: '2010-01-01'
   type: article
@@ -3006,7 +3006,7 @@
   doi: https://doi.org/10.4230/dfu.sciviz.2010.321
   link: https://doi.org/10.4230/dfu.sciviz.2010.321
   is_oa: true
-  oa_url: https://drops.dagstuhl.de/entities/document/10.4230/DFU.SciViz.2010.321
+  oa_url: https://drops.dagstuhl.de/storage/02dagstuhl-follow-ups/dfu-vol001/DFU.SciViz.2010.321/DFU.SciViz.2010.321.pdf
 - id: W2054697383
   title: Modeling and Visualization of Human Activities for Multicamera Networks
   authors:

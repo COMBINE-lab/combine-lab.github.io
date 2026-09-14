@@ -478,7 +478,7 @@
   - Charlotte Soneson
   - Michael I. Love
   num_authors: 3
-  venue: UNC Libraries
+  venue: Carolina Digital Repository (University of North Carolina at Chapel Hill)
   year: 2024
   date: '2024-07-27'
   type: article
@@ -498,7 +498,7 @@
   - Charlotte Soneson
   - Dheeraj Malhotra
   num_authors: 6
-  venue: UNC Libraries
+  venue: Carolina Digital Repository (University of North Carolina at Chapel Hill)
   year: 2024
   date: '2024-07-27'
   type: article
@@ -929,7 +929,7 @@
   venue: Nature Reviews Genetics
   year: 2023
   date: '2023-03-31'
-  type: article
+  type: review
   is_preprint: false
   doi: https://doi.org/10.1038/s41576-023-00586-w
   link: https://doi.org/10.1038/s41576-023-00586-w
@@ -1726,7 +1726,7 @@
   venue: Annual Review of Biomedical Data Science
   year: 2019
   date: '2019-04-30'
-  type: article
+  type: review
   is_preprint: false
   doi: https://doi.org/10.1146/annurev-biodatasci-072018-021255
   link: https://doi.org/10.1146/annurev-biodatasci-072018-021255
@@ -1743,7 +1743,7 @@
   venue: Annual Review of Biomedical Data Science
   year: 2019
   date: '2019-04-09'
-  type: article
+  type: review
   is_preprint: false
   doi: https://doi.org/10.1146/annurev-biodatasci-072018-021156
   link: https://doi.org/10.1146/annurev-biodatasci-072018-021156
@@ -1976,7 +1976,7 @@
   doi: https://doi.org/10.1184/r1/6702233
   link: https://doi.org/10.1184/r1/6702233
   is_oa: true
-  oa_url: https://figshare.com/articles/journal_contribution/Salmon_Accurate_Versatile_and_Ultrafast_Quantification_from_RNA-seq_Data_using_Lightweight-Alignment/6702233
+  oa_url: http://repository.cmu.edu/cgi/viewcontent.cgi?article=1002&context=cbd
 - id: W2811431585
   title: Rich Chromatin Structure Prediction from Hi-C Data
   authors:
@@ -2378,7 +2378,7 @@
   doi: https://doi.org/10.4230/lipics.wabi.2017.18
   link: https://doi.org/10.4230/lipics.wabi.2017.18
   is_oa: true
-  oa_url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.WABI.2017.18
+  oa_url: https://drops.dagstuhl.de/storage/00lipics/lipics-vol088-wabi2017/LIPIcs.WABI.2017.18/LIPIcs.WABI.2017.18.pdf
 - id: W2558037044
   title: Graph regularized, semi-supervised learning improves annotation of de novo
     transcriptomes

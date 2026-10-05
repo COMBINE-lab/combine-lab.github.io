@@ -85,7 +85,7 @@
   - Qiuhui Li
   - Angela L Miller
   - Zachary B. Anderson
-  - Sophie HR Storz
+  - Sophie H. R. Storz
   - Anna Okula Basile
   - André Corvelo
   - Catherine E. Reeves
@@ -379,7 +379,7 @@
   title: Contributions of the Petabyte Scale Sequence Search Codeathon toward efforts
     to scale sequence-based searches on SRA
   authors:
-  - Priyanka Ghosh
+  - Ghosh, Priyanka
   - Kjiersten Fagnan
   - Ryan P. Connor
   - Ravinder Pannu
@@ -394,7 +394,7 @@
   - Olaitan Igbagbo Awe
   - Arianna I. Krinos
   - René K. M. Xavier
-  - R Polo
+  - Polo, Rodrigo Ortega
   - Jack W Roddy
   - Adelaide C. E. Rhodes
   - Alexander P. Sweeten
@@ -410,10 +410,10 @@
   - Taylor E. Reiter
   - George T. Lesica
   - Artem Babaian
-  - Victor S.‐Y. Lin
+  - Lin, Victor
   - Sergey Madaminov
   - Vadim V. Zalunin
-  - David M. Kristensen
+  - Kristensen, David M.
   - Alexa M. Salsbury
   - Daniel P. Rice
   - James Rodney Brister
@@ -940,8 +940,8 @@
   - Christopher Lance
   - Anastasia Litinetskaya
   - Felix Drost
-  - Luke R. Zappia
-  - Malte D. Lücken
+  - Luke Zappia
+  - Malte D. Luecken
   - Daniel C. Strobl
   - Juan Henao
   - Fabiola Curion
@@ -1272,7 +1272,7 @@
     index'
   authors:
   - Fatemeh Almodaresi
-  - Mohsen Zakeri
+  - Zakeri, Mohsen
   - Rob Patro
   num_authors: 3
   venue: Zenodo (CERN European Organization for Nuclear Research)
@@ -2231,7 +2231,7 @@
   - Julian R. de Ruiter
   - Dave Bouvier
   - Simon L. Gladman
-  - Saket Kumar Choudhary
+  - Saket Choudhary
   - Nicholas Harding
   - Florian Eggenhofer
   - Arne Kratz
@@ -2250,7 +2250,7 @@
   - Simon Ye
   - Roman Valls Guimerà
   - Elmar Pruesse
-  - Walter Dunn
+  - W. Augustine Dunn
   - Lance Parsons
   - Rob Patro
   - David Koppstein
@@ -2523,7 +2523,7 @@
   authors:
   - Nitish Gupta
   - Komal Sanjeev
-  - Tim Wall
+  - Wall, Tim
   - Carl Kingsford
   - Robert Patro
   num_authors: 5
@@ -2544,7 +2544,7 @@
   - Raquel Norel
   - Robert J. Prill
   - Julio Sáez-Rodríguez
-  - Peter R. Lorenz
+  - Peter Lorenz
   - Felix Steinbeck
   - Bjoern Ziems
   - Mitja Luštrek
@@ -2573,7 +2573,7 @@
   - Raquel Norel
   - Robert J. Prill
   - Julio Sáez-Rodríguez
-  - Peter R. Lorenz
+  - Peter Lorenz
   - Felix Steinbeck
   - Bjoern Ziems
   - Mitja LuĹĄtrek
@@ -2602,7 +2602,7 @@
   - Raquel Norel
   - Robert J. Prill
   - Julio Sáez-Rodríguez
-  - Peter R. Lorenz
+  - Peter Lorenz
   - Felix Steinbeck
   - Bjoern Ziems
   - Mitja LuĹĄtrek
@@ -2815,24 +2815,6 @@
   link: https://doi.org/10.1038/nbt.2862
   is_oa: true
   oa_url: https://arxiv.org/pdf/1308.3700
-- id: W2335145659
-  title: Health and cinema. Healthy leisure profile
-  authors:
-  - J. Corbalán
-  - V. García-Peñas
-  - R. Limiñana
-  - Ramón Martín-Brufau
-  - Rob Patro
-  num_authors: 5
-  venue: Personality and Individual Differences
-  year: 2014
-  date: '2014-03-16'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1016/j.paid.2013.07.246
-  link: https://doi.org/10.1016/j.paid.2013.07.246
-  is_oa: false
-  oa_url: null
 - id: W2109949710
   title: Identification of alternative topological domains in chromatin
   authors:
@@ -3077,24 +3059,6 @@
   link: https://doi.org/10.1155/2009/259860
   is_oa: true
   oa_url: https://doi.org/10.1155/2009/259860
-- id: W2002663621
-  title: 'HPV and Cervical Cancer: Screening of Young Women for the Presence of Human
-    Papillomavirus Infection'
-  authors:
-  - Palika Datta
-  - Rob Patro
-  - Neerja Bhatla
-  - Nilanchali Singh
-  num_authors: 4
-  venue: International Journal of Infectious Diseases
-  year: 2008
-  date: '2008-12-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1016/j.ijid.2008.05.812
-  link: https://doi.org/10.1016/j.ijid.2008.05.812
-  is_oa: true
-  oa_url: http://www.ijidonline.com/article/S1201971208009430/pdf
 - id: W66207837
   title: A Survey of Some Recent Results in Comptuer Graphics
   authors:

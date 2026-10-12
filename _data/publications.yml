@@ -197,7 +197,7 @@
   title: Highly Constrained Kinetic Models for Single-Cell Gene Expression Analysis
   authors:
   - Hyeon Jin Cho
-  - Christopher Herrick Bohrer
+  - Christopher H. Bohrer
   - Paweł Trzaskoma
   - Jee Min Kim
   - Aleksandra Pękowska
@@ -477,7 +477,7 @@
   doi: https://doi.org/10.1089/cmb.2024.0714
   link: https://doi.org/10.1089/cmb.2024.0714
   is_oa: true
-  oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11631793/pdf/cmb.2024.0714.pdf
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/07/13/2024.07.09.602727.full.pdf
 - id: W4402776454
   title: A renewed call for open artificial intelligence in biomedicine
   authors:
@@ -559,24 +559,6 @@
   link: https://doi.org/10.17615/qnq0-s446
   is_oa: true
   oa_url: https://doi.org/10.17615/qnq0-s446
-- id: W4400625322
-  title: 'Where the patterns are: repetition-aware compression for colored de Bruijn
-    graphs ⋆'
-  authors:
-  - Alessio Campanelli
-  - Giulio Ermanno Pibiri
-  - Jason Fan
-  - Rob Patro
-  num_authors: 4
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2024
-  date: '2024-07-13'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2024.07.09.602727
-  link: https://doi.org/10.1101/2024.07.09.602727
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/07/13/2024.07.09.602727.full.pdf
 - id: W4400345027
   title: Identification of intracellular bacteria from multiple single-cell RNA-seq
     platforms using CSI-Microbes
@@ -708,25 +690,6 @@
   link: https://doi.org/10.1101/2024.02.28.582591
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/03/01/2024.02.28.582591.full.pdf
-- id: W4391708313
-  title: 'Forseti: A mechanistic and predictive model of the splicing status of scRNA-seq
-    reads'
-  authors:
-  - Dongze He
-  - Yuan Gao
-  - Spencer Skylar Chan
-  - Natalia Quintana-Parrilla
-  - Rob Patro
-  num_authors: 5
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2024
-  date: '2024-02-05'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2024.02.01.577813
-  link: https://doi.org/10.1101/2024.02.01.577813
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/02/05/2024.02.01.577813.full.pdf
 - id: W4391554792
   title: 'scCensus: Off-target scRNA-seq reads reveal meaningful biology'
   authors:
@@ -748,8 +711,8 @@
     queries'
   authors:
   - Jason Fan
-  - Jamshed Khan
   - Noor Singh
+  - Jamshed Khan
   - Giulio Ermanno Pibiri
   - Rob Patro
   num_authors: 5
@@ -780,29 +743,6 @@
   link: https://doi.org/10.1101/2023.12.25.573288
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/12/25/2023.12.25.573288.full.pdf
-- id: W4387665655
-  title: Designing efficient randstrobes for sequence similarity analyses
-  authors:
-  - Moein Karami
-  - Aryan Soltani Mohammadi
-  - Marcel Martin
-  - Barış Ekim
-  - Wei Shen
-  - Lidong Guo
-  - Mengyang Xu
-  - Giulio Ermanno Pibiri
-  - Rob Patro
-  - Kristoffer Sahlin
-  num_authors: 10
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2023
-  date: '2023-10-16'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2023.10.11.561924
-  link: https://doi.org/10.1101/2023.10.11.561924
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/10/16/2023.10.11.561924.full.pdf
 - id: W4387420341
   title: 'simpleaf : a simple, flexible, and scalable framework for single-cell data
     processing using alevin-fry'
@@ -819,29 +759,6 @@
   link: https://doi.org/10.1093/bioinformatics/btad614
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad614/51925368/btad614.pdf
-- id: W4385918343
-  title: 'DifferentialRegulation : a Bayesian hierarchical approach to identify differentially
-    regulated genes'
-  authors:
-  - Simone Tiberi
-  - Joël Meili
-  - Peiying Cai
-  - Charlotte Soneson
-  - Dongze He
-  - Hirak Sarkar
-  - Alejandra Avalos‐Pacheco
-  - Rob Patro
-  - Mark D. Robinson
-  num_authors: 9
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2023
-  date: '2023-08-17'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2023.08.17.553679
-  link: https://doi.org/10.1101/2023.08.17.553679
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/08/17/2023.08.17.553679.full.pdf
 - id: W4385245730
   title: Meta-colored compacted de Bruijn graphs
   authors:
@@ -897,25 +814,6 @@
   link: https://doi.org/10.1016/j.isci.2023.106961
   is_oa: true
   oa_url: http://www.cell.com/article/S2589004223010386/pdf
-- id: W4376135137
-  title: 'Fulgor: A fast and compact k -mer index for large-scale matching and color
-    queries'
-  authors:
-  - Jason Fan
-  - Noor Singh
-  - Jamshed Khan
-  - Giulio Ermanno Pibiri
-  - Rob Patro
-  num_authors: 5
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2023
-  date: '2023-05-11'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2023.05.09.539895
-  link: https://doi.org/10.1101/2023.05.09.539895
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/05/20/2023.05.09.539895.full.pdf
 - id: W4362702502
   title: R Packages used in TreeTerminus paper
   authors:
@@ -928,8 +826,8 @@
   date: '2023-04-07'
   type: article
   is_preprint: false
-  doi: https://doi.org/10.5281/zenodo.7807370
-  link: https://doi.org/10.5281/zenodo.7807370
+  doi: https://doi.org/10.5281/zenodo.7807369
+  link: https://doi.org/10.5281/zenodo.7807369
   is_oa: true
   oa_url: https://zenodo.org/record/7807370
 - id: W4362521490
@@ -987,22 +885,6 @@
   link: https://doi.org/10.1038/s41576-023-00586-w
   is_oa: true
   oa_url: https://www.nature.com/articles/s41576-023-00586-w.pdf
-- id: W4361227937
-  title: 'simpleaf: A simple, flexible, and scalable framework for single-cell transcriptomics
-    data processing using alevin-fry'
-  authors:
-  - Dongze He
-  - Rob Patro
-  num_authors: 2
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2023
-  date: '2023-03-29'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2023.03.28.534653
-  link: https://doi.org/10.1101/2023.03.28.534653
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/03/29/2023.03.28.534653.full.pdf
 - id: W4313487372
   title: Understanding and evaluating ambiguity in single-cell and single-nucleus
     RNA-sequencing
@@ -1020,22 +902,6 @@
   link: https://doi.org/10.1101/2023.01.04.522742
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/01/04/2023.01.04.522742.full.pdf
-- id: W4308274721
-  title: TreeTerminus - Creating transcript trees using inferential replicate counts
-  authors:
-  - Noor Singh
-  - Michael I. Love
-  - Rob Patro
-  num_authors: 3
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2022
-  date: '2022-11-03'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2022.11.01.514769
-  link: https://doi.org/10.1101/2022.11.01.514769
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2022/11/03/2022.11.01.514769.full.pdf
 - id: W4307508639
   title: Spectrum preserving tilings enable sparse and modular reference indexing
   authors:
@@ -1170,7 +1036,7 @@
   doi: https://doi.org/10.1038/s41592-022-01408-3
   link: https://doi.org/10.1038/s41592-022-01408-3
   is_oa: true
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/8933848
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2021/08/26/2021.06.29.450377.full.pdf
 - id: W4210350794
   title: 'AGAMEMNON: an Accurate metaGenomics And MEtatranscriptoMics quaNtificatiON
     analysis suite'
@@ -1192,64 +1058,6 @@
   link: https://doi.org/10.1186/s13059-022-02610-4
   is_oa: true
   oa_url: https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-022-02610-4
-- id: W4200621355
-  title: Scalable, ultra-fast, and low-memory construction of compacted de Bruijn
-    graphs with Cuttlefish 2
-  authors:
-  - Jamshed Khan
-  - Marek Kokot
-  - Sebastian Deorowicz
-  - Rob Patro
-  num_authors: 4
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2021
-  date: '2021-12-16'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2021.12.14.472718
-  link: https://doi.org/10.1101/2021.12.14.472718
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2022/06/19/2021.12.14.472718.full.pdf
-- id: W3206685126
-  title: 'Airpart : Interpretable statistical models for analyzing allelic imbalance
-    in single-cell datasets'
-  authors:
-  - Wancen Mu
-  - Hirak Sarkar
-  - Avi Srivastava
-  - Kwangbom Choi
-  - Rob Patro
-  - Michael I. Love
-  num_authors: 6
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2021
-  date: '2021-10-16'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2021.10.15.464546
-  link: https://doi.org/10.1101/2021.10.15.464546
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2021/10/16/2021.10.15.464546.full.pdf
-- id: W3176779194
-  title: Alevin-fry unlocks rapid, accurate, and memory-frugal quantification of single-cell
-    RNA-seq data
-  authors:
-  - Dongze He
-  - Mohsen Zakeri
-  - Hirak Sarkar
-  - Charlotte Soneson
-  - Avi Srivastava
-  - Rob Patro
-  num_authors: 6
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2021
-  date: '2021-07-01'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2021.06.29.450377
-  link: https://doi.org/10.1101/2021.06.29.450377
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2021/08/26/2021.06.29.450377.full.pdf
 - id: W3168724350
   title: 'PuffAligner: a fast, efficient and accurate aligner based on the Pufferfish
     index'
@@ -1267,23 +1075,6 @@
   link: https://doi.org/10.1093/bioinformatics/btab408
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/37/22/4048/41183896/btab408.pdf
-- id: W4287125010
-  title: 'PuffAligner: a fast, efficient and accurate aligner based on the Pufferfish
-    index'
-  authors:
-  - Fatemeh Almodaresi
-  - Zakeri, Mohsen
-  - Rob Patro
-  num_authors: 3
-  venue: Zenodo (CERN European Organization for Nuclear Research)
-  year: 2021
-  date: '2021-06-05'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.5281/zenodo.4902332
-  link: https://doi.org/10.5281/zenodo.4902332
-  is_oa: true
-  oa_url: https://zenodo.org/record/4902332
 - id: W3178314485
   title: 'Cuttlefish: fast, parallel and low-memory compaction of de Bruijn graphs
     from large-scale genome collections'
@@ -1428,22 +1219,6 @@
   link: https://doi.org/10.1016/j.isci.2020.101956
   is_oa: true
   oa_url: http://www.cell.com/article/S2589004220311536/pdf
-- id: W3094509256
-  title: 'Cuttlefish: Fast, parallel, and low-memory compaction of de Bruijn graphs
-    from large-scale genome collections'
-  authors:
-  - Jamshed Khan
-  - Rob Patro
-  num_authors: 2
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2020
-  date: '2020-10-22'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2020.10.21.349605
-  link: https://doi.org/10.1101/2020.10.21.349605
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2021/01/30/2020.10.21.349605.full.pdf
 - id: W3083664261
   title: Alignment and mapping methodology influence transcript abundance estimation
   authors:
@@ -1466,41 +1241,6 @@
   link: https://doi.org/10.1186/s13059-020-02151-8
   is_oa: true
   oa_url: https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-020-02151-8
-- id: W3048489096
-  title: 'Puffaligner: An Efficient and Accurate Aligner Based on the Pufferfish Index'
-  authors:
-  - Fatemeh Almodaresi
-  - Mohsen Zakeri
-  - Rob Patro
-  num_authors: 3
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2020
-  date: '2020-08-12'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2020.08.11.246892
-  link: https://doi.org/10.1101/2020.08.11.246892
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2020/08/12/2020.08.11.246892.full.pdf
-- id: W3038715714
-  title: Compression of quantification uncertainty for scRNA-seq counts
-  authors:
-  - Scott Van Buren
-  - Hirak Sarkar
-  - Avi Srivastava
-  - Naim U. Rashid
-  - Rob Patro
-  - Michael I. Love
-  num_authors: 6
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2020
-  date: '2020-07-06'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2020.07.06.189639
-  link: https://doi.org/10.1101/2020.07.06.189639
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2020/07/06/2020.07.06.189639.full.pdf
 - id: W3043250694
   title: A Bayesian framework for inter-cellular information sharing improves dscRNA-seq
     quantification
@@ -1570,43 +1310,6 @@
   link: https://doi.org/10.1101/2020.05.14.096230
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2021/05/14/2020.05.14.096230.full.pdf
-- id: W3015370932
-  title: A Bayesian framework for inter-cellular information sharing improves dscRNA-seq
-    quantification
-  authors:
-  - Avi Srivastava
-  - Laraib Iqbal Malik
-  - Hirak Sarkar
-  - Rob Patro
-  num_authors: 4
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2020
-  date: '2020-04-13'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2020.04.10.035899
-  link: https://doi.org/10.1101/2020.04.10.035899
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2020/04/24/2020.04.10.035899.full.pdf
-- id: W3016258480
-  title: Terminus enables the discovery of data-driven, robust transcript groups from
-    RNA-seq data
-  authors:
-  - Hirak Sarkar
-  - Avi Srivastava
-  - Héctor Corrada Bravo
-  - Michael I. Love
-  - Rob Patro
-  num_authors: 5
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2020
-  date: '2020-04-08'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2020.04.07.029967
-  link: https://doi.org/10.1101/2020.04.07.029967
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2020/04/08/2020.04.07.029967.full.pdf
 - id: W3011785159
   title: An Efficient, Scalable, and Exact Representation of High-Dimensional Color
     Information Enabled Using de Bruijn Graph Search
@@ -1625,24 +1328,7 @@
   doi: https://doi.org/10.1089/cmb.2019.0322
   link: https://doi.org/10.1089/cmb.2019.0322
   is_oa: true
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/7185321
-- id: W3011407876
-  title: Preprocessing choices affect RNA velocity results for droplet scRNA-seq data
-  authors:
-  - Charlotte Soneson
-  - Avi Srivastava
-  - Rob Patro
-  - Michael Beda Stadler
-  num_authors: 4
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2020
-  date: '2020-03-13'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2020.03.13.990069
-  link: https://doi.org/10.1101/2020.03.13.990069
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2020/03/13/2020.03.13.990069.full.pdf
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2018/11/07/464222.1.full.pdf
 - id: W3007273059
   title: 'Tximeta: Reference sequence checksums for provenance identification in RNA-seq'
   authors:
@@ -1664,48 +1350,6 @@
   link: https://doi.org/10.1371/journal.pcbi.1007664
   is_oa: true
   oa_url: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1007664&type=printable
-- id: W3214103635
-  title: Accurate, efficient, and uncertainty-aware expression quantification of single-cell
-    RNA-seq data
-  authors:
-  - Hirak Sarkar
-  - Avi Srivastava
-  - Mohsen Zakeri
-  - Scott Van Buren
-  - Naim U. Rashid
-  - Michael I. Love
-  - Rob Patro
-  num_authors: 7
-  venue: Figshare
-  year: 2020
-  date: '2020-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.6084/m9.figshare.13198100.v1
-  link: https://doi.org/10.6084/m9.figshare.13198100.v1
-  is_oa: true
-  oa_url: https://figshare.com/articles/poster/Accurate_efficient_and_uncertainty-aware_expression_quantification_of_single-cell_RNA-seq_data/13198100
-- id: W2976412391
-  title: 'Tximeta: reference sequence checksums for provenance identification in RNA-seq'
-  authors:
-  - Michael I. Love
-  - Charlotte Soneson
-  - Peter F. Hickey
-  - Lisa K. Johnson
-  - N. Tessa Pierce‐Ward
-  - Lori A. Shepherd
-  - Martin T. Morgan
-  - Rob Patro
-  num_authors: 8
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2019
-  date: '2019-09-25'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/777888
-  link: https://doi.org/10.1101/777888
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2019/09/25/777888.full.pdf
 - id: W2964916138
   title: Nonparametric expression analysis using inferential replicate counts
   authors:
@@ -1724,28 +1368,6 @@
   link: https://doi.org/10.1093/nar/gkz622
   is_oa: true
   oa_url: https://academic.oup.com/nar/article-pdf/47/18/e105/38487435/gkz622.pdf
-- id: W2948240282
-  title: Alignment and mapping methodology influence transcript abundance estimation
-  authors:
-  - Avi Srivastava
-  - Laraib Iqbal Malik
-  - Hirak Sarkar
-  - Mohsen Zakeri
-  - Fatemeh Almodaresi
-  - Charlotte Soneson
-  - Michael I. Love
-  - Carl Kingsford
-  - Rob Patro
-  num_authors: 9
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2019
-  date: '2019-06-03'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/657874
-  link: https://doi.org/10.1101/657874
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2019/10/31/657874.full.pdf
 - id: W2954555796
   title: 'Minnow: a principled framework for rapid simulation of dscRNA-seq data at
     the read level'
@@ -1819,24 +1441,6 @@
   link: https://doi.org/10.1186/s13059-019-1670-y
   is_oa: true
   oa_url: https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-019-1670-y
-- id: W2917558237
-  title: Nonparametric expression analysis using inferential replicate counts
-  authors:
-  - Anqi Zhu
-  - Avi Srivastava
-  - Joseph G. Ibrahim
-  - Rob Patro
-  - Michael I. Love
-  num_authors: 5
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2019
-  date: '2019-02-25'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/561084
-  link: https://doi.org/10.1101/561084
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2019/05/02/561084.full.pdf
 - id: W2949762480
   title: A junction coverage compatibility score to quantify the reliability of transcript
     abundance estimates and annotation catalogs
@@ -1878,25 +1482,6 @@
   link: https://doi.org/10.7287/peerj.preprints.27283v2
   is_oa: true
   oa_url: https://doi.org/10.7287/peerj.preprints.27283v2
-- id: W2900339311
-  title: An Efficient, Scalable and Exact Representation of High-Dimensional Color
-    Information Enabled via de Bruijn Graph Search
-  authors:
-  - Fatemeh Almodaresi
-  - Prashant Pandey
-  - Michael Ferdman
-  - Rob Johnson
-  - Rob Patro
-  num_authors: 5
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2018
-  date: '2018-11-07'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/464222
-  link: https://doi.org/10.1101/464222
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2018/11/07/464222.1.full.pdf
 - id: W4244421209
   title: 'RNA sequencing data: hitchhiker''s guide to expression analysis'
   authors:
@@ -2042,8 +1627,8 @@
   is_preprint: false
   doi: https://doi.org/10.1109/tcbb.2018.2851200
   link: https://doi.org/10.1109/tcbb.2018.2851200
-  is_oa: false
-  oa_url: null
+  is_oa: true
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2015/11/26/032953.full.pdf
 - id: W4246230485
   title: 'Swimming downstream: statistical analysis of differential transcript usage
     following Salmon quantification'
@@ -2061,6 +1646,120 @@
   link: https://doi.org/10.12688/f1000research.15398.1
   is_oa: true
   oa_url: https://f1000research.com/articles/7-952/v1/pdf
+- id: W2765745983
+  title: 'Bioconda: sustainable and comprehensive software distribution for the life
+    sciences'
+  authors:
+  - Björn Grüning
+  - Ryan Dale
+  - Andreas Sjödin
+  - Brad Chapman
+  - Jillian Rowe
+  - Christopher H. Tomkins-Tinch
+  - Renan Valieris
+  - Adam Caprez
+  - Bérénice Batut
+  - Mathias Haudgaard
+  - Thomas Cokelaer
+  - Kyle A. Beauchamp
+  - Brent S. Pedersen
+  - Youri Hoogstrate
+  - Anthony Bretaudeau
+  - Devon Ryan
+  - Gildas Le Corguillé
+  - Dilmurat Yusuf
+  - Sebastián Luna-Valero
+  - Rory Kirchner
+  - Karel Brinda
+  - Thomas Wollmann
+  - Martin Raden
+  - Simon J. van Heeringen
+  - Nicola Soranzo
+  - Lorena Pantano
+  - Zachary Charlop–Powers
+  - Per Unneberg
+  - Matthias De Smet
+  - Marcel Martin
+  - Greg Von Kuster
+  - Tiago Antao
+  - Milad Miladi
+  - Kevin Thornton
+  - Christian Brueffer
+  - Marius Van Beek
+  - Daniel Maticzka
+  - Clemens Blank
+  - Sebastian Will
+  - K´evin Gravouil
+  - Joachim Wolff
+  - Manuel Holtgrewe
+  - Jörg Fallmann
+  - Vitor C. Piro
+  - Ilya Shlyakhter
+  - Ayman Yousif
+  - Philip Mabon
+  - Xiao‐Ou Zhang
+  - Wei Shen
+  - Jennifer Cabral
+  - Cristel Thomas
+  - Eric Enns
+  - Joseph Brown
+  - Jorrit Boekel
+  - Mattias de Hollander
+  - Jerome Kelleher
+  - Nitesh Turaga
+  - Julian R. de Ruiter
+  - Dave Bouvier
+  - Simon Gladman
+  - Saket Choudhary
+  - Nicholas Harding
+  - Florian Eggenhofer
+  - Arne Kratz
+  - Zhuoqing Fang
+  - Robert Kleinkauf
+  - Henning Timm
+  - Peter Cock
+  - Enrico Seiler
+  - Colin Brislawn
+  - Hai Nguyen
+  - Endre Bakken Stovner
+  - Philip Ewels
+  - Matt Chambers
+  - James E. Johnson
+  - Emil Hägglund
+  - Simon Ye
+  - Roman Valls Guimera
+  - Elmar Pruesse
+  - W. Augustine Dunn
+  - Lance Parsons
+  - Rob Patro
+  - David Koppstein
+  - Elena Grassi
+  - Inken Wohlers
+  - Alex Reynolds
+  - Macintosh Cornwell (7913225)
+  - Nicholas Stoler
+  - Daniel Blankenberg
+  - Guowei He
+  - Marcel Bargull
+  - Alexander Junge
+  - Rick Farouni
+  - Mallory Freeberg
+  - Sourav Singh
+  - Daniel Ross Bogema
+  - Fabio Cumbo
+  - Liang-Bo Wang
+  - David E. Larson
+  - Matthew L. Workentine
+  num_authors: 100
+  venue: Nature Methods
+  year: 2018
+  date: '2018-06-25'
+  type: article
+  is_preprint: false
+  doi: https://doi.org/10.1038/s41592-018-0046-7
+  link: https://doi.org/10.1038/s41592-018-0046-7
+  is_oa: true
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2017/10/27/207092.full.pdf
 - id: W2809649683
   title: 'Mantis: A Fast, Small, and Exact Large-Scale Sequence-Search Index'
   authors:
@@ -2080,24 +1779,6 @@
   link: https://doi.org/10.1016/j.cels.2018.05.021
   is_oa: true
   oa_url: http://www.cell.com/article/S2405471218302394/pdf
-- id: W3098765096
-  title: Alevin efficiently estimates accurate gene abundances from dscRNA-seq data
-  authors:
-  - Avi Srivastava
-  - Laraib Iqbal Malik
-  - Tom S. Smith
-  - Ian M. Sudbery
-  - Rob Patro
-  num_authors: 5
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2018
-  date: '2018-06-01'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/335000
-  link: https://doi.org/10.1101/335000
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2018/10/24/335000.full.pdf
 - id: W2802684988
   title: 'Grouper: graph-based clustering and annotation for improved de novo transcriptome
     analysis'
@@ -2167,120 +1848,6 @@
   link: https://doi.org/10.1101/217372
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2017/11/10/217372.full.pdf
-- id: W2949155616
-  title: 'Bioconda: A sustainable and comprehensive software distribution for the
-    life sciences'
-  authors:
-  - Björn Andreas Grüning
-  - Ryan Dale
-  - Andreas Sjödin
-  - Brad Chapman
-  - Jillian Rowe
-  - Christopher H. Tomkins-Tinch
-  - Renan Valieris
-  - Adam Caprez
-  - Bérénice Batut
-  - Mathias Haudgaard
-  - Thomas Cokelaer
-  - Kyle A. Beauchamp
-  - Brent S. Pedersen
-  - Youri Hoogstrate
-  - Anthony Bretaudeau
-  - Devon Patrick Ryan
-  - Gildas Le Corguillé
-  - Dilmurat Yusuf
-  - Sebastián Luna-Valero
-  - Rory D. Kirchner
-  - Karel Břinda
-  - Thomas Wollmann
-  - Martin Raden
-  - Simon J. van Heeringen
-  - Nicola Soranzo
-  - Lorena Pantano
-  - Zachary Charlop–Powers
-  - Per Unneberg
-  - Matthias De Smet
-  - Marcel Martin
-  - Greg Von Kuster
-  - Tiago Antão
-  - Milad Miladi
-  - Kevin Thornton
-  - Christian Brueffer
-  - Marius van den Beek
-  - Daniel Maticzka
-  - Clemens Blank
-  - Sebastian Will
-  - Kévin Gravouil
-  - Joachim R. Wolff
-  - Manuel Holtgrewe
-  - Jörg Fallmann
-  - Vitor C. Piro
-  - Ilya A. Shlyakhter
-  - Ayman Yousif
-  - Philip Mabon
-  - Xiao‐Ou Zhang
-  - Wei Shen
-  - Jennifer Cabral
-  - Cristel G. Thomas
-  - Eric Enns
-  - Joseph Brown
-  - Jorrit Boekel
-  - Mattias de Hollander
-  - Jerome Kelleher
-  - Nitesh Turaga
-  - Julian R. de Ruiter
-  - Dave Bouvier
-  - Simon L. Gladman
-  - Saket Choudhary
-  - Nicholas Harding
-  - Florian Eggenhofer
-  - Arne Kratz
-  - Zhuoqing Fang
-  - Robert Kleinkauf
-  - Henning Timm
-  - Peter Cock
-  - Enrico Seiler
-  - Colin Brislawn
-  - Thi Hong Hai Nguyen
-  - Endre Bakken Stovner
-  - Philip Ewels
-  - Matt Chambers
-  - James E. Johnson
-  - Emil Hägglund
-  - Simon Ye
-  - Roman Valls Guimerà
-  - Elmar Pruesse
-  - W. Augustine Dunn
-  - Lance Parsons
-  - Rob Patro
-  - David Koppstein
-  - Elena Grassi
-  - Inken Wohlers
-  - Alex P. Reynolds
-  - MacIntosh Cornwell
-  - Nicholas Stoler
-  - Daniel Blankenberg
-  - Guowei He
-  - Marcel Bargull
-  - Alexander Junge
-  - Rick Farouni
-  - Mallory Freeberg
-  - Sourav Singh
-  - Daniel Ross Bogema
-  - Fabio Cumbo
-  - Liang-Bo Wang
-  - David E. Larson
-  - Matthew L. Workentine
-  num_authors: 100
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2017
-  date: '2017-10-21'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/207092
-  link: https://doi.org/10.1101/207092
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2017/10/27/207092.full.pdf
 - id: W2949074212
   title: 'Squeakr: an exact and approximate k -mer counting system'
   authors:
@@ -2298,22 +1865,6 @@
   link: https://doi.org/10.1093/bioinformatics/btx636
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/34/4/568/25117209/btx636.pdf
-- id: W2950380733
-  title: A space and time-efficient index for the compacted colored de Bruijn graph
-  authors:
-  - Fatemeh Almodaresi
-  - Hirak Sarkar
-  - Rob Patro
-  num_authors: 3
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2017
-  date: '2017-09-21'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/191874
-  link: https://doi.org/10.1101/191874
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2017/09/21/191874.full.pdf
 - id: W2949279665
   title: Quark enables semi-reference-based compression of RNA-seq data
   authors:
@@ -2327,8 +1878,8 @@
   is_preprint: false
   doi: https://doi.org/10.1093/bioinformatics/btx428
   link: https://doi.org/10.1093/bioinformatics/btx428
-  is_oa: false
-  oa_url: null
+  is_oa: true
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2016/11/05/085878.full.pdf
 - id: W2613660619
   title: 'Rainbowfish: A Succinct Colored de Bruijn Graph Representation'
   authors:
@@ -2380,23 +1931,6 @@
   link: https://doi.org/10.1093/bioinformatics/btx262
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/33/14/i142/25157301/btx262.pdf
-- id: W2608455804
-  title: 'Squeakr: An Exact and Approximate k -mer Counting System'
-  authors:
-  - Prashant Pandey
-  - Michael A. Bender
-  - Rob Johnson
-  - Rob Patro
-  num_authors: 4
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2017
-  date: '2017-03-29'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/122077
-  link: https://doi.org/10.1101/122077
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2017/03/29/122077.full.pdf
 - id: W2592811885
   title: Salmon provides fast and bias-aware quantification of transcript expression
   authors:
@@ -2414,7 +1948,7 @@
   doi: https://doi.org/10.1038/nmeth.4197
   link: https://doi.org/10.1038/nmeth.4197
   is_oa: true
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/5600148
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2016/08/30/021592.full.pdf
 - id: W2950792513
   title: 'Rainbowfish: A Succinct Colored de Bruijn Graph Representation'
   authors:
@@ -2449,21 +1983,6 @@
   link: https://doi.org/10.1101/089417
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2016/11/25/089417.full.pdf
-- id: W2555343121
-  title: Quark enables semi-reference-based compression of RNA-seq data
-  authors:
-  - Hirak Sarkar
-  - Rob Patro
-  num_authors: 2
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2016
-  date: '2016-11-05'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/085878
-  link: https://doi.org/10.1101/085878
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2016/11/05/085878.full.pdf
 - id: W2952944477
   title: 'RapMap: a rapid, sensitive and accurate tool for mapping RNA-seq reads to
     transcriptomes'
@@ -2564,35 +2083,6 @@
   link: https://doi.org/10.1186/s12859-016-1008-7
   is_oa: true
   oa_url: https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-016-1008-7
-- id: W7136282804
-  title: Additional file 5 of A computational method for designing diverse linear
-    epitopes including citrullinated peptides with desired binding affinities to intravenous
-    immunoglobulin
-  authors:
-  - Rob Patro
-  - Raquel Norel
-  - Robert J. Prill
-  - Julio Sáez-Rodríguez
-  - Peter Lorenz
-  - Felix Steinbeck
-  - Bjoern Ziems
-  - Mitja LuĹĄtrek
-  - Nicola Barbarini
-  - Alessandra Tiengo
-  - Riccardo Bellazzi
-  - Hans-JĂźrgen Thiesen
-  - Gustavo A. Stolovitzky
-  - Carl Kingsford
-  num_authors: 14
-  venue: Figshare
-  year: 2016
-  date: '2016-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.6084/m9.figshare.4388876.v1
-  link: https://doi.org/10.6084/m9.figshare.4388876.v1
-  is_oa: true
-  oa_url: https://doi.org/10.6084/m9.figshare.4388876.v1
 - id: W7137368262
   title: Additional file 5 of A computational method for designing diverse linear
     epitopes including citrullinated peptides with desired binding affinities to intravenous
@@ -2622,39 +2112,6 @@
   link: https://doi.org/10.6084/m9.figshare.4388876
   is_oa: true
   oa_url: https://doi.org/10.6084/m9.figshare.4388876
-- id: W2339493261
-  title: Rich chromatin structure prediction from Hi-C data
-  authors:
-  - Laraib Iqbal Malik
-  - Rob Patro
-  num_authors: 2
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2015
-  date: '2015-11-26'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/032953
-  link: https://doi.org/10.1101/032953
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2015/11/26/032953.full.pdf
-- id: W2294844557
-  title: 'RapMap: A Rapid, Sensitive and Accurate Tool for Mapping RNA-seq Reads to
-    Transcriptomes'
-  authors:
-  - Avi Srivastava
-  - Hirak Sarkar
-  - Nitish Gupta
-  - Rob Patro
-  num_authors: 4
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2015
-  date: '2015-10-22'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/029652
-  link: https://doi.org/10.1101/029652
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2016/01/16/029652.full.pdf
 - id: W2297409252
   title: Maximum Likelihood Estimation of Biological Relatedness from Low Coverage
     Sequencing Data
@@ -2673,25 +2130,6 @@
   link: https://doi.org/10.1101/023374
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2015/07/29/023374.full.pdf
-- id: W2510530116
-  title: Salmon provides accurate, fast, and bias-aware transcript expression estimates
-    using dual-phase inference
-  authors:
-  - Rob Patro
-  - Geet Duggal
-  - Michael I. Love
-  - Rafael A. Irizarry
-  - Carl Kingsford
-  num_authors: 5
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2015
-  date: '2015-06-27'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/021592
-  link: https://doi.org/10.1101/021592
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2016/08/30/021592.full.pdf
 - id: W2949834382
   title: 'TransRate: reference free quality assessment of de-novo transcriptome assemblies'
   authors:
@@ -2783,21 +2221,6 @@
   link: https://doi.org/10.1093/bioinformatics/btv071
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/31/12/1920/17100184/btv071.pdf
-- id: W2172512721
-  title: Compression of short-read sequences using path encoding
-  authors:
-  - Carl Kingsford
-  - Rob Patro
-  num_authors: 2
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2014
-  date: '2014-06-24'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/006551
-  link: https://doi.org/10.1101/006551
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2014/06/24/006551.full.pdf
 - id: W2065128082
   title: Sailfish enables alignment-free isoform quantification from RNA-seq reads
     using lightweight algorithms

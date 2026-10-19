@@ -57,8 +57,8 @@
   title: A comprehensive assessment of tandem repeat genotyping methods for Nanopore
     long-read genomes
   authors:
-  - Elbay Aliyev
-  - Akshay Avvaru
+  - ELBAY E. ALIYEV
+  - Akshay Kumar Avvaru
   - Wouter De Coster
   - Garrison M. Arner
   - Denis M. Nyaga
@@ -75,7 +75,7 @@
   - Xinxia Peng
   - Marcelo Ayllon
   - Nikhita Damaraju
-  - Miranda Zalusky
+  - Miranda Pg Zalusky
   - Kendra Hoekzema
   - David Twesigomwe
   - Lei Yang
@@ -98,7 +98,7 @@
   - Sara Goodwin
   - Tanner D. Jensen
   - Esther Robb
-  - W. Richard McCombie
+  - William Richard McCombie
   - Fritz Joachim Sedlazeck
   - Justin M. Zook
   - Stephen B. Montgomery
@@ -107,13 +107,13 @@
   - Michael C. Schatz
   - Richard N. McLaughlin
   - Michael C. Zody
-  - Prof Matthew Loose
+  - Matthew Loose
   - Miten Jain
   - Rob Patro
   - Caitlin N. Jacques
   - Mark Chaisson
   - Danny E. Miller
-  - Elizabeth Ostrowski
+  - Elizabeth A. Ostrowski
   - Harriet Dashnow
   num_authors: 58
   venue: Genome biology
@@ -148,7 +148,7 @@
   - Andrew Bai
   - Heng Li
   - Suyash Shringarpure
-  - Gene Myers
+  - Eugene Wimberly Myers
   - Andrew Ho
   num_authors: 22
   venue: bioRxiv (Cold Spring Harbor Laboratory)
@@ -193,28 +193,6 @@
   link: https://doi.org/10.1093/bioinformatics/btag264
   is_oa: true
   oa_url: https://doi.org/10.1093/bioinformatics/btag264
-- id: W7162333208
-  title: Highly Constrained Kinetic Models for Single-Cell Gene Expression Analysis
-  authors:
-  - Hyeon Jin Cho
-  - Christopher H. Bohrer
-  - Paweł Trzaskoma
-  - Jee Min Kim
-  - Aleksandra Pękowska
-  - Rafael C. Casellas
-  - Rob Patro
-  - Carson C. Chow
-  - Daniel R. Larson
-  num_authors: 9
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2026
-  date: '2026-05-25'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.64898/2026.05.22.727214
-  link: https://doi.org/10.64898/2026.05.22.727214
-  is_oa: true
-  oa_url: https://doi.org/10.64898/2026.05.22.727214
 - id: W4411472473
   title: 'QCatch: a framework for quality control assessment and analysis of single-cell
     sequencing data'
@@ -249,21 +227,28 @@
   link: https://doi.org/10.64898/2026.02.13.705625
   is_oa: true
   oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12934806/
-- id: W7125593190
-  title: 'Optimizing sparse and skew hashing: faster k -mer dictionaries'
+- id: W7162333208
+  title: Highly Constrained Kinetic Models for Single-Cell Gene Expression Analysis
   authors:
-  - Giulio Ermanno Pibiri
+  - Hyeon Jin Cho
+  - Christopher H. Bohrer
+  - Paweł Trzaskoma
+  - Jee Min Kim
+  - Aleksandra Pękowska
+  - Rafael C. Casellas
   - Rob Patro
-  num_authors: 2
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
+  - Carson C. Chow
+  - Daniel R. Larson
+  num_authors: 9
+  venue: SSRN Electronic Journal
   year: 2026
-  date: '2026-01-22'
+  date: '2026-01-01'
   type: preprint
   is_preprint: true
-  doi: https://doi.org/10.64898/2026.01.21.700884
-  link: https://doi.org/10.64898/2026.01.21.700884
+  doi: https://doi.org/10.2139/ssrn.6992703
+  link: https://doi.org/10.2139/ssrn.6992703
   is_oa: true
-  oa_url: https://doi.org/10.64898/2026.01.21.700884
+  oa_url: https://doi.org/10.2139/ssrn.6992703
 - id: W7155986522
   title: 'Kaminari: a frugal colored index for approximate k -mer queries'
   authors:
@@ -386,16 +371,16 @@
   - Travis J. Wheeler
   - Mihai Pop
   - C. Titus Brown
-  - Tessa Pierce-Ward
+  - Tessa Pierce Ward
   - Rob Patro
   - Jacquelyn S. Michaelis
   - Thomas Madden
-  - Christiam Camacho
+  - Camacho Christiam
   - Olaitan Igbagbo Awe
   - Arianna I. Krinos
   - René K. M. Xavier
   - Polo, Rodrigo Ortega
-  - Jack W Roddy
+  - Jack W. Roddy
   - Adelaide C. E. Rhodes
   - Alexander P. Sweeten
   - Adrian Viehweger
@@ -427,23 +412,6 @@
   link: https://doi.org/10.48550/arxiv.2505.06395
   is_oa: true
   oa_url: https://arxiv.org/pdf/2505.06395
-- id: W4404917901
-  title: Alevin-fry-atac enables rapid and memory frugal mapping of single-cell ATAC-seq
-    data using virtual colors for accurate genomic pseudoalignment
-  authors:
-  - Noor Singh
-  - Jamshed Khan
-  - Rob Patro
-  num_authors: 3
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2024
-  date: '2024-12-02'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2024.11.27.625771
-  link: https://doi.org/10.1101/2024.11.27.625771
-  is_oa: true
-  oa_url: https://doi.org/10.1101/2024.11.27.625771
 - id: W4403785152
   title: 'Collapsible tree: interactive web app to present collapsible hierarchies'
   authors:
@@ -492,7 +460,7 @@
   - Cameron Cook
   - Anshul Bharat Kundaje
   - Michael M. Hoffman
-  - Anne E. Carpenter
+  - Anne Elizabeth Carpenter
   - Stephanie A. M. Wankowicz
   - Kresten Lindorff‐Larsen
   num_authors: 14
@@ -575,7 +543,7 @@
   - Kaiyuan Zhu
   - Lichun Ma
   - Xin Wei Wang
-  - Cenk Sahinalp
+  - S. Cenk Şahinalp
   - Rob Patro
   - Mark D.M. Leiserson
   - Curtis C. Harris
@@ -674,22 +642,6 @@
   link: https://doi.org/10.1093/bioinformatics/btae187
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btae187/57303432/btae187.pdf
-- id: W4392359931
-  title: 'Oarfish: Enhanced probabilistic modeling leads to improved accuracy in long
-    read transcriptome quantification'
-  authors:
-  - Zahra Zare Jousheghani
-  - Rob Patro
-  num_authors: 2
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2024
-  date: '2024-03-01'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2024.02.28.582591
-  link: https://doi.org/10.1101/2024.02.28.582591
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/03/01/2024.02.28.582591.full.pdf
 - id: W4391554792
   title: 'scCensus: Off-target scRNA-seq reads reveal meaningful biology'
   authors:
@@ -725,24 +677,6 @@
   link: https://doi.org/10.1186/s13015-024-00251-9
   is_oa: true
   oa_url: https://almob.biomedcentral.com/counter/pdf/10.1186/s13015-024-00251-9
-- id: W4390188350
-  title: Tree-based differential testing using inferential uncertainty for RNA-Seq
-  authors:
-  - Noor Singh
-  - Euphy Y. Wu
-  - Jason Fan
-  - Michael I. Love
-  - Rob Patro
-  num_authors: 5
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2023
-  date: '2023-12-25'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2023.12.25.573288
-  link: https://doi.org/10.1101/2023.12.25.573288
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/12/25/2023.12.25.573288.full.pdf
 - id: W4387420341
   title: 'simpleaf : a simple, flexible, and scalable framework for single-cell data
     processing using alevin-fry'
@@ -759,22 +693,6 @@
   link: https://doi.org/10.1093/bioinformatics/btad614
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btad614/51925368/btad614.pdf
-- id: W4385245730
-  title: Meta-colored compacted de Bruijn graphs
-  authors:
-  - Giulio Ermanno Pibiri
-  - Jason Fan
-  - Rob Patro
-  num_authors: 3
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2023
-  date: '2023-07-25'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2023.07.21.550101
-  link: https://doi.org/10.1101/2023.07.21.550101
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/11/01/2023.07.21.550101.full.pdf
 - id: W4384068588
   title: 'SEESAW: detecting isoform-level allelic imbalance accounting for inferential
     uncertainty'
@@ -902,23 +820,6 @@
   link: https://doi.org/10.1101/2023.01.04.522742
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/01/04/2023.01.04.522742.full.pdf
-- id: W4307508639
-  title: Spectrum preserving tilings enable sparse and modular reference indexing
-  authors:
-  - Jason Fan
-  - Jamshed Khan
-  - Giulio Ermanno Pibiri
-  - Rob Patro
-  num_authors: 4
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2022
-  date: '2022-10-28'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/2022.10.27.513881
-  link: https://doi.org/10.1101/2022.10.27.513881
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2023/01/11/2022.10.27.513881.full.pdf
 - id: W4295087956
   title: Scalable, ultra-fast, and low-memory construction of compacted de Bruijn
     graphs with Cuttlefish 2
@@ -1294,7 +1195,7 @@
   - Kaiyuan Zhu
   - Lichun Ma
   - Xin Wei Wang
-  - Cenk Sahinalp
+  - S. Cenk Şahinalp
   - Rob Patro
   - Mark D.M. Leiserson
   - Curtis C. Harris
@@ -1577,26 +1478,6 @@
   link: https://doi.org/10.1038/s41398-018-0223-6
   is_oa: true
   oa_url: https://www.nature.com/articles/s41398-018-0223-6.pdf
-- id: W2882997339
-  title: A junction coverage compatibility score to quantify the reliability of transcript
-    abundance estimates and annotation catalogs
-  authors:
-  - Charlotte Soneson
-  - Michael I. Love
-  - Rob Patro
-  - Shobbir Hussain
-  - Dheeraj Malhotra
-  - Mark D. Robinson
-  num_authors: 6
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  year: 2018
-  date: '2018-07-28'
-  type: preprint
-  is_preprint: true
-  doi: https://doi.org/10.1101/378539
-  link: https://doi.org/10.1101/378539
-  is_oa: true
-  oa_url: https://www.biorxiv.org/content/biorxiv/early/2018/07/28/378539.full.pdf
 - id: W1880719752
   title: 'Salmon: Accurate, Versatile and Ultrafast Quantification from RNA-seq Data
     using Lightweight-Alignment'
@@ -1669,11 +1550,11 @@
   - Gildas Le Corguillé
   - Dilmurat Yusuf
   - Sebastián Luna-Valero
-  - Rory Kirchner
+  - Rory D. Kirchner
   - Karel Brinda
   - Thomas Wollmann
   - Martin Raden
-  - Simon J. van Heeringen
+  - Simon van Heeringen
   - Nicola Soranzo
   - Lorena Pantano
   - Zachary Charlop–Powers
@@ -1689,15 +1570,15 @@
   - Daniel Maticzka
   - Clemens Blank
   - Sebastian Will
-  - K´evin Gravouil
+  - Kévin Gravouil
   - Joachim Wolff
   - Manuel Holtgrewe
   - Jörg Fallmann
   - Vitor C. Piro
-  - Ilya Shlyakhter
+  - Ilya A. Shlyakhter
   - Ayman Yousif
   - Philip Mabon
-  - Xiao‐Ou Zhang
+  - Xiao-Ou Zhang
   - Wei Shen
   - Jennifer Cabral
   - Cristel Thomas
@@ -1709,7 +1590,7 @@
   - Nitesh Turaga
   - Julian R. de Ruiter
   - Dave Bouvier
-  - Simon Gladman
+  - Simon L. Gladman
   - Saket Choudhary
   - Nicholas Harding
   - Florian Eggenhofer
@@ -1726,11 +1607,11 @@
   - Matt Chambers
   - James E. Johnson
   - Emil Hägglund
-  - Simon Ye
-  - Roman Valls Guimera
+  - Simon H. Ye
+  - Roman Valls Guimerà
   - Elmar Pruesse
   - W. Augustine Dunn
-  - Lance Parsons
+  - Lance R. Parsons
   - Rob Patro
   - David Koppstein
   - Elena Grassi
@@ -1738,7 +1619,7 @@
   - Alex Reynolds
   - Macintosh Cornwell (7913225)
   - Nicholas Stoler
-  - Daniel Blankenberg
+  - Daniel J Blankenberg
   - Guowei He
   - Marcel Bargull
   - Alexander Junge
@@ -1880,7 +1761,7 @@
   link: https://doi.org/10.1093/bioinformatics/btx428
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2016/11/05/085878.full.pdf
-- id: W2613660619
+- id: W2950792513
   title: 'Rainbowfish: A Succinct Colored de Bruijn Graph Representation'
   authors:
   - Fatemeh Almodaresi
@@ -1949,22 +1830,6 @@
   link: https://doi.org/10.1038/nmeth.4197
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2016/08/30/021592.full.pdf
-- id: W2950792513
-  title: 'Rainbowfish: A Succinct Colored de Bruijn Graph Representation'
-  authors:
-  - Fatemeh Almodaresi
-  - Prashant Pandey
-  - Rob Patro
-  num_authors: 3
-  venue: DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)
-  year: 2017
-  date: '2017-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.4230/lipics.wabi.2017.18
-  link: https://doi.org/10.4230/lipics.wabi.2017.18
-  is_oa: true
-  oa_url: https://drops.dagstuhl.de/storage/00lipics/lipics-vol088-wabi2017/LIPIcs.WABI.2017.18/LIPIcs.WABI.2017.18.pdf
 - id: W2558037044
   title: Graph regularized, semi-supervised learning improves annotation of de novo
     transcriptomes
@@ -2164,7 +2029,7 @@
   - Eduardo Eyras
   - Andrea Barta
   - Hugh G. Nimmo
-  - John W. Brown
+  - John W. S. Brown
   num_authors: 13
   venue: New Phytologist
   year: 2015
@@ -2293,7 +2158,7 @@
   - Geet Duggal
   - Rob Patro
   - Emre Sefer
-  - Hao Henry Wang
+  - Hao Wang
   - Darya Filippova
   - Samir Khuller
   - Carl Kingsford

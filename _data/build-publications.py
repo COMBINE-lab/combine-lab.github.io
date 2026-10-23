@@ -72,6 +72,43 @@ CURATED_PUBLICATIONS = [
             "2026.07.28.741211v1.full.pdf"
         ),
     },
+    # Accepted to and presented at RECOMB 2026 (no proceedings DOI); OpenAlex does
+    # not link this preprint to Rob's author record.
+    {
+        "id": "doi:10.1101/2025.02.02.636161",
+        "title": (
+            "Faster and Scalable Parallel External-Memory Construction of Colored "
+            "Compacted de Bruijn Graphs with Cuttlefish 3"
+        ),
+        "authors": ["Jamshed Khan", "Laxman Dhulipala", "Prashant Pandey", "Rob Patro"],
+        "num_authors": 4,
+        "venue": "RECOMB 2026 (Research in Computational Molecular Biology); preprint on bioRxiv",
+        "year": 2026,
+        "date": "2026-02-26",
+        "type": "preprint",
+        "is_preprint": True,
+        "doi": "https://doi.org/10.1101/2025.02.02.636161",
+        "link": "https://doi.org/10.1101/2025.02.02.636161",
+        "is_oa": True,
+        "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11838517/",
+    },
+    # OpenAlex types this RECOMB 2023 chapter as "conference-paper", which
+    # INCLUDE_TYPES filters out.
+    {
+        "id": "doi:10.1007/978-3-031-29119-7_2",
+        "title": "Spectrum Preserving Tilings Enable Sparse and Modular Reference Indexing",
+        "authors": ["Jason Fan", "Jamshed Khan", "Giulio Ermanno Pibiri", "Rob Patro"],
+        "num_authors": 4,
+        "venue": "RECOMB 2023 (Research in Computational Molecular Biology), Lecture Notes in Computer Science",
+        "year": 2023,
+        "date": "2023-04-03",
+        "type": "book-chapter",
+        "is_preprint": False,
+        "doi": "https://doi.org/10.1007/978-3-031-29119-7_2",
+        "link": "https://doi.org/10.1007/978-3-031-29119-7_2",
+        "is_oa": True,
+        "oa_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-29119-7_2.pdf",
+    },
 ]
 
 API_ROOT = "https://api.openalex.org/works"

@@ -244,7 +244,7 @@
   doi: https://doi.org/10.64898/2026.02.13.705625
   link: https://doi.org/10.64898/2026.02.13.705625
   is_oa: true
-  oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12934806/
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2026/02/16/2026.02.13.705625.full.pdf
 - id: W7162333208
   title: Highly Constrained Kinetic Models for Single-Cell Gene Expression Analysis
   authors:
@@ -1150,7 +1150,7 @@
   venue: iScience
   year: 2020
   date: '2020-12-18'
-  type: article
+  type: review
   is_preprint: false
   doi: https://doi.org/10.1016/j.isci.2020.101956
   link: https://doi.org/10.1016/j.isci.2020.101956
@@ -2138,7 +2138,7 @@
   doi: https://doi.org/10.1038/nbt.2862
   link: https://doi.org/10.1038/nbt.2862
   is_oa: true
-  oa_url: https://arxiv.org/pdf/1308.3700
+  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/4077321
 - id: W2109949710
   title: Identification of alternative topological domains in chromatin
   authors:

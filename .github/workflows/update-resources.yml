@@ -34,7 +34,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
+      # On pull_request the checkout is a detached merge commit, so the commit
+      # action cannot switch to the branch. The push-triggered run of this same
+      # workflow commits the refreshed metadata; the PR run only validates that
+      # the build script still works.
       - name: Commit updated resource metadata
+        if: github.event_name != 'pull_request'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           file_pattern: "_data/resources_github.yml"

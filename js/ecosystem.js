@@ -345,9 +345,11 @@
     e.append("circle").attr("class", "eco_b");
     e.append("text");
     e.on("mouseenter", function (ev, d) {
+      // Do not re-order the node here: moving it in the DOM while the pointer
+      // is arriving swallows a click that starts in the same gesture (a tap,
+      // or a click with no hover pause).
       state.hover = d;
       if (state.pinned !== d) showTip(d);
-      d3.select(this).raise();
       refresh(true);
     })
       .on("mousemove", function (ev) {

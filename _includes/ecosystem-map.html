@@ -1,0 +1,81 @@
+{%- comment -%}
+Interactive map of the lab's software ecosystem.
+
+Data comes from three files, merged in /js/ecosystem.js:
+- _data/resources_github.yml  repository facts (generated weekly)
+- _data/resources.yml         curated descriptions, status, featured
+- _data/ecosystem.yml         themes, connections, "I want to..." tasks
+
+Styles are in /css/ecosystem.scss.
+{%- endcomment -%}
+
+<div class="eco" id="eco">
+  <div class="eco_bar">
+    <label class="eco_search">
+      <i class="fas fa-search" aria-hidden="true"></i>
+      <input id="eco-q" type="search" placeholder="Search name, description, topic, language" autocomplete="off" aria-label="Search repositories">
+    </label>
+    <div class="eco_seg" id="eco-views" role="group" aria-label="Arrange by">
+      <button type="button" data-v="ocean">Ocean</button>
+      <button type="button" data-v="themes">Themes</button>
+      <button type="button" data-v="connections">Connections</button>
+      <button type="button" data-v="languages">Languages</button>
+      <button type="button" data-v="timeline">Timeline</button>
+      <button type="button" data-v="list">List</button>
+    </div>
+    <span class="eco_count" id="eco-count"></span>
+  </div>
+
+  <div class="eco_tasks">
+    <span class="eco_tasks_lead">I want to&hellip;</span>
+    <div class="eco_tasks_row" id="eco-tasks" role="group" aria-label="Find tools by task"></div>
+  </div>
+  <p class="eco_task_blurb" id="eco-task-blurb" hidden></p>
+
+  <div class="eco_chips" id="eco-chips" role="group" aria-label="Filter by theme"></div>
+
+  <div class="eco_main">
+    <div class="eco_stage" id="eco-stage">
+      <svg id="eco-svg" role="img" aria-label="Bubble map of COMBINE-lab repositories">
+        <defs>
+          <marker id="eco-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 10 5 0 10z"></path>
+          </marker>
+        </defs>
+        <g id="eco-links"></g>
+        <g id="eco-nodes"></g>
+        <g id="eco-guide" class="eco_guide"></g>
+      </svg>
+      <div class="eco_tablewrap" id="eco-table"></div>
+      <div class="eco_tip" id="eco-tip" hidden></div>
+      <div class="eco_card" id="eco-card" hidden role="dialog" aria-label="Repository details"></div>
+    </div>
+
+    <div class="eco_aside">
+      <div class="eco_aside_title">Active and popular</div>
+      <p class="eco_aside_how">Ranked by stars, weighted toward recent updates.</p>
+      <ol id="eco-top"></ol>
+      <div class="eco_key">
+        <div><svg width="26" height="18"><circle cx="5" cy="9" r="3" fill="currentColor"/><circle cx="17" cy="9" r="8" fill="currentColor"/></svg>Size: GitHub stars</div>
+        <div><svg width="26" height="18"><circle cx="13" cy="9" r="5" fill="currentColor"/><circle cx="13" cy="9" r="8" fill="none" stroke="currentColor" stroke-dasharray="2 3"/></svg>Ring: updated in the last 90 days</div>
+        <div><svg width="26" height="18"><circle cx="7" cy="9" r="5" fill="currentColor"/><circle cx="19" cy="9" r="5" fill="currentColor" opacity=".35"/></svg>Faded: not updated in years</div>
+        <div><svg width="26" height="18"><path d="M1 9h20" stroke="currentColor" stroke-width="1.5"/><path d="M19 5l6 4-6 4z" fill="currentColor"/></svg>Output of one feeds the other</div>
+        <div><svg width="26" height="18"><path d="M1 9h20" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/><path d="M19 5l6 4-6 4z" fill="currentColor"/></svg>Built on, or runs, the other</div>
+        <div>Hover for a summary and connections. Click or right-click to pin it and open the repo.</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="eco_foot" id="eco-foot"></p>
+
+  <noscript>
+    <p>The map needs JavaScript. All of the lab's software is also listed on the <a href="{{ 'resources' | relative_url }}">Resources page</a>.</p>
+  </noscript>
+
+  <script type="application/json" id="eco-data-github">{{ site.data.resources_github | jsonify | replace: "</", "<\/" }}</script>
+  <script type="application/json" id="eco-data-curated">{{ site.data.resources | jsonify | replace: "</", "<\/" }}</script>
+  <script type="application/json" id="eco-data-ecosystem">{{ site.data.ecosystem | jsonify | replace: "</", "<\/" }}</script>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="{{ 'js/ecosystem.js' | relative_url }}"></script>

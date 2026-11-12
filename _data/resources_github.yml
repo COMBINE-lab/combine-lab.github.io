@@ -14,8 +14,9 @@
   fork: false
   archived: false
   pushed_at: '2026-08-15T18:15:57Z'
+  created_at: '2025-01-09T22:00:57Z'
   curated: true
-  generated_at: '2026-11-09T08:27:26Z'
+  generated_at: '2026-11-12T15:41:17Z'
 - repo: COMBINE-lab/alevin-fry
   name: alevin-fry
   full_name: COMBINE-lab/alevin-fry
@@ -39,10 +40,11 @@
   fork: false
   archived: false
   pushed_at: '2026-11-05T04:48:47Z'
+  created_at: '2020-07-15T18:48:53Z'
   latest_release: v0.19.0
   latest_release_url: https://github.com/COMBINE-lab/alevin-fry/releases/tag/v0.19.0
   curated: true
-  generated_at: '2026-11-09T08:27:26Z'
+  generated_at: '2026-11-12T15:41:16Z'
 - repo: COMBINE-lab/caps-sa
   name: caps-sa
   full_name: COMBINE-lab/caps-sa
@@ -55,10 +57,11 @@
   fork: false
   archived: false
   pushed_at: '2026-08-14T01:23:00Z'
+  created_at: '2026-05-23T01:06:55Z'
   latest_release: v0.7.0
   latest_release_url: https://github.com/COMBINE-lab/caps-sa/releases/tag/v0.7.0
   curated: true
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/cf1-rs
   name: cf1-rs
   full_name: COMBINE-lab/cf1-rs
@@ -73,10 +76,11 @@
   fork: false
   archived: false
   pushed_at: '2026-10-30T05:11:12Z'
+  created_at: '2026-02-26T02:16:46Z'
   latest_release: v0.6.0
   latest_release_url: https://github.com/COMBINE-lab/cf1-rs/releases/tag/v0.6.0
   curated: true
-  generated_at: '2026-11-09T08:27:25Z'
+  generated_at: '2026-11-12T15:41:16Z'
 - repo: COMBINE-lab/cuttlefish
   name: cuttlefish
   full_name: COMBINE-lab/cuttlefish
@@ -91,10 +95,11 @@
   fork: false
   archived: false
   pushed_at: '2026-10-01T00:19:50Z'
+  created_at: '2020-04-08T18:32:57Z'
   latest_release: v3.1.0
   latest_release_url: https://github.com/COMBINE-lab/cuttlefish/releases/tag/v3.1.0
   curated: true
-  generated_at: '2026-11-09T08:27:26Z'
+  generated_at: '2026-11-12T15:41:16Z'
 - repo: COMBINE-lab/Grouper
   name: grouper
   full_name: COMBINE-lab/grouper
@@ -107,8 +112,9 @@
   fork: false
   archived: false
   pushed_at: '2019-04-25T16:04:29Z'
+  created_at: '2017-09-19T20:59:03Z'
   curated: true
-  generated_at: '2026-11-09T08:27:29Z'
+  generated_at: '2026-11-12T15:41:21Z'
 - repo: COMBINE-lab/libradicl
   name: libradicl
   full_name: COMBINE-lab/libradicl
@@ -121,10 +127,11 @@
   fork: false
   archived: false
   pushed_at: '2026-10-31T15:38:39Z'
+  created_at: '2022-06-01T03:50:31Z'
   latest_release: v0.21.2
   latest_release_url: https://github.com/COMBINE-lab/libradicl/releases/tag/v0.21.2
   curated: true
-  generated_at: '2026-11-09T08:27:25Z'
+  generated_at: '2026-11-12T15:41:14Z'
 - repo: COMBINE-lab/matryoshka
   name: matryoshka
   full_name: COMBINE-lab/matryoshka
@@ -139,10 +146,29 @@
   fork: false
   archived: false
   pushed_at: '2017-08-18T23:34:00Z'
+  created_at: '2014-10-13T20:00:42Z'
   latest_release: v0.0.1
   latest_release_url: https://github.com/COMBINE-lab/matryoshka/releases/tag/v0.0.1
   curated: true
-  generated_at: '2026-11-09T08:27:31Z'
+  generated_at: '2026-11-12T15:41:24Z'
+- repo: COMBINE-lab/mim
+  name: mim
+  full_name: COMBINE-lab/mim
+  description: A small, auxiliary index to massively improve parallel fastq parsing
+  html_url: https://github.com/COMBINE-lab/mim
+  language: Rust
+  topics: []
+  stargazers_count: 32
+  forks_count: 1
+  open_issues_count: 6
+  fork: false
+  archived: false
+  pushed_at: '2026-03-06T00:34:01Z'
+  created_at: '2025-11-16T17:32:56Z'
+  latest_release: v0.1.1
+  latest_release_url: https://github.com/COMBINE-lab/mim/releases/tag/v0.1.1
+  curated: true
+  generated_at: '2026-11-12T15:41:15Z'
 - repo: COMBINE-lab/oarfish
   name: oarfish
   full_name: COMBINE-lab/oarfish
@@ -150,16 +176,17 @@
   html_url: https://github.com/COMBINE-lab/oarfish
   language: Rust
   topics: []
-  stargazers_count: 127
+  stargazers_count: 129
   forks_count: 8
-  open_issues_count: 16
+  open_issues_count: 15
   fork: false
   archived: false
-  pushed_at: '2026-11-07T21:25:05Z'
-  latest_release: v0.11.0
-  latest_release_url: https://github.com/COMBINE-lab/oarfish/releases/tag/v0.11.0
+  pushed_at: '2026-11-12T12:41:51Z'
+  created_at: '2022-06-27T17:58:35Z'
+  latest_release: v0.12.0
+  latest_release_url: https://github.com/COMBINE-lab/oarfish/releases/tag/v0.12.0
   curated: true
-  generated_at: '2026-11-09T08:27:25Z'
+  generated_at: '2026-11-12T15:41:15Z'
 - repo: COMBINE-lab/piscem
   name: piscem
   full_name: COMBINE-lab/piscem
@@ -174,10 +201,11 @@
   fork: false
   archived: false
   pushed_at: '2026-10-31T15:39:02Z'
+  created_at: '2022-07-10T02:27:50Z'
   latest_release: v0.25.0
   latest_release_url: https://github.com/COMBINE-lab/piscem/releases/tag/v0.25.0
   curated: true
-  generated_at: '2026-11-09T08:27:24Z'
+  generated_at: '2026-11-12T15:41:14Z'
 - repo: COMBINE-lab/piscem-infer
   name: piscem-infer
   full_name: COMBINE-lab/piscem-infer
@@ -190,10 +218,11 @@
   fork: false
   archived: false
   pushed_at: '2026-10-31T18:56:16Z'
+  created_at: '2022-07-28T02:21:47Z'
   latest_release: v0.8.1
   latest_release_url: https://github.com/COMBINE-lab/piscem-infer/releases/tag/v0.8.1
   curated: true
-  generated_at: '2026-11-09T08:27:24Z'
+  generated_at: '2026-11-12T15:41:13Z'
 - repo: COMBINE-lab/protocol-estuary
   name: protocol-estuary
   full_name: COMBINE-lab/protocol-estuary
@@ -206,8 +235,9 @@
   fork: false
   archived: false
   pushed_at: '2026-04-22T01:18:14Z'
+  created_at: '2023-03-14T01:15:48Z'
   curated: true
-  generated_at: '2026-11-09T08:27:25Z'
+  generated_at: '2026-11-12T15:41:15Z'
 - repo: COMBINE-lab/pufferfish
   name: pufferfish
   full_name: COMBINE-lab/pufferfish
@@ -223,14 +253,15 @@
   - genome
   - hash
   - index
-  stargazers_count: 113
+  stargazers_count: 114
   forks_count: 22
   open_issues_count: 27
   fork: false
   archived: false
   pushed_at: '2026-06-19T22:15:51Z'
+  created_at: '2017-05-25T20:39:11Z'
   curated: true
-  generated_at: '2026-11-09T08:27:26Z'
+  generated_at: '2026-11-12T15:41:17Z'
 - repo: COMBINE-lab/QCatch
   name: QCatch
   full_name: COMBINE-lab/QCatch
@@ -244,10 +275,11 @@
   fork: false
   archived: false
   pushed_at: '2026-09-06T16:18:04Z'
+  created_at: '2025-03-13T21:06:51Z'
   latest_release: v0.2.14
   latest_release_url: https://github.com/COMBINE-lab/QCatch/releases/tag/v0.2.14
   curated: true
-  generated_at: '2026-11-09T08:27:25Z'
+  generated_at: '2026-11-12T15:41:14Z'
 - repo: COMBINE-lab/rainbowfish
   name: rainbowfish
   full_name: COMBINE-lab/rainbowfish
@@ -262,8 +294,9 @@
   fork: false
   archived: false
   pushed_at: '2018-09-11T05:56:12Z'
+  created_at: '2017-04-05T18:30:02Z'
   curated: true
-  generated_at: '2026-11-09T08:27:28Z'
+  generated_at: '2026-11-12T15:41:20Z'
 - repo: COMBINE-lab/RapClust
   name: RapClust
   full_name: COMBINE-lab/RapClust
@@ -279,8 +312,9 @@
   fork: false
   archived: false
   pushed_at: '2024-06-16T14:55:33Z'
+  created_at: '2015-11-06T23:07:54Z'
   curated: true
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/RapMap
   name: RapMap
   full_name: COMBINE-lab/RapMap
@@ -295,10 +329,11 @@
   fork: false
   archived: false
   pushed_at: '2020-06-05T07:13:10Z'
+  created_at: '2015-07-04T16:54:15Z'
   latest_release: v0.6.0
   latest_release_url: https://github.com/COMBINE-lab/RapMap/releases/tag/v0.6.0
   curated: true
-  generated_at: '2026-11-09T08:27:29Z'
+  generated_at: '2026-11-12T15:41:21Z'
 - repo: COMBINE-lab/salmon
   name: salmon
   full_name: COMBINE-lab/salmon
@@ -323,16 +358,17 @@
   - single-cell
   - single-cell-rna-seq
   - transcriptome
-  stargazers_count: 943
+  stargazers_count: 945
   forks_count: 192
-  open_issues_count: 391
+  open_issues_count: 394
   fork: false
   archived: false
-  pushed_at: '2026-11-03T15:13:24Z'
+  pushed_at: '2026-11-09T11:56:56Z'
+  created_at: '2015-03-19T22:37:41Z'
   latest_release: v2.11.0
   latest_release_url: https://github.com/COMBINE-lab/salmon/releases/tag/v2.11.0
   curated: true
-  generated_at: '2026-11-09T08:27:26Z'
+  generated_at: '2026-11-12T15:41:16Z'
 - repo: COMBINE-lab/seqproc
   name: seqproc
   full_name: COMBINE-lab/seqproc
@@ -346,10 +382,11 @@
   fork: false
   archived: false
   pushed_at: '2026-08-25T20:18:52Z'
+  created_at: '2023-06-20T16:50:50Z'
   latest_release: v0.1.1
   latest_release_url: https://github.com/COMBINE-lab/seqproc/releases/tag/v0.1.1
   curated: true
-  generated_at: '2026-11-09T08:27:24Z'
+  generated_at: '2026-11-12T15:41:13Z'
 - repo: COMBINE-lab/simpleaf
   name: simpleaf
   full_name: COMBINE-lab/simpleaf
@@ -363,10 +400,11 @@
   fork: false
   archived: false
   pushed_at: '2026-10-26T18:27:37Z'
+  created_at: '2022-07-19T15:41:43Z'
   latest_release: v0.32.0
   latest_release_url: https://github.com/COMBINE-lab/simpleaf/releases/tag/v0.32.0
   curated: true
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/terminus
   name: terminus
   full_name: COMBINE-lab/terminus
@@ -382,10 +420,11 @@
   fork: false
   archived: false
   pushed_at: '2022-08-11T17:18:09Z'
+  created_at: '2020-01-30T20:28:47Z'
   latest_release: v0.1.0
   latest_release_url: https://github.com/COMBINE-lab/terminus/releases/tag/v0.1.0
   curated: true
-  generated_at: '2026-11-09T08:27:27Z'
+  generated_at: '2026-11-12T15:41:18Z'
 - repo: geetduggal/growcode
   name: growcode
   full_name: geetduggal/growcode
@@ -399,8 +438,9 @@
   fork: false
   archived: false
   pushed_at: '2013-08-13T22:48:05Z'
+  created_at: '2012-06-22T15:37:34Z'
   curated: true
-  generated_at: '2026-11-09T08:27:31Z'
+  generated_at: '2026-11-12T15:41:25Z'
 - repo: kingsfordgroup/armatus
   name: armatus
   full_name: kingsfordgroup/armatus
@@ -413,10 +453,11 @@
   fork: false
   archived: false
   pushed_at: '2025-04-23T13:36:19Z'
+  created_at: '2013-09-04T09:01:50Z'
   latest_release: v2.3
   latest_release_url: https://github.com/kingsfordgroup/armatus/releases/tag/v2.3
   curated: true
-  generated_at: '2026-11-09T08:27:30Z'
+  generated_at: '2026-11-12T15:41:23Z'
 - repo: kingsfordgroup/parana2
   name: parana2
   full_name: kingsfordgroup/parana2
@@ -429,8 +470,9 @@
   fork: false
   archived: false
   pushed_at: '2013-08-21T00:27:05Z'
+  created_at: '2013-08-19T12:14:04Z'
   curated: true
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:25Z'
 - repo: kingsfordgroup/sailfish
   name: sailfish
   full_name: kingsfordgroup/sailfish
@@ -445,10 +487,11 @@
   fork: false
   archived: false
   pushed_at: '2022-06-09T05:01:40Z'
+  created_at: '2013-08-19T02:09:27Z'
   latest_release: v0.10.0
   latest_release_url: https://github.com/kingsfordgroup/sailfish/releases/tag/v0.10.0
   curated: true
-  generated_at: '2026-11-09T08:27:30Z'
+  generated_at: '2026-11-12T15:41:22Z'
 - repo: rob-p/GHOST
   name: GHOST
   full_name: rob-p/GHOST
@@ -462,8 +505,9 @@
   fork: false
   archived: false
   pushed_at: '2014-06-20T15:24:53Z'
+  created_at: '2013-02-21T19:56:09Z'
   curated: true
-  generated_at: '2026-11-09T08:27:30Z'
+  generated_at: '2026-11-12T15:41:23Z'
 - repo: splatlab/deBGR
   name: debgr
   full_name: splatlab/debgr
@@ -478,8 +522,9 @@
   fork: false
   archived: false
   pushed_at: '2021-01-19T18:54:22Z'
+  created_at: '2017-02-04T23:23:42Z'
   curated: true
-  generated_at: '2026-11-09T08:27:28Z'
+  generated_at: '2026-11-12T15:41:19Z'
 - repo: splatlab/mantis
   name: mantis
   full_name: splatlab/mantis
@@ -493,8 +538,9 @@
   fork: false
   archived: false
   pushed_at: '2026-11-09T06:31:16Z'
+  created_at: '2017-11-10T04:08:39Z'
   curated: true
-  generated_at: '2026-11-09T08:27:27Z'
+  generated_at: '2026-11-12T15:41:18Z'
 - repo: splatlab/squeakr
   name: squeakr
   full_name: splatlab/squeakr
@@ -502,16 +548,17 @@
   html_url: https://github.com/splatlab/squeakr
   language: C++
   topics: []
-  stargazers_count: 85
+  stargazers_count: 86
   forks_count: 23
   open_issues_count: 12
   fork: false
   archived: false
   pushed_at: '2025-02-23T22:01:54Z'
+  created_at: '2017-02-04T22:09:14Z'
   latest_release: v0.8
   latest_release_url: https://github.com/splatlab/squeakr/releases/tag/v0.8
   curated: true
-  generated_at: '2026-11-09T08:27:28Z'
+  generated_at: '2026-11-12T15:41:20Z'
 - repo: COMBINE-lab/afwf-workflows
   name: afwf-workflows
   full_name: COMBINE-lab/afwf-workflows
@@ -524,8 +571,9 @@
   fork: false
   archived: false
   pushed_at: '2023-10-17T02:39:00Z'
+  created_at: '2023-10-13T17:31:26Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/alevin-fry-atac
   name: alevin-fry-atac
   full_name: COMBINE-lab/alevin-fry-atac
@@ -538,8 +586,9 @@
   fork: false
   archived: false
   pushed_at: '2025-04-02T04:35:36Z'
+  created_at: '2024-10-23T20:29:49Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/alevin-fry-paper-scripts
   name: alevin-fry-paper-scripts
   full_name: COMBINE-lab/alevin-fry-paper-scripts
@@ -552,8 +601,9 @@
   fork: false
   archived: false
   pushed_at: '2021-12-24T21:16:49Z'
+  created_at: '2021-06-28T18:48:20Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/alevin-paper-pipeline
   name: alevin-paper-pipeline
   full_name: COMBINE-lab/alevin-paper-pipeline
@@ -567,8 +617,9 @@
   fork: false
   archived: false
   pushed_at: '2020-08-20T17:52:10Z'
+  created_at: '2018-05-30T16:28:40Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/alevin-tutorial
   name: alevin-tutorial
   full_name: COMBINE-lab/alevin-tutorial
@@ -582,8 +633,9 @@
   fork: false
   archived: false
   pushed_at: '2022-02-08T16:29:30Z'
+  created_at: '2018-05-22T03:47:11Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/BP_2021-lfl
   name: BP_2021-lfl
   full_name: COMBINE-lab/BP_2021-lfl
@@ -596,8 +648,9 @@
   fork: false
   archived: false
   pushed_at: '2021-02-13T03:05:47Z'
+  created_at: '2021-02-10T05:59:41Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/cbcb-software-crawler
   name: cbcb-software-crawler
   full_name: COMBINE-lab/cbcb-software-crawler
@@ -610,8 +663,9 @@
   fork: false
   archived: false
   pushed_at: '2026-06-09T12:39:48Z'
+  created_at: '2026-06-05T17:54:47Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/color-mst
   name: color-mst
   full_name: COMBINE-lab/color-mst
@@ -623,8 +677,9 @@
   fork: false
   archived: false
   pushed_at: '2019-01-13T03:05:21Z'
+  created_at: '2018-11-05T17:07:10Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/combine-lab.github.io
   name: combine-lab.github.io
   full_name: COMBINE-lab/combine-lab.github.io
@@ -636,9 +691,10 @@
   open_issues_count: 2
   fork: false
   archived: false
-  pushed_at: '2026-11-02T08:41:48Z'
+  pushed_at: '2026-11-12T15:40:54Z'
+  created_at: '2020-11-27T16:45:04Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/COMBINE-lab.github.io-OLD
   name: COMBINE-lab.github.io-OLD
   full_name: COMBINE-lab/COMBINE-lab.github.io-OLD
@@ -652,8 +708,9 @@
   fork: false
   archived: false
   pushed_at: '2020-10-01T07:18:29Z'
+  created_at: '2016-02-24T19:33:39Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/combinelib
   name: combinelib
   full_name: COMBINE-lab/combinelib
@@ -667,8 +724,9 @@
   fork: false
   archived: false
   pushed_at: '2018-08-02T15:12:34Z'
+  created_at: '2018-08-02T14:44:10Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/cqf-rust
   name: cqf-rust
   full_name: COMBINE-lab/cqf-rust
@@ -682,8 +740,9 @@
   fork: false
   archived: false
   pushed_at: '2018-08-05T02:13:52Z'
+  created_at: '2018-08-04T16:59:26Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/CSE549-txpCoverage
   name: CSE549-txpCoverage
   full_name: COMBINE-lab/CSE549-txpCoverage
@@ -696,8 +755,9 @@
   fork: false
   archived: false
   pushed_at: '2018-02-05T19:28:10Z'
+  created_at: '2017-09-13T20:08:12Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/cuttlefish_experiments
   name: cuttlefish_experiments
   full_name: COMBINE-lab/cuttlefish_experiments
@@ -710,8 +770,9 @@
   fork: false
   archived: false
   pushed_at: '2022-06-17T18:51:34Z'
+  created_at: '2022-06-15T02:46:39Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/easyhdf5
   name: easyhdf5
   full_name: COMBINE-lab/easyhdf5
@@ -724,8 +785,9 @@
   fork: false
   archived: false
   pushed_at: '2015-12-16T23:19:20Z'
+  created_at: '2015-12-16T23:17:20Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/EDS
   name: EDS
   full_name: COMBINE-lab/EDS
@@ -744,8 +806,9 @@
   fork: false
   archived: false
   pushed_at: '2019-10-10T15:27:16Z'
+  created_at: '2019-07-31T22:03:50Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/efgdl-spec
   name: efgdl-spec
   full_name: COMBINE-lab/efgdl-spec
@@ -758,8 +821,9 @@
   fork: false
   archived: false
   pushed_at: '2025-01-07T17:06:03Z'
+  created_at: '2023-09-29T12:58:52Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/empirical_splice_status
   name: empirical_splice_status
   full_name: COMBINE-lab/empirical_splice_status
@@ -772,8 +836,9 @@
   fork: false
   archived: false
   pushed_at: '2022-12-28T14:36:28Z'
+  created_at: '2022-12-12T05:32:38Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/fast-flex-processing-paper-scripts
   name: fast-flex-processing-paper-scripts
   full_name: COMBINE-lab/fast-flex-processing-paper-scripts
@@ -786,8 +851,9 @@
   fork: false
   archived: false
   pushed_at: '2026-11-05T08:44:17Z'
+  created_at: '2026-11-05T05:03:57Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/FastaDigest
   name: FastaDigest
   full_name: COMBINE-lab/FastaDigest
@@ -801,8 +867,9 @@
   fork: false
   archived: false
   pushed_at: '2017-08-31T17:43:14Z'
+  created_at: '2017-02-17T21:04:17Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/file-format-perspective
   name: file-format-perspective
   full_name: COMBINE-lab/file-format-perspective
@@ -815,8 +882,9 @@
   fork: false
   archived: false
   pushed_at: '2025-08-15T19:39:44Z'
+  created_at: '2025-08-15T19:39:42Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/file-requirements
   name: file-requirements
   full_name: COMBINE-lab/file-requirements
@@ -830,8 +898,9 @@
   fork: false
   archived: false
   pushed_at: '2026-02-21T21:40:53Z'
+  created_at: '2026-02-21T21:37:07Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/forseti
   name: forseti
   full_name: COMBINE-lab/forseti
@@ -844,8 +913,9 @@
   fork: false
   archived: false
   pushed_at: '2024-02-20T02:00:55Z'
+  created_at: '2024-01-23T19:26:51Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/forseti-experiments
   name: forseti-experiments
   full_name: COMBINE-lab/forseti-experiments
@@ -858,8 +928,9 @@
   fork: false
   archived: false
   pushed_at: '2024-04-04T01:45:30Z'
+  created_at: '2024-01-31T19:44:38Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/grangers
   name: grangers
   full_name: COMBINE-lab/grangers
@@ -872,8 +943,9 @@
   fork: false
   archived: false
   pushed_at: '2026-08-15T18:16:51Z'
+  created_at: '2023-05-10T21:01:17Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/GRASS
   name: GRASS
   full_name: COMBINE-lab/GRASS
@@ -887,8 +959,9 @@
   fork: false
   archived: false
   pushed_at: '2016-12-22T02:29:25Z'
+  created_at: '2016-11-21T21:30:57Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/gravlax
   name: gravlax
   full_name: COMBINE-lab/gravlax
@@ -904,8 +977,9 @@
   fork: false
   archived: false
   pushed_at: '2026-10-08T02:02:36Z'
+  created_at: '2026-09-03T11:13:37Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/gravlax-paper-scripts
   name: gravlax-paper-scripts
   full_name: COMBINE-lab/gravlax-paper-scripts
@@ -918,8 +992,9 @@
   fork: false
   archived: false
   pushed_at: '2026-09-27T14:54:34Z'
+  created_at: '2026-08-30T19:49:28Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/KallistoFormatDescription
   name: KallistoFormatDescription
   full_name: COMBINE-lab/KallistoFormatDescription
@@ -932,8 +1007,9 @@
   fork: false
   archived: false
   pushed_at: '2015-10-06T17:22:14Z'
+  created_at: '2015-10-06T17:21:34Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/kde-rs
   name: kde-rs
   full_name: COMBINE-lab/kde-rs
@@ -946,8 +1022,9 @@
   fork: false
   archived: false
   pushed_at: '2024-08-31T05:06:07Z'
+  created_at: '2024-07-10T17:57:01Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/kmers
   name: kmers
   full_name: COMBINE-lab/kmers
@@ -961,8 +1038,9 @@
   fork: false
   archived: false
   pushed_at: '2024-06-26T19:35:32Z'
+  created_at: '2021-04-28T19:58:28Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/ksw2rs
   name: ksw2rs
   full_name: COMBINE-lab/ksw2rs
@@ -976,8 +1054,9 @@
   fork: false
   archived: false
   pushed_at: '2026-11-01T01:59:56Z'
+  created_at: '2026-03-01T20:17:32Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/LabRules
   name: LabRules
   full_name: COMBINE-lab/LabRules
@@ -991,8 +1070,9 @@
   fork: false
   archived: false
   pushed_at: '2016-02-09T21:42:27Z'
+  created_at: '2015-01-23T17:53:04Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/libgff
   name: libgff
   full_name: COMBINE-lab/libgff
@@ -1005,8 +1085,9 @@
   fork: false
   archived: false
   pushed_at: '2026-03-06T18:57:08Z'
+  created_at: '2016-11-08T05:15:37Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/lr-rna-sim-scripts
   name: lr-rna-sim-scripts
   full_name: COMBINE-lab/lr-rna-sim-scripts
@@ -1019,8 +1100,9 @@
   fork: false
   archived: false
   pushed_at: '2024-11-27T18:59:23Z'
+  created_at: '2024-11-27T18:17:20Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/lr_quant_benchmarks
   name: lr_quant_benchmarks
   full_name: COMBINE-lab/lr_quant_benchmarks
@@ -1035,8 +1117,9 @@
   fork: false
   archived: false
   pushed_at: '2025-07-08T00:21:52Z'
+  created_at: '2024-07-30T22:57:55Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/matryoshka_work
   name: matryoshka_work
   full_name: COMBINE-lab/matryoshka_work
@@ -1049,8 +1132,9 @@
   fork: false
   archived: false
   pushed_at: '2015-06-03T15:56:49Z'
+  created_at: '2015-02-09T18:35:36Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/mazu
   name: mazu
   full_name: COMBINE-lab/mazu
@@ -1065,8 +1149,9 @@
   fork: false
   archived: false
   pushed_at: '2023-11-22T04:22:09Z'
+  created_at: '2023-08-14T21:01:11Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/measuresmatter
   name: measuresmatter
   full_name: COMBINE-lab/measuresmatter
@@ -1081,23 +1166,9 @@
   fork: false
   archived: false
   pushed_at: '2015-04-22T15:08:10Z'
+  created_at: '2014-12-17T17:24:07Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
-- repo: COMBINE-lab/mim
-  name: mim
-  full_name: COMBINE-lab/mim
-  description: A small, auxiliary index to massively improve parallel fastq parsing
-  html_url: https://github.com/COMBINE-lab/mim
-  language: Rust
-  topics: []
-  stargazers_count: 32
-  forks_count: 1
-  open_issues_count: 6
-  fork: false
-  archived: false
-  pushed_at: '2026-03-06T00:34:01Z'
-  curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/minnow
   name: minnow
   full_name: COMBINE-lab/minnow
@@ -1110,8 +1181,9 @@
   fork: false
   archived: false
   pushed_at: '2021-12-01T03:59:33Z'
+  created_at: '2019-01-29T14:07:38Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/minspace
   name: minspace
   full_name: COMBINE-lab/minspace
@@ -1124,8 +1196,9 @@
   fork: false
   archived: false
   pushed_at: '2025-06-12T03:47:49Z'
+  created_at: '2025-03-30T18:50:43Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/oarfish-paper-scripts
   name: oarfish-paper-scripts
   full_name: COMBINE-lab/oarfish-paper-scripts
@@ -1138,8 +1211,9 @@
   fork: false
   archived: false
   pushed_at: '2025-03-27T22:04:49Z'
+  created_at: '2025-03-26T19:06:46Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/OUP-Bioinformatics-Typst
   name: OUP-Bioinformatics-Typst
   full_name: COMBINE-lab/OUP-Bioinformatics-Typst
@@ -1154,8 +1228,9 @@
   fork: false
   archived: false
   pushed_at: '2026-02-20T20:58:10Z'
+  created_at: '2026-02-20T20:55:52Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/pcalib
   name: pcalib
   full_name: COMBINE-lab/pcalib
@@ -1170,8 +1245,9 @@
   fork: false
   archived: false
   pushed_at: '2015-02-11T16:23:02Z'
+  created_at: '2015-01-21T02:30:36Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/perplexity
   name: perplexity
   full_name: COMBINE-lab/perplexity
@@ -1184,8 +1260,9 @@
   fork: false
   archived: false
   pushed_at: '2021-12-10T21:30:54Z'
+  created_at: '2021-04-30T15:10:33Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/perplexity-paper
   name: perplexity-paper
   full_name: COMBINE-lab/perplexity-paper
@@ -1198,8 +1275,9 @@
   fork: false
   archived: false
   pushed_at: '2021-05-07T15:53:25Z'
+  created_at: '2021-04-20T16:55:31Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/pipfp-rs
   name: pipfp-rs
   full_name: COMBINE-lab/pipfp-rs
@@ -1213,8 +1291,9 @@
   fork: false
   archived: false
   pushed_at: '2025-09-29T02:15:53Z'
+  created_at: '2025-03-19T13:57:42Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/piscem-cpp
   name: piscem-cpp
   full_name: COMBINE-lab/piscem-cpp
@@ -1230,8 +1309,9 @@
   fork: false
   archived: false
   pushed_at: '2026-06-25T23:30:33Z'
+  created_at: '2022-03-02T19:51:19Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/piscem-rs
   name: piscem-rs
   full_name: COMBINE-lab/piscem-rs
@@ -1240,12 +1320,13 @@
   topics: []
   stargazers_count: 15
   forks_count: 2
-  open_issues_count: 1
+  open_issues_count: 3
   fork: false
   archived: false
-  pushed_at: '2026-11-02T18:50:05Z'
+  pushed_at: '2026-11-11T17:43:21Z'
+  created_at: '2026-02-12T21:45:59Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/pluribus
   name: pluribus
   full_name: COMBINE-lab/pluribus
@@ -1259,8 +1340,9 @@
   fork: false
   archived: false
   pushed_at: '2020-06-03T15:00:57Z'
+  created_at: '2016-12-10T03:36:42Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/polyester_simulation
   name: polyester_simulation
   full_name: COMBINE-lab/polyester_simulation
@@ -1274,8 +1356,9 @@
   fork: false
   archived: false
   pushed_at: '2017-05-23T20:45:24Z'
+  created_at: '2017-05-18T00:49:19Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/postmaster
   name: postmaster
   full_name: COMBINE-lab/postmaster
@@ -1288,8 +1371,9 @@
   fork: false
   archived: false
   pushed_at: '2022-06-29T13:55:34Z'
+  created_at: '2022-03-17T20:15:07Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/PrefixCompression
   name: PrefixCompression
   full_name: COMBINE-lab/PrefixCompression
@@ -1302,8 +1386,9 @@
   fork: false
   archived: false
   pushed_at: '2015-02-13T03:10:24Z'
+  created_at: '2015-01-14T16:07:02Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/prep_reads
   name: prep_reads
   full_name: COMBINE-lab/prep_reads
@@ -1318,8 +1403,9 @@
   fork: false
   archived: false
   pushed_at: '2026-01-17T05:07:09Z'
+  created_at: '2026-01-17T05:02:49Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/pufferfish2
   name: pufferfish2
   full_name: COMBINE-lab/pufferfish2
@@ -1332,8 +1418,9 @@
   fork: false
   archived: false
   pushed_at: '2023-11-30T13:29:43Z'
+  created_at: '2022-10-14T14:18:09Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/pufferfish_experiments
   name: pufferfish_experiments
   full_name: COMBINE-lab/pufferfish_experiments
@@ -1346,8 +1433,9 @@
   fork: false
   archived: false
   pushed_at: '2018-02-05T01:34:22Z'
+  created_at: '2017-06-26T02:05:42Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/pyroe
   name: pyroe
   full_name: COMBINE-lab/pyroe
@@ -1360,8 +1448,9 @@
   fork: false
   archived: false
   pushed_at: '2025-01-06T00:33:02Z'
+  created_at: '2022-03-01T23:10:01Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/QCatch-resources
   name: QCatch-resources
   full_name: COMBINE-lab/QCatch-resources
@@ -1373,8 +1462,9 @@
   fork: false
   archived: false
   pushed_at: '2025-04-14T19:17:03Z'
+  created_at: '2025-04-06T17:46:05Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/quant-tx-diversity
   name: quant-tx-diversity
   full_name: COMBINE-lab/quant-tx-diversity
@@ -1387,8 +1477,9 @@
   fork: false
   archived: false
   pushed_at: '2021-01-20T14:51:47Z'
+  created_at: '2021-01-04T21:11:03Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/quantaf
   name: quantaf
   full_name: COMBINE-lab/quantaf
@@ -1401,8 +1492,9 @@
   fork: false
   archived: false
   pushed_at: '2024-03-02T19:41:24Z'
+  created_at: '2022-04-14T14:16:26Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/QuantAnalysis
   name: QuantAnalysis
   full_name: COMBINE-lab/QuantAnalysis
@@ -1415,8 +1507,9 @@
   fork: false
   archived: false
   pushed_at: '2016-04-12T15:54:45Z'
+  created_at: '2015-09-04T21:53:35Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/quark
   name: quark
   full_name: COMBINE-lab/quark
@@ -1430,8 +1523,9 @@
   fork: false
   archived: false
   pushed_at: '2019-03-05T22:07:22Z'
+  created_at: '2016-04-19T19:40:21Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/radicl-cpp
   name: radicl-cpp
   full_name: COMBINE-lab/radicl-cpp
@@ -1445,8 +1539,9 @@
   fork: false
   archived: false
   pushed_at: '2020-07-16T05:09:50Z'
+  created_at: '2020-07-15T18:46:54Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/radtk
   name: radtk
   full_name: COMBINE-lab/radtk
@@ -1460,8 +1555,9 @@
   fork: false
   archived: false
   pushed_at: '2024-08-05T16:41:10Z'
+  created_at: '2024-05-30T17:52:59Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/rapidgzip-rust
   name: rapidgzip-rust
   full_name: COMBINE-lab/rapidgzip-rust
@@ -1476,8 +1572,9 @@
   fork: false
   archived: false
   pushed_at: '2026-08-10T18:43:51Z'
+  created_at: '2026-07-31T12:12:03Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/reraw
   name: reraw
   full_name: COMBINE-lab/reraw
@@ -1492,8 +1589,9 @@
   fork: false
   archived: false
   pushed_at: '2023-02-27T04:03:04Z'
+  created_at: '2023-02-20T20:35:04Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/roe
   name: roe
   full_name: COMBINE-lab/roe
@@ -1506,8 +1604,9 @@
   fork: false
   archived: false
   pushed_at: '2022-11-04T21:11:09Z'
+  created_at: '2021-09-02T20:20:48Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/roers
   name: roers
   full_name: COMBINE-lab/roers
@@ -1520,8 +1619,9 @@
   fork: false
   archived: false
   pushed_at: '2026-08-10T19:46:09Z'
+  created_at: '2023-05-10T21:02:40Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/rshash-rs
   name: rshash-rs
   full_name: COMBINE-lab/rshash-rs
@@ -1535,8 +1635,9 @@
   fork: false
   archived: false
   pushed_at: '2026-09-30T22:25:12Z'
+  created_at: '2026-09-30T21:54:40Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/rsrs
   name: rsrs
   full_name: COMBINE-lab/rsrs
@@ -1550,8 +1651,9 @@
   fork: false
   archived: false
   pushed_at: '2025-03-23T04:38:09Z'
+  created_at: '2024-03-30T02:19:43Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/SalmonTools
   name: SalmonTools
   full_name: COMBINE-lab/SalmonTools
@@ -1565,8 +1667,9 @@
   fork: false
   archived: false
   pushed_at: '2020-06-24T14:51:44Z'
+  created_at: '2017-03-24T22:40:07Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/sc-census
   name: sc-census
   full_name: COMBINE-lab/sc-census
@@ -1579,8 +1682,9 @@
   fork: false
   archived: false
   pushed_at: '2024-02-03T01:42:09Z'
+  created_at: '2023-10-13T14:26:07Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/sccompress
   name: sccompress
   full_name: COMBINE-lab/sccompress
@@ -1593,8 +1697,9 @@
   fork: false
   archived: false
   pushed_at: '2026-05-26T16:59:47Z'
+  created_at: '2026-05-21T16:07:37Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/scrna-ambiguity
   name: scrna-ambiguity
   full_name: COMBINE-lab/scrna-ambiguity
@@ -1607,8 +1712,9 @@
   fork: false
   archived: false
   pushed_at: '2023-01-06T16:20:42Z'
+  created_at: '2022-12-24T04:53:08Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/seine-rs
   name: seine-rs
   full_name: COMBINE-lab/seine-rs
@@ -1624,8 +1730,9 @@
   fork: false
   archived: false
   pushed_at: '2022-02-10T20:14:30Z'
+  created_at: '2020-12-05T02:51:38Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/selective-alignment-experiment
   name: selective-alignment-experiment
   full_name: COMBINE-lab/selective-alignment-experiment
@@ -1638,8 +1745,9 @@
   fork: false
   archived: false
   pushed_at: '2018-05-20T14:04:22Z'
+  created_at: '2017-08-08T18:46:19Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/seq_geom_parser
   name: seq_geom_parser
   full_name: COMBINE-lab/seq_geom_parser
@@ -1653,8 +1761,9 @@
   fork: false
   archived: false
   pushed_at: '2023-04-06T05:13:59Z'
+  created_at: '2023-02-03T04:50:53Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/seq_geom_xform
   name: seq_geom_xform
   full_name: COMBINE-lab/seq_geom_xform
@@ -1669,8 +1778,9 @@
   fork: false
   archived: false
   pushed_at: '2023-04-06T05:25:17Z'
+  created_at: '2023-02-20T20:45:13Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/seqcol_rs
   name: seqcol_rs
   full_name: COMBINE-lab/seqcol_rs
@@ -1683,9 +1793,10 @@
   open_issues_count: 0
   fork: false
   archived: false
-  pushed_at: '2025-03-25T21:17:05Z'
+  pushed_at: '2026-11-11T03:11:50Z'
+  created_at: '2024-03-27T23:37:45Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/seqproc-paper-analysis
   name: seqproc-paper-analysis
   full_name: COMBINE-lab/seqproc-paper-analysis
@@ -1698,8 +1809,9 @@
   fork: false
   archived: false
   pushed_at: '2026-08-31T18:35:13Z'
+  created_at: '2026-01-30T02:19:00Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/shoal
   name: shoal
   full_name: COMBINE-lab/shoal
@@ -1715,8 +1827,9 @@
   fork: false
   archived: false
   pushed_at: '2018-10-29T00:52:48Z'
+  created_at: '2016-11-01T20:50:44Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/simplr
   name: simplr
   full_name: COMBINE-lab/simplr
@@ -1728,8 +1841,9 @@
   fork: false
   archived: false
   pushed_at: '2024-02-28T20:41:48Z'
+  created_at: '2024-02-28T20:41:48Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/spearfish
   name: spearfish
   full_name: COMBINE-lab/spearfish
@@ -1738,14 +1852,15 @@
   html_url: https://github.com/COMBINE-lab/spearfish
   language: Rust
   topics: []
-  stargazers_count: 24
+  stargazers_count: 29
   forks_count: 0
   open_issues_count: 1
   fork: false
   archived: false
-  pushed_at: '2026-10-27T17:17:24Z'
+  pushed_at: '2026-11-12T03:24:38Z'
+  created_at: '2026-10-13T13:33:47Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/splitp
   name: splitp
   full_name: COMBINE-lab/splitp
@@ -1759,8 +1874,9 @@
   fork: false
   archived: false
   pushed_at: '2023-06-12T16:36:19Z'
+  created_at: '2021-11-03T21:16:42Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/sshash-rs
   name: sshash-rs
   full_name: COMBINE-lab/sshash-rs
@@ -1769,13 +1885,14 @@
   language: Rust
   topics: []
   stargazers_count: 20
-  forks_count: 3
-  open_issues_count: 1
+  forks_count: 4
+  open_issues_count: 5
   fork: false
   archived: false
-  pushed_at: '2026-10-30T23:11:07Z'
+  pushed_at: '2026-11-11T18:24:36Z'
+  created_at: '2026-02-11T21:36:13Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/terminus-paper-scripts
   name: terminus-paper-scripts
   full_name: COMBINE-lab/terminus-paper-scripts
@@ -1789,8 +1906,9 @@
   fork: false
   archived: false
   pushed_at: '2020-04-07T15:00:51Z'
+  created_at: '2020-04-06T18:36:18Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/terminus-tutorial
   name: terminus-tutorial
   full_name: COMBINE-lab/terminus-tutorial
@@ -1803,8 +1921,9 @@
   fork: false
   archived: false
   pushed_at: '2022-10-06T09:14:32Z'
+  created_at: '2020-02-02T02:25:18Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/TreeTerminus
   name: TreeTerminus
   full_name: COMBINE-lab/TreeTerminus
@@ -1817,8 +1936,9 @@
   fork: false
   archived: false
   pushed_at: '2024-04-17T03:04:47Z'
+  created_at: '2022-10-04T17:23:41Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/txome-clustering
   name: txome-clustering
   full_name: COMBINE-lab/txome-clustering
@@ -1833,8 +1953,9 @@
   fork: false
   archived: false
   pushed_at: '2016-01-13T00:59:03Z'
+  created_at: '2015-01-23T20:41:31Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/usefulaf
   name: usefulaf
   full_name: COMBINE-lab/usefulaf
@@ -1848,8 +1969,9 @@
   fork: false
   archived: false
   pushed_at: '2022-10-26T16:14:34Z'
+  created_at: '2021-05-19T18:47:38Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/wasabi
   name: wasabi
   full_name: COMBINE-lab/wasabi
@@ -1863,8 +1985,9 @@
   fork: false
   archived: false
   pushed_at: '2019-06-06T15:48:54Z'
+  created_at: '2015-12-18T04:40:02Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/wfa2lib-rs
   name: wfa2lib-rs
   full_name: COMBINE-lab/wfa2lib-rs
@@ -1878,8 +2001,9 @@
   fork: false
   archived: false
   pushed_at: '2026-08-01T02:53:41Z'
+  created_at: '2026-03-04T18:32:11Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'
 - repo: COMBINE-lab/xz
   name: xz
   full_name: COMBINE-lab/xz
@@ -1894,5 +2018,6 @@
   fork: false
   archived: false
   pushed_at: '2016-03-09T05:02:31Z'
+  created_at: '2016-03-09T04:13:03Z'
   curated: false
-  generated_at: '2026-11-09T08:27:32Z'
+  generated_at: '2026-11-12T15:41:26Z'

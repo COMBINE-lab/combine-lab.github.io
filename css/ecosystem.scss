@@ -1,0 +1,800 @@
+---
+---
+
+@import "variables";
+
+// Interactive ecosystem map (see _includes/ecosystem-map.html, js/ecosystem.js).
+// Everything is scoped under .eco and prefixed eco_ so nothing leaks into, or
+// picks up, the site's other component styles.
+
+// Theme colours, one per theme id in _data/ecosystem.yml. Each needs to read
+// against the stage background and carry dark text when a label sits inside.
+@mixin eco-light {
+  --eco-on-accent: #ffffff;
+  --eco-on-bubble: #101010;
+  --eco-water-top: #f8fcff;
+  --eco-water-bottom: #cfe8f7;
+  --eco-c-tx: #e8644c;
+  --eco-c-sc: #e0a100;
+  --eco-c-reads: #dc5fa6;
+  --eco-c-map: #2b95d6;
+  --eco-c-index: #12a594;
+  --eco-c-dbg: #55a84a;
+  --eco-c-lib: #7285e6;
+  --eco-c-legacy: #a877e0;
+  --eco-c-papers: #8b96a3;
+  --eco-c-lab: #a3a02a;
+}
+
+@mixin eco-dark {
+  --eco-on-accent: #0f1115;
+  --eco-on-bubble: #0f1115;
+  --eco-water-top: #143a52;
+  --eco-water-bottom: #14161b;
+  --eco-c-tx: #ff8f73;
+  --eco-c-sc: #f4c659;
+  --eco-c-reads: #f29ac6;
+  --eco-c-map: #56b8f0;
+  --eco-c-index: #4fd1bd;
+  --eco-c-dbg: #86d68a;
+  --eco-c-lib: #9aaaff;
+  --eco-c-legacy: #c2a1f7;
+  --eco-c-papers: #8e9aa8;
+  --eco-c-lab: #cfd062;
+}
+
+:root {
+  @include eco-light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include eco-dark;
+  }
+}
+
+:root[data-theme="light"] {
+  @include eco-light;
+}
+
+:root[data-theme="dark"] {
+  @include eco-dark;
+}
+
+.eco {
+  // break out of the 800px text column: the map wants room
+  position: relative;
+  left: 50%;
+  width: calc(100vw - 36px);
+  max-width: 1240px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 30px 0 10px;
+  color: $black;
+  text-align: left;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  button,
+  input {
+    font: inherit;
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 2px solid $theme;
+    outline-offset: 2px;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+  // the site justifies paragraphs; the map's short texts read better ragged
+  p {
+    text-align: left;
+  }
+
+  // controls
+  .eco_bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .eco_search {
+    flex: 1 1 240px;
+    max-width: 380px;
+    position: relative;
+
+    input {
+      width: 100%;
+      padding: 9px 12px 9px 34px;
+      border: solid 1px $light-gray;
+      border-radius: 8px;
+      background: $white;
+      font: 14px $sans;
+
+      &::placeholder {
+        color: $gray;
+      }
+    }
+
+    i {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: $gray;
+      font-size: 13px;
+    }
+  }
+
+  .eco_seg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 3px;
+    border: solid 1px $light-gray;
+    border-radius: 8px;
+    background: $off-white;
+
+    button {
+      padding: 6px 11px;
+      border: 0;
+      border-radius: 6px;
+      background: none;
+      color: $dark-gray;
+      font: #{$medium} 12px $sans;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+
+      &:hover {
+        color: $black;
+      }
+
+      &[aria-pressed="true"] {
+        background: $theme;
+        color: var(--eco-on-accent);
+      }
+    }
+  }
+
+  .eco_count {
+    color: $gray;
+    font: 12px $mono;
+  }
+
+  .eco_tasks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    align-items: center;
+  }
+
+  .eco_tasks_lead {
+    font: #{$semi-bold} 14px $sans;
+  }
+
+  .eco_tasks_row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .eco_task {
+    padding: 6px 12px;
+    border: solid 1px $theme;
+    border-radius: 8px;
+    background: $white;
+    color: $theme;
+    font: #{$medium} 13px $sans;
+    cursor: pointer;
+    transition: background $fast, color $fast;
+
+    &:hover {
+      background: $light-theme;
+      color: $black;
+    }
+
+    &[aria-pressed="true"] {
+      background: $theme;
+      color: var(--eco-on-accent);
+    }
+  }
+
+  .eco_task_blurb {
+    margin: 0;
+    padding: 10px 14px;
+    border-left: solid 3px $theme;
+    border-radius: 0 8px 8px 0;
+    background: $light-theme;
+    font: 15px/1.5 $serif;
+  }
+
+  .eco_chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .eco_chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 4px 11px 4px 9px;
+    border: solid 1px $light-gray;
+    border-radius: 999px;
+    background: $white;
+    color: $dark-gray;
+    font: 13px $sans;
+    cursor: pointer;
+
+    i {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--c);
+    }
+
+    b {
+      font: 400 11px $mono;
+      color: $gray;
+    }
+
+    &:hover {
+      color: $black;
+      border-color: $gray;
+    }
+
+    &[aria-pressed="true"] {
+      color: $black;
+      border-color: var(--c);
+      background: color-mix(in srgb, var(--c) 18%, var(--surface));
+    }
+  }
+
+  // stage
+  .eco_main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 250px;
+    gap: 14px;
+    align-items: start;
+  }
+
+  .eco_stage {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    border: solid 1px $light-gray;
+    border-radius: 8px;
+    background: linear-gradient(180deg, var(--eco-water-top) 0%, var(--eco-water-bottom) 100%);
+    box-shadow: $shadow;
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      touch-action: manipulation;
+    }
+
+    &.eco_list {
+      height: auto;
+      max-height: 700px;
+      overflow: auto;
+      background: $white;
+
+      svg {
+        display: none;
+      }
+    }
+
+    &:not(.eco_list) .eco_tablewrap {
+      display: none;
+    }
+  }
+
+  .eco_node {
+    cursor: pointer;
+    transition: opacity $fast;
+
+    circle.eco_b {
+      stroke: $white;
+      stroke-width: 1.25;
+    }
+
+    .eco_halo {
+      fill: none;
+      stroke: $black;
+      stroke-opacity: 0.5;
+      stroke-width: 1;
+      stroke-dasharray: 2 3;
+    }
+
+    text {
+      font-family: $mono;
+      font-weight: $bold;
+      pointer-events: none;
+      text-anchor: middle;
+
+      &.eco_in {
+        fill: var(--eco-on-bubble);
+      }
+
+      &.eco_out {
+        fill: $black;
+        font-weight: 400;
+        paint-order: stroke;
+        stroke: var(--eco-water-top);
+        stroke-opacity: 0.85;
+        stroke-width: 3px;
+        stroke-linejoin: round;
+      }
+    }
+
+    &.eco_soft {
+      opacity: 0.28;
+    }
+
+    &.eco_dim {
+      opacity: 0.07;
+      pointer-events: none;
+    }
+
+    &.eco_hot circle.eco_b,
+    &:hover circle.eco_b,
+    &:focus-visible circle.eco_b {
+      stroke: $black;
+      stroke-width: 2.5;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  .eco_link {
+    fill: none;
+    stroke: $dark-gray;
+    stroke-width: 1.5;
+    stroke-opacity: 0.75;
+    pointer-events: none;
+
+    &.eco_uses {
+      stroke-dasharray: 4 4;
+    }
+  }
+
+  #eco-arrow path {
+    fill: $dark-gray;
+  }
+
+  .eco_guide {
+    pointer-events: none;
+
+    line {
+      stroke: $gray;
+      stroke-opacity: 0.45;
+      stroke-dasharray: 1 5;
+    }
+
+    text {
+      fill: $dark-gray;
+      font: 11px $mono;
+      paint-order: stroke;
+      stroke: var(--eco-water-top);
+      stroke-opacity: 0.7;
+      stroke-width: 3px;
+      stroke-linejoin: round;
+
+      &.eco_h {
+        fill: $black;
+        font: #{$semi-bold} 13px $sans;
+      }
+
+      &.eco_n {
+        fill: $gray;
+      }
+    }
+  }
+
+  // hover summary and pinned card
+  .eco_tip,
+  .eco_card {
+    position: absolute;
+    z-index: 5;
+    border: solid 1px $light-gray;
+    border-radius: 8px;
+    background: $white;
+    box-shadow: $shadow;
+  }
+
+  .eco_tip {
+    max-width: 300px;
+    padding: 8px 11px;
+    font: 13.5px/1.4 $serif;
+    pointer-events: none;
+
+    strong {
+      font: #{$bold} 13px $mono;
+    }
+
+    p {
+      margin: 3px 0 4px;
+      color: $dark-gray;
+    }
+
+    small {
+      color: $gray;
+      font: 11px $mono;
+    }
+  }
+
+  .eco_card {
+    width: 340px;
+    max-width: calc(100% - 20px);
+    padding: 14px 16px;
+
+    .eco_card_title {
+      margin: 0 26px 6px 0;
+      font: #{$semi-bold} 18px $sans;
+      overflow-wrap: anywhere;
+    }
+
+    .eco_cat {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: $dark-gray;
+      font: 12px $sans;
+
+      i {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--c);
+      }
+    }
+
+    .eco_status {
+      display: inline-block;
+      margin-left: 8px;
+      padding: 1px 8px;
+      border-radius: 999px;
+      background: $light-theme;
+      font: #{$medium} 11px $sans;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      margin: 9px 0;
+      font: 15px/1.5 $serif;
+
+      &.eco_none {
+        color: $gray;
+        font-style: italic;
+      }
+    }
+
+    dl {
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      gap: 2px 14px;
+      justify-content: start;
+      margin: 10px 0;
+      font: 12px $mono;
+    }
+
+    dt {
+      grid-row: 1;
+      color: $gray;
+    }
+
+    dd {
+      grid-row: 2;
+      margin: 0;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .eco_rel {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 4px;
+      margin: 6px 0;
+      font: 12px $sans;
+      color: $dark-gray;
+
+      span {
+        margin-right: 2px;
+      }
+
+      button {
+        padding: 1px 8px;
+        border: solid 1px $light-gray;
+        border-radius: 999px;
+        background: $off-white;
+        font: 12px $mono;
+        cursor: pointer;
+
+        &:hover {
+          border-color: $theme;
+          color: $theme;
+        }
+      }
+    }
+
+    .eco_topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin: 8px 0;
+
+      span {
+        padding: 1px 8px;
+        border-radius: 999px;
+        background: $light-theme;
+        font: 11px $sans;
+      }
+    }
+
+    .eco_go {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+
+      a {
+        display: inline-block;
+        padding: 7px 12px;
+        border-radius: 8px;
+        font: #{$semi-bold} 13px $sans;
+        text-decoration: none;
+      }
+
+      a.eco_gh {
+        background: $theme;
+        color: var(--eco-on-accent);
+      }
+
+      a.eco_hp {
+        border: solid 1px $light-gray;
+        color: $black;
+      }
+    }
+
+    .eco_x {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      padding: 4px 8px;
+      border: 0;
+      border-radius: 6px;
+      background: none;
+      color: $dark-gray;
+      font-size: 18px;
+      line-height: 1;
+      cursor: pointer;
+
+      &:hover {
+        background: $off-white;
+        color: $black;
+      }
+    }
+  }
+
+  // side panel
+  .eco_aside {
+    padding: 14px 10px 10px;
+    border: solid 1px $light-gray;
+    border-radius: 8px;
+    background: $white;
+    box-shadow: $shadow;
+
+    .eco_aside_title {
+      margin: 0 6px 2px;
+      font: #{$semi-bold} 14px $sans;
+    }
+
+    .eco_aside_how {
+      margin: 0 6px 8px;
+      color: $gray;
+      font: 12px/1.4 $sans;
+    }
+
+    ol {
+      display: grid;
+      gap: 1px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    li button {
+      display: grid;
+      grid-template-columns: 10px 1fr auto;
+      gap: 8px;
+      align-items: center;
+      width: 100%;
+      padding: 6px;
+      border: 0;
+      border-radius: 6px;
+      background: none;
+      text-align: left;
+      cursor: pointer;
+
+      &:hover {
+        background: $off-white;
+      }
+
+      i {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--c);
+      }
+
+      span {
+        overflow: hidden;
+        font: 13px $mono;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      b {
+        color: $gray;
+        font: 400 11px $mono;
+        font-variant-numeric: tabular-nums;
+      }
+    }
+  }
+
+  .eco_key {
+    display: grid;
+    gap: 5px;
+    margin: 12px 6px 2px;
+    padding-top: 10px;
+    border-top: solid 1px $light-gray;
+    color: $dark-gray;
+    font: 12px/1.4 $sans;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    svg {
+      flex: none;
+      color: $gray;
+    }
+  }
+
+  // list view
+  table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    font: 14px/1.45 $serif;
+  }
+
+  th,
+  td {
+    padding: 7px 10px;
+    border: 0;
+    border-bottom: solid 1px $light-gray;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: $off-white;
+    font: #{$semi-bold} 12px $sans;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+
+    button {
+      padding: 0;
+      border: 0;
+      background: none;
+      font: inherit;
+      text-transform: inherit;
+      letter-spacing: inherit;
+      cursor: pointer;
+
+      &:hover {
+        color: $theme;
+      }
+    }
+  }
+
+  td.eco_name a {
+    font: #{$bold} 13px $mono;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  td.eco_num,
+  th.eco_num {
+    text-align: right;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  td.eco_num {
+    font: 12px $mono;
+  }
+
+  td.eco_d {
+    min-width: 220px;
+    color: $dark-gray;
+  }
+
+  td .eco_cat {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: $dark-gray;
+    font: 13px $sans;
+    white-space: nowrap;
+
+    i {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--c);
+    }
+  }
+
+  tr:hover td {
+    background: $off-white;
+  }
+
+  .eco_empty {
+    padding: 30px;
+    color: $dark-gray;
+    text-align: center;
+  }
+
+  .eco_foot {
+    margin: 0;
+    color: $gray;
+    font: 12px $sans;
+  }
+
+  @media (max-width: $tablet) {
+    .eco_main {
+      grid-template-columns: 1fr;
+    }
+
+    .eco_stage {
+      height: 620px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .eco_node {
+      transition: none;
+    }
+  }
+}

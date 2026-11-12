@@ -5,7 +5,7 @@ description: Software and research resources developed or maintained by COMBINE-
 
 # Resources
 
-Software and research infrastructure from COMBINE-lab and close collaborators.
+Software and research infrastructure from COMBINE-lab and close collaborators. To see how the tools fit together, explore the [interactive ecosystem map]({{ '/ecosystem/' | relative_url }}).
 
 {% include card-search.html subject="resources" %}
 
@@ -30,6 +30,11 @@ Software and research infrastructure from COMBINE-lab and close collaborators.
 {:.card_search_hide}
 
 {% include resource-list.html category="Read processing" compact=true %}
+
+## Mapping
+{:.card_search_hide}
+
+{% include resource-list.html category="Mapping" compact=true %}
 
 ## Sequence indexing
 {:.card_search_hide}

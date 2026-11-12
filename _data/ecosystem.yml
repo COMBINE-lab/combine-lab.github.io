@@ -1,0 +1,384 @@
+# Editorial data for the interactive ecosystem map (/ecosystem/).
+#
+# Repository facts (stars, language, dates) come from _data/resources_github.yml,
+# and descriptions, status and "featured" come from _data/resources.yml. This
+# file only adds what those two cannot know:
+#
+# themes:          the groups bubbles are coloured and clustered by, in order.
+#                  Colours live in css/ecosystem.scss as --eco-c-<id>.
+# category_themes: maps a resources.yml category to a theme. A curated category
+#                  always wins over the per-repo theme below.
+# repos:           theme for every repository that is not curated in
+#                  resources.yml, plus an optional fallback summary used only
+#                  when neither resources.yml nor GitHub has a description.
+#                  Repositories missing here are placed by keyword guess.
+# links:           how tools connect. from -> to, with kind:
+#                    uses  - "from" depends on "to" as a library (derived from
+#                            Cargo manifests on 2026-11-12), or runs it
+#                    feeds - the output of "from" is an input to "to"
+# tasks:           the "I want to..." entry points and the tools each spotlights.
+
+themes:
+  - id: tx
+    name: "Transcriptomics"
+  - id: sc
+    name: "Single-cell"
+  - id: reads
+    name: "Read processing"
+  - id: map
+    name: "Mapping"
+  - id: index
+    name: "Sequence indexing"
+  - id: dbg
+    name: "de Bruijn graph tools"
+  - id: lib
+    name: "Libraries"
+  - id: legacy
+    name: "Other and legacy tools"
+  - id: papers
+    name: "Paper scripts and benchmarks"
+  - id: lab
+    name: "Lab, docs and writing"
+
+category_themes:
+  "Transcriptomics": tx
+  "Single-cell": sc
+  "Read processing": reads
+  "Mapping": map
+  "Sequence indexing": index
+  "de Bruijn graph tools": dbg
+  "3D genome organization": legacy
+  "Network biology": legacy
+  "Legacy": legacy
+
+repos:
+  "salmon":
+    theme: tx
+  "oarfish":
+    theme: tx
+  "terminus":
+    theme: tx
+    summary: "Data-driven grouping of transcripts whose abundances cannot be reliably told apart, reducing inferential uncertainty in salmon estimates."
+  "TreeTerminus":
+    theme: tx
+    summary: "Builds a tree of transcript groups, giving multi-resolution alternatives to terminus's flat groups."
+  "shoal":
+    theme: tx
+  "piscem-infer":
+    theme: tx
+    summary: "Bulk RNA-seq transcript abundance inference from piscem mappings."
+  "perplexity":
+    theme: tx
+    summary: "Perplexity of transcript abundance estimates on held-out reads, for model selection without ground truth."
+  "wasabi":
+    theme: tx
+  "SalmonTools":
+    theme: tx
+  "seine-rs":
+    theme: tx
+  "postmaster":
+    theme: tx
+    summary: "Annotates alignments in a BAM file with posterior assignment probabilities."
+  "grouper":
+    theme: tx
+    summary: "Graph-based clustering and annotation of de novo transcriptome assemblies; the successor to RapClust."
+  "RapMap":
+    theme: tx
+  "alevin-fry":
+    theme: sc
+  "simpleaf":
+    theme: sc
+  "pyroe":
+    theme: sc
+    summary: "Python utilities for alevin-fry: build spliced+intronic (splici) references and load quantification results."
+  "roe":
+    theme: sc
+    summary: "R package for building augmented transcriptome references (such as splici) for alevin-fry."
+  "roers":
+    theme: sc
+    summary: "Rust library and tool for building augmented (spliced+intronic, spliced+unspliced) references; a Rust counterpart to roe."
+  "usefulaf":
+    theme: sc
+  "QCatch":
+    theme: sc
+  "QCatch-resources":
+    theme: sc
+    summary: "Supporting resources for QCatch."
+  "forseti":
+    theme: sc
+    summary: "Probabilistic model for assigning splicing status to reads in tagged-end single-cell RNA-seq."
+  "EDS":
+    theme: sc
+  "minnow":
+    theme: sc
+    summary: "Read-level simulator for droplet-based single-cell RNA-seq."
+  "gravlax":
+    theme: sc
+  "quantaf":
+    theme: sc
+    summary: "Nextflow pipeline for quantifying large collections of single-cell datasets with alevin-fry."
+  "protocol-estuary":
+    theme: sc
+    summary: "Collection of ready-made simpleaf workflows for single-cell protocols."
+  "alevin-fry-atac":
+    theme: sc
+  "af-anndata":
+    theme: sc
+  "sc-census":
+    theme: sc
+  "sccompress":
+    theme: sc
+  "afwf-workflows":
+    theme: sc
+  "simplr":
+    theme: sc
+  "empirical_splice_status":
+    theme: sc
+  "alevin-tutorial":
+    theme: sc
+  "seqproc":
+    theme: reads
+    summary: "Fast preprocessing and transformation of sequencing reads, driven by a fragment geometry description language."
+  "seq_geom_xform":
+    theme: reads
+  "seq_geom_parser":
+    theme: reads
+  "efgdl-spec":
+    theme: reads
+  "splitp":
+    theme: reads
+  "mim":
+    theme: reads
+  "rapidgzip-rust":
+    theme: reads
+  "reraw":
+    theme: reads
+  "prep_reads":
+    theme: reads
+  "piscem":
+    theme: map
+  "piscem-rs":
+    theme: map
+    summary: "Rust implementation of the piscem index and mapper."
+  "piscem-cpp":
+    theme: map
+  "libradicl":
+    theme: map
+    summary: "Rust library for reading and writing RAD (Reduced Alignment Data) files."
+  "spearfish":
+    theme: map
+  "radtk":
+    theme: map
+  "radicl-cpp":
+    theme: map
+  "pufferfish":
+    theme: index
+  "pufferfish2":
+    theme: index
+    summary: "Sparse, modular reference indexing built on spectrum-preserving tilings; the successor to pufferfish."
+  "mazu":
+    theme: index
+  "sshash-rs":
+    theme: index
+  "rshash-rs":
+    theme: index
+  "caps-sa":
+    theme: index
+  "minspace":
+    theme: index
+  "pipfp-rs":
+    theme: index
+  "cqf-rust":
+    theme: index
+  "cuttlefish":
+    theme: dbg
+  "cf1-rs":
+    theme: dbg
+  "rainbowfish":
+    theme: dbg
+  "color-mst":
+    theme: dbg
+  "kmers":
+    theme: lib
+  "grangers":
+    theme: lib
+    summary: "Genomic ranges and interval manipulation in Rust, built on Polars data frames."
+  "wfa2lib-rs":
+    theme: lib
+  "ksw2rs":
+    theme: lib
+  "libgff":
+    theme: lib
+    summary: "Lightweight C++ library for parsing GFF/GTF files."
+  "seqcol_rs":
+    theme: lib
+  "rsrs":
+    theme: lib
+  "kde-rs":
+    theme: lib
+    summary: "Kernel density estimation in Rust."
+  "file-requirements":
+    theme: lib
+  "combinelib":
+    theme: lib
+  "easyhdf5":
+    theme: lib
+  "pcalib":
+    theme: lib
+  "FastaDigest":
+    theme: lib
+  "xz":
+    theme: lib
+  "RapClust":
+    theme: legacy
+  "txome-clustering":
+    theme: legacy
+  "quark":
+    theme: legacy
+  "matryoshka":
+    theme: legacy
+  "GRASS":
+    theme: legacy
+  "PrefixCompression":
+    theme: legacy
+  "lr_quant_benchmarks":
+    theme: papers
+  "alevin-paper-pipeline":
+    theme: papers
+  "alevin-fry-paper-scripts":
+    theme: papers
+  "scrna-ambiguity":
+    theme: papers
+    summary: "Analyses of read-to-gene ambiguity in single-cell and single-nucleus RNA-seq quantification."
+  "quant-tx-diversity":
+    theme: papers
+  "pufferfish_experiments":
+    theme: papers
+  "CSE549-txpCoverage":
+    theme: papers
+  "QuantAnalysis":
+    theme: papers
+  "matryoshka_work":
+    theme: papers
+  "selective-alignment-experiment":
+    theme: papers
+  "gravlax-paper-scripts":
+    theme: papers
+  "BP_2021-lfl":
+    theme: papers
+  "seqproc-paper-analysis":
+    theme: papers
+  "perplexity-paper":
+    theme: papers
+  "lr-rna-sim-scripts":
+    theme: papers
+    summary: "Scripts for simulating long-read RNA-seq data."
+  "forseti-experiments":
+    theme: papers
+  "terminus-paper-scripts":
+    theme: papers
+  "oarfish-paper-scripts":
+    theme: papers
+  "cuttlefish_experiments":
+    theme: papers
+  "fast-flex-processing-paper-scripts":
+    theme: papers
+  "polyester_simulation":
+    theme: papers
+  "combine-lab.github.io":
+    theme: lab
+    summary: "Source of the COMBINE lab website."
+  "COMBINE-lab.github.io-OLD":
+    theme: lab
+  "measuresmatter":
+    theme: lab
+  "OUP-Bioinformatics-Typst":
+    theme: lab
+  "LabRules":
+    theme: lab
+  "KallistoFormatDescription":
+    theme: lab
+  "terminus-tutorial":
+    theme: lab
+  "pluribus":
+    theme: lab
+  "cbcb-software-crawler":
+    theme: lab
+  "file-format-perspective":
+    theme: lab
+
+links:
+  # derived from Cargo manifests
+  - { from: "alevin-fry", to: "libradicl", kind: uses }
+  - { from: "cuttlefish", to: "rapidgzip-rust", kind: uses }
+  - { from: "mazu", to: "kmers", kind: uses }
+  - { from: "oarfish", to: "kde-rs", kind: uses }
+  - { from: "oarfish", to: "seqcol_rs", kind: uses }
+  - { from: "oarfish", to: "spearfish", kind: uses }
+  - { from: "perplexity", to: "seine-rs", kind: uses }
+  - { from: "piscem", to: "cf1-rs", kind: uses }
+  - { from: "piscem", to: "piscem-rs", kind: uses }
+  - { from: "piscem-infer", to: "libradicl", kind: uses }
+  - { from: "piscem-infer", to: "salmon", kind: uses }
+  - { from: "piscem-rs", to: "libradicl", kind: uses }
+  - { from: "piscem-rs", to: "rapidgzip-rust", kind: uses }
+  - { from: "piscem-rs", to: "seq_geom_parser", kind: uses }
+  - { from: "piscem-rs", to: "sshash-rs", kind: uses }
+  - { from: "postmaster", to: "seine-rs", kind: uses }
+  - { from: "pufferfish2", to: "kmers", kind: uses }
+  - { from: "radtk", to: "libradicl", kind: uses }
+  - { from: "roers", to: "grangers", kind: uses }
+  - { from: "rsrs", to: "seqcol_rs", kind: uses }
+  - { from: "salmon", to: "cf1-rs", kind: uses }
+  - { from: "salmon", to: "ksw2rs", kind: uses }
+  - { from: "salmon", to: "libradicl", kind: uses }
+  - { from: "salmon", to: "piscem-rs", kind: uses }
+  - { from: "salmon", to: "rapidgzip-rust", kind: uses }
+  - { from: "salmon", to: "sshash-rs", kind: uses }
+  - { from: "seq_geom_xform", to: "seq_geom_parser", kind: uses }
+  - { from: "simpleaf", to: "af-anndata", kind: uses }
+  - { from: "simpleaf", to: "file-requirements", kind: uses }
+  - { from: "simpleaf", to: "roers", kind: uses }
+  - { from: "simpleaf", to: "seq_geom_parser", kind: uses }
+  - { from: "spearfish", to: "libradicl", kind: uses }
+  # one tool runs another
+  - { from: "simpleaf", to: "piscem", kind: uses }
+  - { from: "simpleaf", to: "alevin-fry", kind: uses }
+  - { from: "quantaf", to: "alevin-fry", kind: uses }
+  # output of one is input to the other
+  - { from: "piscem", to: "alevin-fry", kind: feeds }
+  - { from: "salmon", to: "alevin-fry", kind: feeds }
+  - { from: "alevin-fry", to: "QCatch", kind: feeds }
+  - { from: "piscem", to: "piscem-infer", kind: feeds }
+  - { from: "salmon", to: "terminus", kind: feeds }
+  - { from: "salmon", to: "TreeTerminus", kind: feeds }
+  - { from: "salmon", to: "wasabi", kind: feeds }
+  - { from: "pyroe", to: "alevin-fry", kind: feeds }
+  - { from: "roe", to: "alevin-fry", kind: feeds }
+  - { from: "protocol-estuary", to: "simpleaf", kind: feeds }
+
+tasks:
+  - id: bulk
+    label: "Quantify bulk RNA-seq"
+    blurb: "Short-read transcript quantification: salmon end to end, or piscem mapping followed by piscem-infer, with terminus to group transcripts that cannot be told apart."
+    repos: ["salmon", "piscem", "piscem-infer", "terminus", "TreeTerminus"]
+  - id: long-read
+    label: "Quantify long-read RNA-seq"
+    blurb: "oarfish quantifies transcripts from long reads; spearfish maps long reads to the transcriptome."
+    repos: ["oarfish", "spearfish", "lr_quant_benchmarks"]
+  - id: single-cell
+    label: "Process single-cell RNA-seq"
+    blurb: "simpleaf drives the whole workflow: piscem maps, alevin-fry quantifies, QCatch checks quality. roers and pyroe prepare references."
+    repos: ["simpleaf", "alevin-fry", "piscem", "roers", "pyroe", "QCatch", "protocol-estuary", "af-anndata"]
+  - id: reads
+    label: "Preprocess reads"
+    blurb: "Describe a read geometry and transform, filter or reshape reads before mapping."
+    repos: ["seqproc", "seq_geom_parser", "seq_geom_xform", "efgdl-spec", "splitp", "mim", "rapidgzip-rust"]
+  - id: index
+    label: "Build an index or de Bruijn graph"
+    blurb: "Construct compacted de Bruijn graphs and the indexes built on them."
+    repos: ["cuttlefish", "cf1-rs", "pufferfish", "pufferfish2", "piscem-rs", "sshash-rs", "mazu", "rainbowfish"]
+  - id: libraries
+    label: "Build on our Rust libraries"
+    blurb: "Reusable crates for k-mers, genomic ranges, alignment, RAD files and compressed input."
+    repos: ["kmers", "grangers", "libradicl", "wfa2lib-rs", "ksw2rs", "rapidgzip-rust", "seqcol_rs", "kde-rs", "sshash-rs"]

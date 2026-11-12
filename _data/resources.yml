@@ -49,15 +49,17 @@
 
 - repo: COMBINE-lab/libradicl
   category: Mapping
+  ready: true
   name: libradicl
   curated: true
   featured: true
   priority: 10
   description: A rust library for reading and writing RAD-format files
 
-- repo: COMBINE-lab/libradicl
-  category: Parsing
-  name: libradicl
+- repo: COMBINE-lab/mim
+  category: Read processing
+  ready: true
+  name: mim
   curated: true
   featured: true
   priority: 10
@@ -65,6 +67,7 @@
 
 - repo: COMBINE-lab/oarfish
   category: Transcriptomics
+  ready: true
   name: oarfish
   curated: true
   featured: true
@@ -73,6 +76,7 @@
 
 - repo: COMBINE-lab/protocol-estuary
   category: Single-cell
+  ready: true
   name: protocol-estuary
   curated: true
   featured: true
@@ -119,7 +123,7 @@
 
 - repo: COMBINE-lab/af-anndata
   title: af-anndata
-  category: Single-Cell
+  category: Single-cell
   ready: true
   featured: true
   status: active
@@ -261,14 +265,7 @@
   priority: 4
 
 - repo: COMBINE-lab/caps-sa
-  category: indexing
-  ready: true
-  featured: true
-  status: active
-  priority: 5
-
-- repo: COMBINE-lab/cuttlefish
-  category: de-bruijn Graph
+  category: Sequence indexing
   ready: true
   featured: true
   status: active

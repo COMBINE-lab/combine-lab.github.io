@@ -1102,4 +1102,25 @@
   var first = decodeURIComponent(location.hash.slice(1));
   setView(VIEWS.indexOf(first) >= 0 ? first : "ocean", true);
   fromHash();
+
+  // ?search= deep links (the convention the home page and publications use):
+  // an exact repository name opens its card, anything else fills the search box
+  var query = "";
+  try {
+    query = (new URLSearchParams(location.search).get("search") || "").trim();
+  } catch (e) {}
+  if (query && !location.hash) {
+    var exact = repos.filter(function (r) {
+      return r.n.toLowerCase() === query.toLowerCase();
+    })[0];
+    if (exact) {
+      setTimeout(function () {
+        pin(exact);
+      }, reduced ? 0 : 900);
+    } else {
+      $("eco-q").value = query;
+      state.q = query.toLowerCase();
+      refresh();
+    }
+  }
 })();

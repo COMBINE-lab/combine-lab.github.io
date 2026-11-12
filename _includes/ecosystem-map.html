@@ -1,5 +1,5 @@
 {%- comment -%}
-Interactive map of the lab's software ecosystem.
+Interactive map of the lab's software ecosystem, shown on the Resources page.
 
 Data comes from three files, merged in /js/ecosystem.js:
 - _data/resources_github.yml  repository facts (generated weekly)
@@ -69,7 +69,7 @@ Styles are in /css/ecosystem.scss.
   <p class="eco_foot" id="eco-foot"></p>
 
   <noscript>
-    <p>The map needs JavaScript. All of the lab's software is also listed on the <a href="{{ 'resources' | relative_url }}">Resources page</a>.</p>
+    <p>The map needs JavaScript. All of the lab's repositories are also listed at <a href="https://github.com/{{ site.github }}">github.com/{{ site.github }}</a>.</p>
   </noscript>
 
   <script type="application/json" id="eco-data-github">{{ site.data.resources_github | jsonify | replace: "</", "<\/" }}</script>

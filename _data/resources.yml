@@ -49,6 +49,7 @@
 
 - repo: COMBINE-lab/libradicl
   category: Mapping
+  ready: true
   name: libradicl
   curated: true
   featured: true
@@ -57,6 +58,7 @@
 
 - repo: COMBINE-lab/mim
   category: Read processing
+  ready: true
   name: mim
   curated: true
   featured: true
@@ -65,6 +67,7 @@
 
 - repo: COMBINE-lab/oarfish
   category: Transcriptomics
+  ready: true
   name: oarfish
   curated: true
   featured: true
@@ -73,6 +76,7 @@
 
 - repo: COMBINE-lab/protocol-estuary
   category: Single-cell
+  ready: true
   name: protocol-estuary
   curated: true
   featured: true

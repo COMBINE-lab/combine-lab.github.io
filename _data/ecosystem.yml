@@ -1,4 +1,4 @@
-# Editorial data for the interactive ecosystem map (/ecosystem/).
+# Editorial data for the interactive map on the Resources page (/resources/).
 #
 # Repository facts (stars, language, dates) come from _data/resources_github.yml,
 # and descriptions, status and "featured" come from _data/resources.yml. This

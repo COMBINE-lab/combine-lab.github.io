@@ -345,9 +345,11 @@
     e.append("circle").attr("class", "eco_b");
     e.append("text");
     e.on("mouseenter", function (ev, d) {
+      // Do not re-order the node here: moving it in the DOM while the pointer
+      // is arriving swallows a click that starts in the same gesture (a tap,
+      // or a click with no hover pause).
       state.hover = d;
       if (state.pinned !== d) showTip(d);
-      d3.select(this).raise();
       refresh(true);
     })
       .on("mousemove", function (ev) {
@@ -1100,4 +1102,25 @@
   var first = decodeURIComponent(location.hash.slice(1));
   setView(VIEWS.indexOf(first) >= 0 ? first : "ocean", true);
   fromHash();
+
+  // ?search= deep links (the convention the home page and publications use):
+  // an exact repository name opens its card, anything else fills the search box
+  var query = "";
+  try {
+    query = (new URLSearchParams(location.search).get("search") || "").trim();
+  } catch (e) {}
+  if (query && !location.hash) {
+    var exact = repos.filter(function (r) {
+      return r.n.toLowerCase() === query.toLowerCase();
+    })[0];
+    if (exact) {
+      setTimeout(function () {
+        pin(exact);
+      }, reduced ? 0 : 900);
+    } else {
+      $("eco-q").value = query;
+      state.q = query.toLowerCase();
+      refresh();
+    }
+  }
 })();

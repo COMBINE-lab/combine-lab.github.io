@@ -1,54 +1,12 @@
 ---
 title: Resources
 description: Software and research resources developed or maintained by COMBINE-lab.
+redirect_from:
+  - /ecosystem/
 ---
 
 # Resources
 
-Software and research infrastructure from COMBINE-lab and close collaborators. To see how the tools fit together, explore the [interactive ecosystem map]({{ '/ecosystem/' | relative_url }}).
+Software and research infrastructure from COMBINE-lab and close collaborators, in one picture. Bigger bubbles have more GitHub stars, and bubbles near the surface were updated most recently. Pick a task to see the tools that work together, search for a tool by name, or switch to the list view for a sortable table.
 
-{% include card-search.html subject="resources" %}
-
-## Featured
-{:.card_search_hide}
-
-{% include resource-list.html featured=true %}
-
-<!-- section break -->
-
-## Transcriptomics
-{:.card_search_hide}
-
-{% include resource-list.html category="Transcriptomics" compact=true %}
-
-## Single-cell
-{:.card_search_hide}
-
-{% include resource-list.html category="Single-cell" compact=true %}
-
-## Read processing
-{:.card_search_hide}
-
-{% include resource-list.html category="Read processing" compact=true %}
-
-## Mapping
-{:.card_search_hide}
-
-{% include resource-list.html category="Mapping" compact=true %}
-
-## Sequence indexing
-{:.card_search_hide}
-
-{% include resource-list.html category="Sequence indexing" compact=true %}
-
-## de Bruijn graph tools
-{:.card_search_hide}
-
-{% include resource-list.html category="de Bruijn graph tools" compact=true %}
-
-## Other and legacy tools
-{:.card_search_hide}
-
-{% include resource-list.html category="3D genome organization" compact=true %}
-{% include resource-list.html category="Network biology" compact=true %}
-{% include resource-list.html category="Legacy" compact=true %}
+{% include ecosystem-map.html %}

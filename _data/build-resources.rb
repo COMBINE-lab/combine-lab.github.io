@@ -93,6 +93,7 @@ def repo_metadata(repo, curated_repos, details = nil)
     "fork" => details["fork"],
     "archived" => details["archived"],
     "pushed_at" => details["pushed_at"],
+    "created_at" => details["created_at"],
     "latest_release" => release&.fetch("tag_name", nil),
     "latest_release_url" => release&.fetch("html_url", nil),
     "curated" => curated_repos.key?(repo_key),

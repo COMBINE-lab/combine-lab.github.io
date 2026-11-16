@@ -72,25 +72,6 @@
   link: https://doi.org/10.64898/2026.09.18.752708
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2026/09/21/2026.09.18.752708.full.pdf
-- id: W7213518315
-  title: Compression of quantification uncertainty for scRNA-seq counts
-  authors:
-  - Hirak Sarkar
-  - Avi Srivastava
-  - Rob Patro
-  - Md Naim Ur Rashid
-  - Michael I. Love
-  - Scott Van Buren
-  num_authors: 6
-  venue: UNC Libraries
-  year: 2026
-  date: '2026-09-17'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.17615/ma14-wy61
-  link: https://doi.org/10.17615/ma14-wy61
-  is_oa: true
-  oa_url: https://doi.org/10.17615/ma14-wy61
 - id: W7213317093
   title: 'Bramble: projection of spliced genomic alignments into transcriptomic space
     for improved transcript quantification'
@@ -285,8 +266,8 @@
   is_oa: true
   oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11838517/
 - id: W7129495115
-  title: 'k ache-hash: A dynamic, concurrent, and cache-efficient hash table for streaming
-    k -mer operations'
+  title: 'kache-hash: A dynamic, concurrent, and cache-efficient hash table for streaming
+    k-mer operations'
   authors:
   - Jamshed Khan
   - Rob Patro
@@ -301,6 +282,26 @@
   link: https://doi.org/10.64898/2026.02.13.705625
   is_oa: true
   oa_url: https://www.biorxiv.org/content/biorxiv/early/2026/02/16/2026.02.13.705625.full.pdf
+- id: W7155986522
+  title: 'Kaminari: a frugal colored index for approximate k -mer queries'
+  authors:
+  - Victor Levallois
+  - Yoshihiro Shibuya
+  - Bertrand Le Gal
+  - Yoann Dufresne
+  - Rob Patro
+  - Pierre Peterlongo
+  - Giulio Ermanno Pibiri
+  num_authors: 7
+  venue: Bioinformatics Advances
+  year: 2026
+  date: '2026-01-07'
+  type: article
+  is_preprint: false
+  doi: https://doi.org/10.1093/bioadv/vbag120
+  link: https://doi.org/10.1093/bioadv/vbag120
+  is_oa: true
+  oa_url: https://doi.org/10.1093/bioadv/vbag120
 - id: W7162333208
   title: Highly Constrained Kinetic Models for Single-Cell Gene Expression Analysis
   authors:
@@ -323,26 +324,6 @@
   link: https://doi.org/10.2139/ssrn.6992703
   is_oa: true
   oa_url: https://doi.org/10.2139/ssrn.6992703
-- id: W7155986522
-  title: 'Kaminari: a frugal colored index for approximate k -mer queries'
-  authors:
-  - Victor Levallois
-  - Yoshihiro Shibuya
-  - Bertrand Le Gal
-  - Yoann Dufresne
-  - Rob Patro
-  - Pierre Peterlongo
-  - Giulio Ermanno Pibiri
-  num_authors: 7
-  venue: Bioinformatics Advances
-  year: 2026
-  date: '2026-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.1093/bioadv/vbag120
-  link: https://doi.org/10.1093/bioadv/vbag120
-  is_oa: true
-  oa_url: https://doi.org/10.1093/bioadv/vbag120
 - id: W4416748269
   title: 'mim: A lightweight auxiliary index to enable fast, parallel, gzipped FASTQ
     parsing'
@@ -545,23 +526,6 @@
   link: https://doi.org/10.1101/2024.07.30.605821
   is_oa: true
   oa_url: https://doi.org/10.1101/2024.07.30.605821
-- id: W4401040660
-  title: 'Swimming downstream: statistical analysis of differential transcript usage
-    following Salmon quantification'
-  authors:
-  - Rob Patro
-  - Charlotte Soneson
-  - Michael I. Love
-  num_authors: 3
-  venue: Carolina Digital Repository (University of North Carolina at Chapel Hill)
-  year: 2024
-  date: '2024-07-27'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.17615/9bwr-t708
-  link: https://doi.org/10.17615/9bwr-t708
-  is_oa: true
-  oa_url: https://doi.org/10.17615/9bwr-t708
 - id: W4400345027
   title: Identification of intracellular bacteria from multiple single-cell RNA-seq
     platforms using CSI-Microbes
@@ -1114,6 +1078,25 @@
   link: https://doi.org/10.4230/lipics.wabi.2021.4
   is_oa: true
   oa_url: https://drops.dagstuhl.de/storage/00lipics/lipics-vol201-wabi2021/LIPIcs.WABI.2021.4/LIPIcs.WABI.2021.4.pdf
+- id: W7213518315
+  title: Compression of quantification uncertainty for scRNA-seq counts
+  authors:
+  - Hirak Sarkar
+  - Avi Srivastava
+  - Rob Patro
+  - Md Naim Ur Rashid
+  - Michael I. Love
+  - Scott Van Buren
+  num_authors: 6
+  venue: UNC Libraries
+  year: 2021
+  date: '2021-01-01'
+  type: article
+  is_preprint: false
+  doi: https://doi.org/10.17615/ma14-wy61
+  link: https://doi.org/10.17615/ma14-wy61
+  is_oa: true
+  oa_url: https://doi.org/10.17615/ma14-wy61
 - id: W3112867320
   title: Algorithms meet sequencing technologies – 10th edition of the RECOMB-Seq
     workshop
@@ -1671,6 +1654,23 @@
   link: https://doi.org/10.1093/bioinformatics/bty292
   is_oa: true
   oa_url: https://academic.oup.com/bioinformatics/article-pdf/34/13/i169/25098250/bty292.pdf
+- id: W4401040660
+  title: 'Swimming downstream: statistical analysis of differential transcript usage
+    following Salmon quantification'
+  authors:
+  - Rob Patro
+  - Charlotte Soneson
+  - Michael I. Love
+  num_authors: 3
+  venue: Carolina Digital Repository (University of North Carolina at Chapel Hill)
+  year: 2018
+  date: '2018-01-01'
+  type: article
+  is_preprint: false
+  doi: https://doi.org/10.17615/9bwr-t708
+  link: https://doi.org/10.17615/9bwr-t708
+  is_oa: true
+  oa_url: https://doi.org/10.17615/9bwr-t708
 - id: W2767824349
   title: 'Mantis: A Fast, Small, and Exact Large-Scale Sequence-Search Index'
   authors:
@@ -1697,7 +1697,8 @@
   - Michael A. Bender
   - Rob Johnson
   - Rob Patro
-  num_authors: 4
+  - Bonnie Berger
+  num_authors: 5
   venue: Bioinformatics
   year: 2017
   date: '2017-10-06'
@@ -1909,35 +1910,6 @@
   link: https://doi.org/10.1186/s12859-016-1008-7
   is_oa: true
   oa_url: https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-016-1008-7
-- id: W7137368262
-  title: Additional file 5 of A computational method for designing diverse linear
-    epitopes including citrullinated peptides with desired binding affinities to intravenous
-    immunoglobulin
-  authors:
-  - Rob Patro
-  - Raquel Norel
-  - Robert J. Prill
-  - Julio Sáez-Rodríguez
-  - Peter Lorenz
-  - Felix Steinbeck
-  - Bjoern Ziems
-  - Mitja LuĹĄtrek
-  - Nicola Barbarini
-  - Alessandra Tiengo
-  - Riccardo Bellazzi
-  - Hans-JĂźrgen Thiesen
-  - Gustavo A. Stolovitzky
-  - Carl Kingsford
-  num_authors: 14
-  venue: Figshare
-  year: 2016
-  date: '2016-01-01'
-  type: article
-  is_preprint: false
-  doi: https://doi.org/10.6084/m9.figshare.4388876
-  link: https://doi.org/10.6084/m9.figshare.4388876
-  is_oa: true
-  oa_url: https://doi.org/10.6084/m9.figshare.4388876
 - id: W2297409252
   title: Maximum Likelihood Estimation of Biological Relatedness from Low Coverage
     Sequencing Data
@@ -2063,7 +2035,7 @@
   doi: https://doi.org/10.1038/nbt.2862
   link: https://doi.org/10.1038/nbt.2862
   is_oa: true
-  oa_url: https://www.ncbi.nlm.nih.gov/pmc/articles/4077321
+  oa_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4077321/
 - id: W2109949710
   title: Identification of alternative topological domains in chromatin
   authors:

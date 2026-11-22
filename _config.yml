@@ -9,6 +9,9 @@ twitter: nomad421 # default Twitter handle, without the @
 #instagram: fakeinstagramhandle # default Instagram handle, without the @
 #youtube: fakeyoutubechannel # default YouTube channel handle
 
+# full address of the site, used to build absolute links (eg link-preview images)
+url: "https://combine-lab.github.io"
+
 # base directory where site is hosted
 # set to "" if hosting at a custom domain, eg yoursite.com
 baseurl: "/"

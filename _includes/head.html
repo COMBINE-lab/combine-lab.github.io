@@ -1,6 +1,6 @@
 <head>
   <title>
-    {{ site.title }}{% if page.title %} - {% endif %}{{ page.title }}
+    {{ site.title }}{% if page.title %} - {{ page.title | markdownify | strip_html | strip }}{% endif %}
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 

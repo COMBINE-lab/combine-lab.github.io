@@ -1,18 +1,61 @@
-{% capture title%}
-{{ site.title }}{% if page.title %} - {% endif %}{{ page.title }}
-{% endcapture %}
+{% capture title %}{{ site.title }}{% if page.title %} - {{ page.title | markdownify | strip_html | strip }}{% endif %}{% endcapture %}
+
+{% comment %}
+  Link-preview (Open Graph / Twitter card) values.
+  - title: the page's own title (site name goes in og:site_name)
+  - description: `description` front matter if set on the page; otherwise, for
+    posts, the first paragraph of the post; otherwise the site default
+  - image: `image` front matter if set on the page; otherwise the lab card
+{% endcomment %}
+
+{% assign share_title = title %}
+{% if page.url == "/" %}
+  {% assign share_title = site.title %}
+{% endif %}
+{% if page.title and page.layout == "post" %}
+  {% assign share_title = page.title | markdownify | strip_html | strip %}
+{% endif %}
+
+{% assign share_description = page.description %}
+{% if page.layout == "post" and page.description == site.defaults[0].values.description %}
+  {% assign first_paragraph = page.content | split: "<p>" %}
+  {% if first_paragraph.size > 1 %}
+    {% assign first_paragraph = first_paragraph[1] | split: "</p>" | first | strip_html | normalize_whitespace | strip | truncate: 200 %}
+    {% if first_paragraph != "" %}
+      {% assign share_description = first_paragraph %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+{% assign share_description = share_description | strip_html | normalize_whitespace | strip | escape %}
+
+{% assign share_image = page.image | default: "icons/share-thumbnail.jpg" | absolute_url %}
+{% assign share_url = page.url | replace: "index.html", "" | absolute_url %}
 
 <!-- https://metatags.io/ -->
-<meta name="title" content="{{ title }}" />
-<meta name="description" content="{{ page.description }}" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.location }}" />
-<meta property="og:title" content="{{ title }}" />
-<meta property="og:description" content="{{ page.description }}" />
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="{{ site.location }}" />
-<meta property="twitter:title" content="{{ title }}" />
-<meta property="twitter:description" content="{{ page.description }}" />
+<meta name="title" content="{{ title | escape }}" />
+<meta name="description" content="{{ share_description }}" />
+<link rel="canonical" href="{{ share_url }}" />
+<meta property="og:site_name" content="{{ site.title | escape }}" />
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+<meta property="og:url" content="{{ share_url }}" />
+<meta property="og:title" content="{{ share_title | escape }}" />
+<meta property="og:description" content="{{ share_description }}" />
+<meta property="og:image" content="{{ share_image }}" />
+{% unless page.image %}
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+{% endunless %}
+<meta property="og:image:alt" content="{{ share_title | escape }}" />
+{% if page.layout == "post" %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+{% if page.author %}<meta property="article:author" content="{{ page.author | escape }}" />{% endif %}
+{% endif %}
+<meta name="twitter:card" content="summary_large_image" />
+{% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}" />{% endif %}
+<meta name="twitter:url" content="{{ share_url }}" />
+<meta name="twitter:title" content="{{ share_title | escape }}" />
+<meta name="twitter:description" content="{{ share_description }}" />
+<meta name="twitter:image" content="{{ share_image }}" />
 
 <!-- RSS -->
 <link
